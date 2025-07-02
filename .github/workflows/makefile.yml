@@ -14,15 +14,22 @@ jobs:
     steps:
     - uses: actions/checkout@v4
 
-
-
     - name: Install dependencies
       run: make dependences
 
     - name: Proyecto SMX
       run: make proyecto-smx	
 
+    - name: Proyecto DAW
+      run: make proyecto-daw	
+
+    - name: Proyecto DAM
+      run: make proyecto-dam	
+      
+    - name: Proyecto ASIR
+      run: make proyecto-asir
+      
     - uses: actions/upload-artifact@v4
       with:
-        name: my-artifact
-        path: pdfs/ # or path/to/artifact
+        name: PCCFs
+        path: PDFS/ #
