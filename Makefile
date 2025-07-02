@@ -22,6 +22,7 @@ PDF_PATH:=$(shell readlink -f PDFS)
 # RULES
 
 dependences:
+	@echo " [${BLUE} * Dependencias necesarias ${RESET}] "
 	sudo apt install make pandoc texlive-extra-utils texlive-lang-spanish texlive-latex-extra texlive-fonts-extra
 
 clean:
@@ -55,10 +56,11 @@ proyecto-smx: files proyecto-base
 
 	@cd temp/ && pandoc --template $(TEMPLATE_TEX_PD) $(PANDOC_OPTIONS) -o $(PDF_PATH)/PCCF_SENIA_SMX.pdf ./PCCF_*.md
 
-	#xdg-open $(PDF_PATH)/PCCF_SENIA_SMX.pdf
-
 	@echo " * Recuerda borrar el directorio o ejecuta el objetivo files"
 
+ver-smx : proyecto-smx
+
+	xdg-open $(PDF_PATH)/PCCF_SENIA_SMX.pdf
 
 proyecto-asir: files proyecto-base
 
