@@ -74,8 +74,6 @@ proyecto-asir: files proyecto-base
 
 	@cd temp/ && pandoc --template $(TEMPLATE_TEX_PD) $(PANDOC_OPTIONS) -o $(PDF_PATH)/PCCF_SENIA_ASIR.pdf ./PCCF_*.md
 
-	xdg-open $(PDF_PATH)/PCCF_SENIA_ASIR.pdf
-
 	@echo " * Recuerda borrar el directorio o ejecuta el objetivo files"
 
 proyecto-daw: files proyecto-base
@@ -86,8 +84,6 @@ proyecto-daw: files proyecto-base
 	cp -r src_DAW/* temp/
 
 	@cd temp/ && pandoc --template $(TEMPLATE_TEX_PD) $(PANDOC_OPTIONS) -o $(PDF_PATH)/PCCF_SENIA_DAW.pdf ./PCCF_*.md
-
-	xdg-open $(PDF_PATH)/PCCF_SENIA_DAW.pdf
 
 	@echo " * Recuerda borrar el directorio o ejecuta el objetivo files"
 
@@ -100,6 +96,5 @@ proyecto-dam: files proyecto-base
 
 	@cd temp/ && pandoc --template $(TEMPLATE_TEX_PD) $(PANDOC_OPTIONS) -o $(PDF_PATH)/PCCF_SENIA_DAM.pdf ./PCCF_*.md
 	@cd temp/ && pandoc $(PANDOC_OPTIONS) -o $(PDF_PATH)/PCCF_SENIA_DAM_VIRGEN.pdf ./PCCF_*.md
-	xdg-open $(PDF_PATH)/PCCF_SENIA_DAM.pdf
 
 	@echo " * Recuerda borrar el directorio o ejecuta el objetivo files"
