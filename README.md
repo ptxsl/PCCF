@@ -2,7 +2,7 @@
 
 Proyectos Curriculares de Ciclo Formativo - Familía de Informática del IES La Senia
 
-Probando cosas con Artefactos.
+Probando cosas con Artefactos v2.
 
 ## Entorno y Desarrollo
 
