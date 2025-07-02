@@ -7,4 +7,4 @@
 *   Los proyectos pueden ser individuales o colectivos, reflejando situaciones reales del entorno laboral .
 *   Consensuar métodos para la selección de propuestas, función/organización de la tutorización, presentación final, evaluación, organización temporal y plazos .
 
-TODO
+TODO : TATAY y CESAR
