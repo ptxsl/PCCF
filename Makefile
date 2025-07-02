@@ -58,10 +58,7 @@ proyecto-smx: files proyecto-base
 
 	@echo " * Recuerda borrar el directorio o ejecuta el objetivo files"
 
-	#@echo " * Copiando "
-	#@cp $(PDF_PATH)/PCCF_SENIA_SMX.pdf pdfs/PCCF_SENIA_SMX.pdf
-
-ver-smx : proyecto-smx
+local-proyecto-smx : proyecto-smx
 
 	xdg-open $(PDF_PATH)/PCCF_SENIA_SMX.pdf
 
@@ -74,7 +71,9 @@ proyecto-asir: files proyecto-base
 
 	@cd temp/ && pandoc --template $(TEMPLATE_TEX_PD) $(PANDOC_OPTIONS) -o $(PDF_PATH)/PCCF_SENIA_ASIR.pdf ./PCCF_*.md
 
-	@echo " * Recuerda borrar el directorio o ejecuta el objetivo files"
+local-proyecto-asir: proyecto-asir
+
+	xdg-open $(PDF_PATH)/PCCF_SENIA_ASIR.pdf
 
 proyecto-daw: files proyecto-base
 
@@ -85,7 +84,10 @@ proyecto-daw: files proyecto-base
 
 	@cd temp/ && pandoc --template $(TEMPLATE_TEX_PD) $(PANDOC_OPTIONS) -o $(PDF_PATH)/PCCF_SENIA_DAW.pdf ./PCCF_*.md
 
-	@echo " * Recuerda borrar el directorio o ejecuta el objetivo files"
+local-proyecto-daw: proyecto-daw
+
+	xdg-open $(PDF_PATH)/PCCF_SENIA_DAW.pdf
+
 
 proyecto-dam: files proyecto-base
 
