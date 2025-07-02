@@ -1,6 +1,5 @@
 \newpage
 
-
 # Atención a la Diversidad e Inclusión
 
 *  Asegurar las adaptaciones organizativas, de acceso, curriculares y metodológicas para responder a las características y necesidades de cada individuo, especialmente el alumnado con necesidades específicas de apoyo educativo .
