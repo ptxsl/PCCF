@@ -56,8 +56,6 @@ proyecto-smx: files proyecto-base
 
 	@cd temp/ && pandoc --template $(TEMPLATE_TEX_PD) $(PANDOC_OPTIONS) -o $(PDF_PATH)/PCCF_SENIA_SMX.pdf ./PCCF_*.md
 
-	@echo " * Recuerda borrar el directorio o ejecuta el objetivo files"
-
 local-proyecto-smx : proyecto-smx
 
 	xdg-open $(PDF_PATH)/PCCF_SENIA_SMX.pdf
@@ -97,6 +95,7 @@ proyecto-dam: files proyecto-base
 	cp -r src_DAM/* temp/
 
 	@cd temp/ && pandoc --template $(TEMPLATE_TEX_PD) $(PANDOC_OPTIONS) -o $(PDF_PATH)/PCCF_SENIA_DAM.pdf ./PCCF_*.md
-	@cd temp/ && pandoc $(PANDOC_OPTIONS) -o $(PDF_PATH)/PCCF_SENIA_DAM_VIRGEN.pdf ./PCCF_*.md
 
-	@echo " * Recuerda borrar el directorio o ejecuta el objetivo files"
+local-proyecto-dam: proyecto-dam
+
+	xdg-open $(PDF_PATH)/PCCF_SENIA_DAM.pdf
