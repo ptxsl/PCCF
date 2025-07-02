@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<FEEDBACK VERSION="200701" COMMENT="XML-Importfile for mod/feedback">
+     <ITEMS>
+          <ITEM TYPE="multichoice" REQUIRED="1">
+               <ITEMID>
+                    <![CDATA[119684]]>
+               </ITEMID>
+               <ITEMTEXT>
+                    <![CDATA[Te sientes motivado/a con la metodología utilizada por el profesorado]]>
+               </ITEMTEXT>
+               <ITEMLABEL>
+                    <![CDATA[MOTI01]]>
+               </ITEMLABEL>
+               <PRESENTATION>
+                    <![CDATA[r>>>>>Casi nunca
+|A veces
+|Casi siempre
+|Siempre]]>
+               </PRESENTATION>
+               <OPTIONS>
+                    <![CDATA[h]]>
+               </OPTIONS>
+               <DEPENDITEM>
+                    <![CDATA[0]]>
+               </DEPENDITEM>
+               <DEPENDVALUE>
+                    <![CDATA[]]>
+               </DEPENDVALUE>
+          </ITEM>
+          <ITEM TYPE="multichoice" REQUIRED="1">
+               <ITEMID>
+                    <![CDATA[119689]]>
+               </ITEMID>
+               <ITEMTEXT>
+                    <![CDATA[Las explicaciones son claras y entiendes los conceptos]]>
+               </ITEMTEXT>
+               <ITEMLABEL>
+                    <![CDATA[MOTI02]]>
+               </ITEMLABEL>
+               <PRESENTATION>
+                    <![CDATA[r>>>>>Casi nunca
+|A veces
+|Casi siempre
+|Siempre]]>
+               </PRESENTATION>
+               <OPTIONS>
+                    <![CDATA[h]]>
+               </OPTIONS>
+               <DEPENDITEM>
+                    <![CDATA[0]]>
+               </DEPENDITEM>
+               <DEPENDVALUE>
+                    <![CDATA[]]>
+               </DEPENDVALUE>
+          </ITEM>
+          <ITEM TYPE="multichoice" REQUIRED="1">
+               <ITEMID>
+                    <![CDATA[119685]]>
+               </ITEMID>
+               <ITEMTEXT>
+                    <![CDATA[Ls actividades prácticas te ayudan a prepararte para el entorno laboral]]>
+               </ITEMTEXT>
+               <ITEMLABEL>
+                    <![CDATA[MOTI03]]>
+               </ITEMLABEL>
+               <PRESENTATION>
+                    <![CDATA[r>>>>>Casi nunca
+|A veces
+|Casi siempre
+|Siempre]]>
+               </PRESENTATION>
+               <OPTIONS>
+                    <![CDATA[h]]>
+               </OPTIONS>
+               <DEPENDITEM>
+                    <![CDATA[0]]>
+               </DEPENDITEM>
+               <DEPENDVALUE>
+                    <![CDATA[]]>
+               </DEPENDVALUE>
+          </ITEM>
+          <ITEM TYPE="multichoice" REQUIRED="1">
+               <ITEMID>
+                    <![CDATA[119690]]>
+               </ITEMID>
+               <ITEMTEXT>
+                    <![CDATA[Consideras que los contenidos del módulo están bien estructurados y son comprensibles]]>
+               </ITEMTEXT>
+               <ITEMLABEL>
+                    <![CDATA[MOTI04]]>
+               </ITEMLABEL>
+               <PRESENTATION>
+                    <![CDATA[r>>>>>Casi nunca
+|A veces
+|Casi siempre
+|Siempre]]>
+               </PRESENTATION>
+               <OPTIONS>
+                    <![CDATA[h]]>
+               </OPTIONS>
+               <DEPENDITEM>
+                    <![CDATA[0]]>
+               </DEPENDITEM>
+               <DEPENDVALUE>
+                    <![CDATA[]]>
+               </DEPENDVALUE>
+          </ITEM>
+          <ITEM TYPE="multichoice" REQUIRED="1">
+               <ITEMID>
+                    <![CDATA[119691]]>
+               </ITEMID>
+               <ITEMTEXT>
+                    <![CDATA[Los ejercicios responden a los contenidos que se han trabajado en clase]]>
+               </ITEMTEXT>
+               <ITEMLABEL>
+                    <![CDATA[MOTI05]]>
+               </ITEMLABEL>
+               <PRESENTATION>
+                    <![CDATA[r>>>>>Casi nunca
+|A veces
+|Casi siempre
+|Siempre]]>
+               </PRESENTATION>
+               <OPTIONS>
+                    <![CDATA[h]]>
+               </OPTIONS>
+               <DEPENDITEM>
+                    <![CDATA[0]]>
+               </DEPENDITEM>
+               <DEPENDVALUE>
+                    <![CDATA[]]>
+               </DEPENDVALUE>
+          </ITEM>
+          <ITEM TYPE="multichoice" REQUIRED="1">
+               <ITEMID>
+                    <![CDATA[119692]]>
+               </ITEMID>
+               <ITEMTEXT>
+                    <![CDATA[Te sientes cómodo/a expresando tus dudas y opiniones en clase]]>
+               </ITEMTEXT>
+               <ITEMLABEL>
+                    <![CDATA[MOTI06]]>
+               </ITEMLABEL>
+               <PRESENTATION>
+                    <![CDATA[r>>>>>Casi nunca
+|A veces
+|Casi siempre
+|Siempre]]>
+               </PRESENTATION>
+               <OPTIONS>
+                    <![CDATA[h]]>
+               </OPTIONS>
+               <DEPENDITEM>
+                    <![CDATA[0]]>
+               </DEPENDITEM>
+               <DEPENDVALUE>
+                    <![CDATA[]]>
+               </DEPENDVALUE>
+          </ITEM>
+          <ITEM TYPE="multichoice" REQUIRED="1">
+               <ITEMID>
+                    <![CDATA[119693]]>
+               </ITEMID>
+               <ITEMTEXT>
+                    <![CDATA[Piensas que el ritmo de trabajo es adecuado]]>
+               </ITEMTEXT>
+               <ITEMLABEL>
+                    <![CDATA[MOTI07]]>
+               </ITEMLABEL>
+               <PRESENTATION>
+                    <![CDATA[r>>>>>Casi nunca
+|A veces
+|Casi siempre
+|Siempre]]>
+               </PRESENTATION>
+               <OPTIONS>
+                    <![CDATA[h]]>
+               </OPTIONS>
+               <DEPENDITEM>
+                    <![CDATA[0]]>
+               </DEPENDITEM>
+               <DEPENDVALUE>
+                    <![CDATA[]]>
+               </DEPENDVALUE>
+          </ITEM>
+          <ITEM TYPE="multichoice" REQUIRED="1">
+               <ITEMID>
+                    <![CDATA[119694]]>
+               </ITEMID>
+               <ITEMTEXT>
+                    <![CDATA[Los profesores proporcionan retroalimentación útil sobre tus trabajos y exámenes]]>
+               </ITEMTEXT>
+               <ITEMLABEL>
+                    <![CDATA[MOTI08]]>
+               </ITEMLABEL>
+               <PRESENTATION>
+                    <![CDATA[r>>>>>Casi nunca
+|A veces
+|Casi siempre
+|Siempre]]>
+               </PRESENTATION>
+               <OPTIONS>
+                    <![CDATA[h]]>
+               </OPTIONS>
+               <DEPENDITEM>
+                    <![CDATA[0]]>
+               </DEPENDITEM>
+               <DEPENDVALUE>
+                    <![CDATA[]]>
+               </DEPENDVALUE>
+          </ITEM>
+          <ITEM TYPE="multichoice" REQUIRED="1">
+               <ITEMID>
+                    <![CDATA[119695]]>
+               </ITEMID>
+               <ITEMTEXT>
+                    <![CDATA[Valorarías la relación entre teoría y práctica en el módulo como adecuada]]>
+               </ITEMTEXT>
+               <ITEMLABEL>
+                    <![CDATA[MOTI09]]>
+               </ITEMLABEL>
+               <PRESENTATION>
+                    <![CDATA[r>>>>>Casi nunca
+|A veces
+|Casi siempre
+|Siempre]]>
+               </PRESENTATION>
+               <OPTIONS>
+                    <![CDATA[h]]>
+               </OPTIONS>
+               <DEPENDITEM>
+                    <![CDATA[0]]>
+               </DEPENDITEM>
+               <DEPENDVALUE>
+                    <![CDATA[]]>
+               </DEPENDVALUE>
+          </ITEM>
+          <ITEM TYPE="multichoice" REQUIRED="1">
+               <ITEMID>
+                    <![CDATA[119687]]>
+               </ITEMID>
+               <ITEMTEXT>
+                    <![CDATA[La relación con el profesorado es buena]]>
+               </ITEMTEXT>
+               <ITEMLABEL>
+                    <![CDATA[MOTI12]]>
+               </ITEMLABEL>
+               <PRESENTATION>
+                    <![CDATA[r>>>>>Casi nunca
+|A veces
+|Casi siempre
+|Siempre]]>
+               </PRESENTATION>
+               <OPTIONS>
+                    <![CDATA[h]]>
+               </OPTIONS>
+               <DEPENDITEM>
+                    <![CDATA[0]]>
+               </DEPENDITEM>
+               <DEPENDVALUE>
+                    <![CDATA[]]>
+               </DEPENDVALUE>
+          </ITEM>
+          <ITEM TYPE="multichoice" REQUIRED="1">
+               <ITEMID>
+                    <![CDATA[119697]]>
+               </ITEMID>
+               <ITEMTEXT>
+                    <![CDATA[La actitud del grupo en clase hacía que se pudieran seguir las explicaciones y realizar los trabajos.]]>
+               </ITEMTEXT>
+               <ITEMLABEL>
+                    <![CDATA[MOTI14]]>
+               </ITEMLABEL>
+               <PRESENTATION>
+                    <![CDATA[r>>>>>Casi nunca
+|A veces
+|Casi siempre
+|Siempre]]>
+               </PRESENTATION>
+               <OPTIONS>
+                    <![CDATA[h]]>
+               </OPTIONS>
+               <DEPENDITEM>
+                    <![CDATA[0]]>
+               </DEPENDITEM>
+               <DEPENDVALUE>
+                    <![CDATA[]]>
+               </DEPENDVALUE>
+          </ITEM>
+          <ITEM TYPE="multichoice" REQUIRED="0">
+               <ITEMID>
+                    <![CDATA[119698]]>
+               </ITEMID>
+               <ITEMTEXT>
+                    <![CDATA[En caso de haber tenido que recuperar la materia o algún trabajo, te has sentido acompañad@ en el proceso?]]>
+               </ITEMTEXT>
+               <ITEMLABEL>
+                    <![CDATA[MOTI15]]>
+               </ITEMLABEL>
+               <PRESENTATION>
+                    <![CDATA[r>>>>>Si
+|No]]>
+               </PRESENTATION>
+               <OPTIONS>
+                    <![CDATA[h]]>
+               </OPTIONS>
+               <DEPENDITEM>
+                    <![CDATA[0]]>
+               </DEPENDITEM>
+               <DEPENDVALUE>
+                    <![CDATA[]]>
+               </DEPENDVALUE>
+          </ITEM>
+          <ITEM TYPE="textarea" REQUIRED="0">
+               <ITEMID>
+                    <![CDATA[119688]]>
+               </ITEMID>
+               <ITEMTEXT>
+                    <![CDATA[Observaciones. Comenta posibles mejoras u otras cosas que quieras comunicar]]>
+               </ITEMTEXT>
+               <ITEMLABEL>
+                    <![CDATA[moti 19]]>
+               </ITEMLABEL>
+               <PRESENTATION>
+                    <![CDATA[80|14]]>
+               </PRESENTATION>
+               <OPTIONS>
+                    <![CDATA[]]>
+               </OPTIONS>
+               <DEPENDITEM>
+                    <![CDATA[0]]>
+               </DEPENDITEM>
+               <DEPENDVALUE>
+                    <![CDATA[]]>
+               </DEPENDVALUE>
+          </ITEM>
+     </ITEMS>
+</FEEDBACK>
