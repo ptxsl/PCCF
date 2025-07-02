@@ -1,5 +1,7 @@
 #!/usr/bin/make -f
 
+# Version 0.1 desde la beta
+
 #TEMPLATE_TEX_PD="rsrc/templates/pd-nologo-tpl.latex"
 # Colors
 BLUE= \e[1;34m
