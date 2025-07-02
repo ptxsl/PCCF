@@ -58,8 +58,8 @@ proyecto-smx: files proyecto-base
 
 	@echo " * Recuerda borrar el directorio o ejecuta el objetivo files"
 
-	@echo " * Copiando "
-	@cp $(PDF_PATH)/PCCF_SENIA_SMX.pdf pdfs/PCCF_SENIA_SMX.pdf
+	#@echo " * Copiando "
+	#@cp $(PDF_PATH)/PCCF_SENIA_SMX.pdf pdfs/PCCF_SENIA_SMX.pdf
 
 ver-smx : proyecto-smx
 
