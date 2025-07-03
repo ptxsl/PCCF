@@ -1,4 +1,9 @@
-    - name: Lanzamiento
+# Algunas notas para ir haciendo cosas
+
+
+```yaml
+
+- name: Lanzamiento
       run: echo ${{ github.sha }} > Release.txt
     - name: Subiendo Ficheros
       uses: softprops/action-gh-release@v2
@@ -9,3 +14,4 @@
             PDFS/PCCF_SENIA_SMX.pdf
             PDFS/PCCF_SENIA_DAW.pdf
             PDFS/PCCF_SENIA_ASIR.pdf
+```
