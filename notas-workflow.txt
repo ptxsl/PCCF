@@ -1,7 +1,12 @@
 # Algunas notas para ir haciendo cosas
 
+Crear tag.
+Subir tag.
+Crear release.
 
 ```yaml
+
+
 
 - name: Lanzamiento
       run: echo ${{ github.sha }} > Release.txt
