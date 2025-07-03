@@ -13,17 +13,18 @@ A continuación se describen las características de cada una de las aulas:
 
 - **Aula 1**:
 
-    - Switch Huawei con 2 VLANs configuradas. Una para los equipos del aula y otra que corresponde a la VLAN principal del centro.
-    - 18 equipos para alumnado conectados a la VLAN del aula.
+    - Switch Huawei.
+    - 18 equipos para alumnado conectados al switch del aula.
     - 1 ADI 
-    - 1 equipo para el/la docente con dos tarjetas de red, una conectada a cada VLAN, que actúa de encaminador para los equipos del alumnado. El equipo está conectado a la ADI por HDMI.
+    - 1 equipo para el/la docente conectado al mismo switch. Este equipo está conectado a la ADI por HDMI.
     - Este aula es utilizada tanto por grupos de Ciclos Formativos como por grupos de ESO y Bachillerato.
 
 - **Aula 2**:
 
-    - Switch Huawei con 2 VLANs configuradas. Una para los equipos del aula y otra que corresponde a la VLAN principal del centro.
-    - 16 equipos para alumnado conectados a la VLAN del aula. 
-    - 1 equipo para el/la docente con dos tarjetas de red, una conectada a cada VLAN, que actúa de encaminador para los equipos del alumnado.
+    - Switch Huawei.
+    - 16 equipos para alumnado conectados al switch del aula.
+    - 1 ADI 
+    - 1 equipo para el/la docente conectado al mismo switch. Este equipo está conectado a la ADI por HDMI.
     - Este aula es utilizada tanto por grupos de Ciclos Formativos como por grupos de ESO y Bachillerato.
     
 - **Aula 3**:
@@ -35,12 +36,12 @@ A continuación se describen las características de cada una de las aulas:
     
 - **Aula 4**:
 
-    - Switch Huawei con 2 VLANs configuradas, una para las aulas 3, 4 y 5 y otra correspondiente con la red principal del centro.
+    - Switch Huawei con 2 VLANs configuradas, una para las aulas 3, 4 y 5 y otra que se corresponde con la red principal del centro.
     - Switch Huawei configurado íntegramente con la VLAN de las aulas 3, 4 y 5 en el que se conectan los equipos del alumnado y el/la docente.
     - 22 equipos para alumnado.
     - 1 ADI.
     - 1 equipo para el/la docente conectado a la ADI por HDMI.
-    - 1 servidor con 2 tarjetas de red que hace de encaminador para todos los equipos de la VLAN de estas 3 aulas. Una de las tarjetas está conectada a dicha VLAN y la otra la VLAN principal del centro.
+    - 1 router MikroTik con 4 interfaces habilitadas, cada una conectada a una red diferente (las 3 redes de las aulas y la red principal del centro, hacia la que se encaminan las otras 3).
     
 - **Aula 5**:
 
