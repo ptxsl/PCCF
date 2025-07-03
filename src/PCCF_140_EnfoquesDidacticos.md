@@ -2,43 +2,53 @@
 
 # Enfoques didácticos y metodológicos
 
-Propone un enfoque didáctico basado en metodologías activas que favorecen el aprendizaje y la
-adquisición de competencias en contextos reales. El equipo educativo ha aprobado la
-implementación de las siguientes estrategias metodológicas para los módulos de este
-ciclo:
+El empleo de metodologías activas que además atiendan a la diversidad del alumnado es preceptivo. 
+Sin perjuicio de otras ausentes, se listan abajo algunas de estas metodologías de obligado cumplimiento.
+Se deja para las programaciones didácticas la especificación de las metodologías empleadas por cada unidad de aprendizaje:
 
-## Aprendizaje Basado en Proyectos (ABP)
+## Aprendizaje Basado en Proyectos (ABP) 
+El alumnado resuelve un problema real o desarrolla un producto final aplicando conocimientos interdisciplinares.
 
-Este enfoque permite al alumnado desarrollar proyectos integrales que simulan situaciones reales del entorno profesional. En ASIR, se pueden plantear proyectos como:
+## Aprendizaje Basado en Problemas (ABP o PBL)
+Se propone un problema abierto que los estudiantes deben investigar y resolver en grupo.
 
-- **Diseño e implementación de una infraestructura de red corporativa**, incluyendo servidores, servicios de red, políticas de seguridad y respaldo.
-- **Despliegue de un sistema de virtualización** para una empresa, con alta disponibilidad y gestión centralizada.
-- **Simulación de un entorno empresarial** con múltiples sedes conectadas mediante VPN, con control de acceso y monitorización.
+## Aprendizaje Cooperativo
+El alumnado trabaja en pequeños grupos heterogéneos, con roles definidos y objetivos comunes.
+
+## Clase Invertida (Flipped Classroom)
+El contenido teórico se trabaja fuera del aula mediante vídeos o lecturas, y el tiempo en clase se dedica a actividades prácticas.
+
+## Estudio de Casos
+Se analizan situaciones reales o simuladas para aplicar conocimientos y tomar decisiones fundamentadas.
+
+## Aprendizaje Servicio (ApS)
+Combina el aprendizaje académico con la participación en proyectos sociales que responden a necesidades reales.
+
+## Gamificación
+Se introducen dinámicas y elementos de juego (puntos, niveles, retos) en el proceso educativo.
+
+## Rutinas y destrezas de pensamiento
+Estrategias sencillas para hacer visible el pensamiento, como mapas mentales, esquemas o preguntas clave.
+
+## Técnicas de aprendizaje colaborativo estructurado
+Como el “rompecabezas” o “1-2-4”, dividen el contenido y la responsabilidad entre los alumnos.
+
+## Design Thinking
+Metodología creativa centrada en empatizar, definir, idear, prototipar y evaluar soluciones innovadoras.
 
 ## Aprendizaje Basado en Retos (ABR)
+Plantea un desafío relacionado con el entorno o el contexto profesional que los alumnos deben superar.
 
-El ABR plantea al alumnado la resolución de problemas concretos que pueden surgir en el día a día de un técnico en sistemas. Algunos ejemplos aplicables en ASIR son:
+## Simulación y Role Playing
+El alumnado interpreta roles en situaciones simuladas para experimentar distintas perspectivas.
 
-- **Recuperación de un sistema tras un fallo crítico**, aplicando técnicas de backup y restauración.
-- **Configuración de un cortafuegos y detección de intrusiones** ante un escenario de ciberataque simulado.
-- **Optimización del rendimiento de un servidor Linux** con servicios en producción.
+## Talleres prácticos y aprendizaje manipulativo
+Se centra en la experimentación directa con materiales o herramientas.
 
-## Aprendizaje-Servicio (APS)
+## Pensamiento visual (Visual Thinking)
+Uso de esquemas, dibujos y símbolos para organizar y representar ideas.
 
-Este enfoque combina el aprendizaje técnico con la acción social, permitiendo al alumnado aplicar sus conocimientos en beneficio de la comunidad. En ASIR, se pueden desarrollar iniciativas como:
+## Microaprendizaje (Microlearning) 
+El contenido se presenta en pequeñas cápsulas informativas que se pueden consumir rápidamente.
 
-- **Instalación y mantenimiento de sistemas informáticos** en asociaciones sin ánimo de lucro o centros educativos.
-- **Desarrollo de soluciones de almacenamiento en red (NAS)** para entidades locales.
-- **Asesoramiento y soporte técnico** a colectivos con dificultades de acceso a la tecnología.
-
-## Aprendizaje Colaborativo
-
-El trabajo en equipo es esencial en el ámbito de la administración de sistemas. Este enfoque promueve la cooperación, la comunicación y la resolución conjunta de problemas. En ASIR, se puede aplicar mediante:
-
-- **Proyectos grupales de despliegue de servicios en la nube**, con roles distribuidos entre los miembros del equipo.
-- **Simulación de un departamento de soporte técnico**, donde el alumnado atiende incidencias reales o simuladas.
-- **Revisión cruzada de configuraciones de red y seguridad**, fomentando la mejora continua y el aprendizaje entre iguales.
-
----
-
-Estos enfoques didácticos permiten al alumnado de ASIR desarrollar no solo competencias técnicas, sino también habilidades transversales como el trabajo en equipo, la autonomía, la responsabilidad y la capacidad de adaptación al entorno profesional.
+Estos enfoques didácticos permiten al alumnado desarrollar no solo competencias técnicas, sino también habilidades transversales como el trabajo en equipo, la autonomía, la responsabilidad y la capacidad de adaptación al entorno profesional.
