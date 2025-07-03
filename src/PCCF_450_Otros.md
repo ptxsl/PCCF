@@ -4,4 +4,3 @@
 # Otros Aspectos
 
 TODO
-#borrame
