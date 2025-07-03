@@ -6,6 +6,14 @@ Crear release.
 
 ```yaml
 
+    - name: Lanzamiento
+      run: echo ${{ github.sha }} > Release.txt
+    - name: Subiendo Ficheros
+      uses: softprops/action-gh-release@v2
+      with:
+          files: 
+            Release.txt PDFS/PCCF_SENIA_DAM.pdf PDFS/PCCF_SENIA_SMX.pdf PDFS/PCCF_SENIA_DAW.pdf PDFS/PCCF_SENIA_ASIR.pdf
+
 
 
 - name: Lanzamiento
