@@ -31,23 +31,19 @@ jobs:
       with:
         name: PCCFs
         path: PDFS/ #
-        
-    - uses: actions/create-release@v1
-      env:
-         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      with:
-         tag_name: ${{ github.ref }}
-         release_name: PCCF@v${{ github.ref }}
-         draft: false
-         prerelease: false
-      
-    - name: Lanzamiento
-      run: echo ${{ github.sha }} > Release.txt
-      
-    - name: Subiendo Ficheros
-      uses: softprops/action-gh-release@v2
-      with:
-          files: 
-            Release.txt PDFS/PCCF_SENIA_DAM.pdf PDFS/PCCF_SENIA_SMX.pdf PDFS/PCCF_SENIA_DAW.pdf PDFS/PCCF_SENIA_ASIR.pdf
 
-
+    - uses: meeDamian/github-release@2.0
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
+        tag: ${{ env.MY_CUSTOM_TAG }}
+        name: My Creative Name
+        body: >
+          This release actually changes the fabric of the reality, so be careful 
+          while applying, as error in database migration, can irrecoverably wipe 
+          some laws of physics.  
+        files: >
+          PDFS/PCCF_SENIA_DAM.pdf
+          PDFS/PCCF_SENIA_SMX.pdf
+          PDFS/PCCF_SENIA_DAW.pdf
+          PDFS/PCCF_SENIA_ASIR.pdf
+      
