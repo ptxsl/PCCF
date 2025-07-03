@@ -1,6 +1,6 @@
 #!/usr/bin/make -f
 
-# Version 0.1 desde la beta
+# Version 0.2 desde la beta
 # Probando si esto funciona.
 
 #TEMPLATE_TEX_PD="rsrc/templates/pd-nologo-tpl.latex"
