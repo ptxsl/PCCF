@@ -5,14 +5,19 @@
 
 ## Principios y objeto de la evaluación 
 
-La evaluación será **continua** (se realiza a lo largo del proceso de aprendizaje), **formativa** (orientada a la mejora), **integradora** (considera todos los aspectos del desarrollo del alumnado), **adaptada** (contempla medidas para alumnado con necesidades específicas) y **basada en competencia** (se evalúa mediante los **Resultados de Aprendizaje (RA)** y sus correspondientes **Criterios de Evaluación (CE)** definidos en el título). 
+La evaluación es:
 
- 
+- **Continua**: se realiza a lo largo del proceso de aprendizaje.  
+- **Formativa**: orientada a la mejora.  
+- **Integradora**: considera todos los aspectos del desarrollo del alumnado.  
+- **Adaptada**: contempla medidas para el alumnado con necesidades específicas.  
+- **Basada en la adquisición de competencias**: se evalúa mediante los **Resultados de Aprendizaje (RA)** y sus correspondientes **Criterios de Evaluación (CE)** definidos en el título.
 
-La evaluación tiene por objetivo la superación del módulo. Para superar el módulo formativo, **todos los RA deben estar aprobados**. 
+El objetivo de la evaluación es la superación del módulo por parte del alumnado. Para ello, es imprescindible que **todos los RA estén aprobados**.
 
-Los RA pueden tener un peso ponderado para la consecución del módulo. Para evaluar los RA se tendrá en cuenta los CE de cada uno de ellos con su correspondiente ponderación. Los CE deben convertirse en indicadores de logro precisos y observables. 
+Cada RA puede tener un **peso ponderado** en la calificación final del módulo. Para su evaluación, se tendrán en cuenta los CE asociados, también ponderados, que deben convertirse en **indicadores de logro claros, precisos y observables**.
 
-Se realizará un informe de los RA no superados con propuestas para su superación. 
+En caso de que un estudiante **no supere algún RA**, el docente elaborará un **informe** con las acciones propuestas que faciliten su recuperación.
 
-Se puede modificar el peso de un CE o RA durante el curso si se justifica, se informa al alumnado y se deja por escrito. 
+El **peso de los CE o RA** puede modificarse durante el curso si existe una justificación pedagógica. En tal caso, se informará al alumnado a través de los medios establecidos en esta guía.
+
