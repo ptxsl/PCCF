@@ -2,6 +2,7 @@
 
 # Version 0.3 desde la beta
 # Probando si esto funciona.
+# A ver ahora
 
 #TEMPLATE_TEX_PD="rsrc/templates/pd-nologo-tpl.latex"
 # Colors
