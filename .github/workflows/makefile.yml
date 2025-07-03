@@ -2,7 +2,9 @@ name: Makefile CI
 
 on:
   push:
-    branches: [ "main" ]
+    # Pattern matched against refs/tags
+    tags:        
+      - '*' 
   pull_request:
     branches: [ "main" ]
 
