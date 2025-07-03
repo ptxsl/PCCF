@@ -1,19 +1,18 @@
 \newpage
 
 
-# Criterios generales sobre la organización, comunicación y desarrollo del proceso de evaluación del aprendizaje
+# EVALUACIÓN
 
-El proceso de evaluación del aprendizaje en el ciclo formativo de Técnico en sistemas microinformáticos en red se rige por la ORDEN 8/2025, de 22 de abril, de la Conselleria de Educación, Cultura, Universidades y Empleo, por la que se regula la evaluación del proceso de enseñanza-aprendizaje en ciclos formativos y cursos de especialización derivados de la Ley orgánica 3/2022, de 31 de marzo, de ordenación e integración de la Formación Profesional.
+## Principios y objeto de la evaluación 
 
-*   El proceso de evaluación se centrará en verificar la adquisición de los RRAA .
-*   Debe estar alineado con la planificación del trabajo educativo e incluir mecanismos claros para informar al alumnado (y familias) sobre su organización, métodos, evolución y resultados .
-*   Debe ofrecer alternativas que permitan al alumnado desarrollar los RRAA, especialmente los de mayor dificultad .
-*   Ajustarse a la normativa autonómica específica sobre evaluación, como la ORDEN 79/2010 en la Comunitat Valenciana, y la nueva Orden de evaluación en desarrollo .
-*   Reflejar los acuerdos del equipo educativo sobre si es necesario superar todos los RRAA de un módulo y cuáles son imprescindibles para aprobar, considerando la adquisición de unidades/estándares de competencia .
+La evaluación será **continua** (se realiza a lo largo del proceso de aprendizaje), **formativa** (orientada a la mejora), **integradora** (considera todos los aspectos del desarrollo del alumnado), **adaptada** (contempla medidas para alumnado con necesidades específicas) y **basada en competencia** (se evalúa mediante los **Resultados de Aprendizaje (RA)** y sus correspondientes **Criterios de Evaluación (CE)** definidos en el título). 
 
+ 
 
-TODO 
+La evaluación tiene por objetivo la superación del módulo. Para superar el módulo formativo, **todos los RA deben estar aprobados**. 
 
-Nueva orden
+Los RA pueden tener un peso ponderado para la consecución del módulo. Para evaluar los RA se tendrá en cuenta los CE de cada uno de ellos con su correspondiente ponderación. Los CE deben convertirse en indicadores de logro precisos y observables. 
 
+Se realizará un informe de los RA no superados con propuestas para su superación. 
 
+Se puede modificar el peso de un CE o RA durante el curso si se justifica, se informa al alumnado y se deja por escrito. 
