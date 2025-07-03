@@ -2,13 +2,11 @@ name: Makefile CI
 
 on:
   push:
-    branches: [ "main" ]
-  pull_request:
-    branches: [ "main" ]
+    tags:
+      - "*"
 
 jobs:
-  build:
-
+  create-release:
     runs-on: ubuntu-latest
 
     steps:
@@ -33,4 +31,14 @@ jobs:
       with:
         name: PCCFs
         path: PDFS/ #
+        
+    - name: Lanzamiento
+      run: echo ${{ github.sha }} > Release.txt
+      
+    - name: Subiendo Ficheros
+      uses: softprops/action-gh-release@v2
+      with:
+          files: 
+            Release.txt PDFS/PCCF_SENIA_DAM.pdf PDFS/PCCF_SENIA_SMX.pdf PDFS/PCCF_SENIA_DAW.pdf PDFS/PCCF_SENIA_ASIR.pdf
+
 
