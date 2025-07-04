@@ -43,7 +43,7 @@ jobs:
           path: downloaded/
 
       - name: Create GitHub Release with PDFs
-        uses: softprops/action-gh-release@v1
+        uses: softprops/action-gh-release@v2.3.2
         with:
           files: |
             downloaded/PCCF_SENIA_DAM.pdf
@@ -54,7 +54,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
 #    - name: Release with Notes
-#      uses: softprops/action-gh-release@v1
+#      uses: softprops/action-gh-release@v2.3.2
 #      with:
 #        files: |
 #          PDFS/PCCF_SENIA_DAM.pdf
