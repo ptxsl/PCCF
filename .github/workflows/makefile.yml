@@ -32,13 +32,34 @@ jobs:
         name: PCCFs
         path: PDFS/ #
 
-    - name: Release with Notes
-      uses: softprops/action-gh-release@v1
-      with:
-        files: |
-          PDFS/PCCF_SENIA_DAM.pdf
-          PDFS/PCCF_SENIA_SMX.pdf
-          PDFS/PCCF_SENIA_DAW.pdf
-          PDFS/PCCF_SENIA_ASIR.pdf   
-      env:
+  release:
+    runs-on: ubuntu-latest
+    needs: create-release
+    
+    steps:
+      - uses: actions/download-artifact@v4
+        with:
+          name: PCCFs
+          path: downloaded/
+
+      - name: Create GitHub Release with PDFs
+        uses: softprops/action-gh-release@v1
+        with:
+          files: |
+            downloaded/PCCF_SENIA_DAM.pdf
+            downloaded/PCCF_SENIA_SMX.pdf
+            downloaded/PCCF_SENIA_DAW.pdf
+            downloaded/PCCF_SENIA_ASIR.pdf
+        env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+#    - name: Release with Notes
+#      uses: softprops/action-gh-release@v1
+#      with:
+#        files: |
+#          PDFS/PCCF_SENIA_DAM.pdf
+#          PDFS/PCCF_SENIA_SMX.pdf
+#          PDFS/PCCF_SENIA_DAW.pdf
+#          PDFS/PCCF_SENIA_ASIR.pdf   
+#      env:
+#          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
