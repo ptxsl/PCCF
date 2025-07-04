@@ -32,18 +32,13 @@ jobs:
         name: PCCFs
         path: PDFS/ #
 
-    - uses: meeDamian/github-release@2.0
+    - name: Release with Notes
+      uses: softprops/action-gh-release@v1
       with:
-        token: ${{ secrets.GITHUB_TOKEN }}
-        tag: ${{ env.MY_CUSTOM_TAG }}
-        name: My Creative Name
-        body: >
-          This release actually changes the fabric of the reality, so be careful 
-          while applying, as error in database migration, can irrecoverably wipe 
-          some laws of physics.  
-        files: >
+        files: |
           PDFS/PCCF_SENIA_DAM.pdf
           PDFS/PCCF_SENIA_SMX.pdf
           PDFS/PCCF_SENIA_DAW.pdf
-          PDFS/PCCF_SENIA_ASIR.pdf
-      
+          PDFS/PCCF_SENIA_ASIR.pd   
+      env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
