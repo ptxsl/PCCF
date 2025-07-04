@@ -30,7 +30,13 @@ jobs:
     - uses: actions/upload-artifact@v4
       with:
         name: PCCFs
-        path: PDFS/ #
+        path: PDFS/ 
+    - name: Comprobar existencia de los PDFs
+      run: |
+        test -f PDFS/PCCF_SENIA_SMX.pdf || (echo "Falta PCCF_SENIA_SMX.pdf" && exit 1)
+        test -f PDFS/PCCF_SENIA_DAW.pdf || (echo "Falta PCCF_SENIA_DAW.pdf" && exit 1)
+        test -f PDFS/PCCF_SENIA_DAM.pdf || (echo "Falta PCCF_SENIA_DAM.pdf" && exit 1)
+        test -f PDFS/PCCF_SENIA_ASIR.pdf || (echo "Falta PCCF_SENIA_ASIR.pdf" && exit 1
 
   release:
     runs-on: ubuntu-latest
@@ -41,7 +47,10 @@ jobs:
         with:
           name: PCCFs
           path: downloaded/
-
+      - name: Comprobar existencia de los PDFs
+        run: |
+          test -f downloaded/PCCF_SENIA_SMX.pdf || (echo "Falta downloaded/PCCF_SENIA_SMX.pdf" && exit 1)
+          
       - name: Create GitHub Release with PDFs
         uses: softprops/action-gh-release@v2.3.2
         with:
