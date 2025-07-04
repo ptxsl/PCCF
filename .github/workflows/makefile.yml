@@ -39,6 +39,6 @@ jobs:
           PDFS/PCCF_SENIA_DAM.pdf
           PDFS/PCCF_SENIA_SMX.pdf
           PDFS/PCCF_SENIA_DAW.pdf
-          PDFS/PCCF_SENIA_ASIR.pd   
+          PDFS/PCCF_SENIA_ASIR.pdf   
       env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
