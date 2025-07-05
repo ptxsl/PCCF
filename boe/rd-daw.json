@@ -24,7 +24,7 @@
 	"u": " Supervisar y aplicar procedimientos de gestión de calidad, de accesibilidad universal y de diseño para todos, en las actividades profesionales incluidas en los procesos de producción o prestación de servicios.",
 	"v": " Realizar la gestión básica para la creación y funcionamiento de una pequeña empresa y tener iniciativa en su actividad profesional con sentido de la responsabilidad social.",
 	"x": " Ejercer sus derechos y cumplir con las obligaciones derivadas de su actividad profesional, de acuerdo con lo establecido en la legislación vigente, participando activamente en la vida económica, social y cultural."
-    }
+    },
     "CualificacionesINCUAL":
     {
 	"Completas":
@@ -61,5 +61,132 @@
 		}
 	    }
 	}
+    },
+    "ObjetivosGenerales":{
+	"a":"Ajustar la configuración lógica del sistema analizando las necesidades y criterios establecidos para configurar y explotar sistemas informáticos.",
+	"b":"Identificar las necesidades de seguridad analizando vulnerabilidades y verificando el plan preestablecido para aplicar técnicas y procedimientos relacionados con la seguridad en el sistema.",
+	"c":"Interpretar el diseño lógico de bases de datos, analizando y cumpliendo las especificaciones relativas a su aplicación, para gestionar bases de datos.",
+	"d":"Instalar y configurar módulos y complementos, evaluando su funcionalidad, para gestionar entornos de desarrollo.",
+	"e":"Seleccionar y emplear lenguajes, herramientas y librerías, interpretando las especificaciones para desarrollar aplicaciones multiplataforma con acceso a bases de datos.",
+	"f":"Gestionar la información almacenada, planificando e implementando sistemas de formularios e informes para desarrollar aplicaciones de gestión.",
+	"g":"Seleccionar y utilizar herramientas específicas, lenguajes y librerías, evaluando sus posibilidades y siguiendo un manual de estilo, para manipular e integrar en aplicaciones multiplataforma contenidos gráficos y componentes multimedia.",
+	"h":"Emplear herramientas de desarrollo, lenguajes y componentes visuales, siguiendo las especificaciones y verificando interactividad y usabilidad, para desarrollar interfaces gráficos de usuario en aplicaciones multiplataforma.",
+	"i":"Seleccionar y emplear técnicas, motores y entornos de desarrollo, evaluando sus posibilidades, para participar en el desarrollo de juegos y aplicaciones en el ámbito del entretenimiento.",
+	"j":"Seleccionar y emplear técnicas, lenguajes y entornos de desarrollo, evaluando sus posibilidades, para desarrollar aplicaciones en teléfonos móviles, tabletas y otros dispositivos inteligentes.",
+	"k":"Valorar y emplear herramientas específicas, atendiendo a la estructura de los contenidos, para crear ayudas generales y sensibles al contexto.",
+	"l":"Valorar y emplear herramientas específicas, atendiendo a la estructura de los contenidos, para crear tutoriales, manuales de usuario y otros documentos asociados a una aplicación.",
+	"m":"Seleccionar y emplear técnicas y herramientas, evaluando la utilidad de los asistentes de instalación generados, para empaquetar aplicaciones.",
+	"n":"Analizar y aplicar técnicas y librerías específicas, simulando diferentes escenarios, para desarrollar aplicaciones capaces de ofrecer servicios en red.",
+	"ñ":"Analizar y aplicar técnicas y librerías de programación, evaluando su funcionalidad para desarrollar aplicaciones multiproceso y multihilo.",
+	"o":"Reconocer la estructura de los sistemas ERP-CRM, identificando la utilidad de cada uno de sus módulos, para participar en su implantación.",
+	"p":"Realizar consultas, analizando y evaluando su alcance, para gestionar la información almacenada en sistemas ERP-CRM.",
+	"q":"Seleccionar y emplear lenguajes y herramientas, atendiendo a los requerimientos, para desarrollar componentes personalizados en sistemas ERP-CRM.",
+	"r":"Verificar los componentes software desarrollados, analizando las especificaciones, para completar un plan de pruebas.",
+	"s":"Establecer procedimientos, verificando su funcionalidad, para desplegar y distribuir aplicaciones.",
+	"t":"Describir los roles de cada uno de los componentes del grupo de trabajo, identificando en cada caso la responsabilidad asociada, para establecer las relaciones profesionales más convenientes.",
+	"u":"Identificar formas de intervención ante conflictos de tipo personal y laboral, teniendo en cuenta las decisiones más convenientes, para garantizar un entorno de trabajo satisfactorio.",
+	"v":"Identificar y valorar las oportunidades de promoción profesional y de aprendizaje, analizando el contexto del sector, para elegir el itinerario laboral y formativo más conveniente.",
+	"w":"Identificar los cambios tecnológicos, organizativos, económicos y laborales en su actividad, analizando sus implicaciones en el ámbito de trabajo, para mantener el espíritu de innovación.",
+	"x":"Reconocer las oportunidades de negocio, identificando y analizando demandas del mercado para crear y gestionar una pequeña empresa.",
+	"y":"Reconocer sus derechos y deberes como agente activo en la sociedad, analizando el marco legal que regula las condiciones sociales y laborales para participar como ciudadano democrático."
+    },
+    "ModulosProfesionales":{
+	"0483":{
+	    "nombre":"Sistemas Informáticos",
+	    "creditos":"10",
+	    "ResultadosAprendizaje":{
+		"RA01":{
+		    "Resultado":"Evalúa sistemas informáticos, identificando sus componentes y características.",
+		    "CriteriosEvaluacion":
+		    {
+			"a":"Se han reconocido los componentes físicos de un sistema informático y sus mecanismos de interconexión.",
+			"b":"Se han clasificado los tipos de memorias, señalando sus características e identifcando sus prestaciones y la función que desarrollan en el conjunto del sistema.",
+			"c":"Se ha verificado el proceso de puesta en marcha de un equipo.",
+			"d":"Se han clasificado, instalado y configurado diferentes tipos de dispositivos periféricos.",
+			"e":"Se han identificado los tipos de redes y sistemas de comunicación.",
+			"f":"Se han identificado los componentes de una red informática.",
+			"g":"Se han interpretado mapas físicos y lógicos de una red informática.",
+			"h":"Se han reconocido las normas de seguridad y prevención de riesgos laborales en el uso de los sistemas informáticos."
+		    }
+		},
+		"RA02": {
+                    "Resultado": "Instala sistemas operativos planificando el proceso e interpretando documentación técnica.",
+                    "CriteriosEvaluacion": {
+                        "a": "Se han identificado los elementos funcionales de un sistema informático.",
+                        "b": "Se han analizado las características, funciones y arquitectura de un sistema operativo.",
+                        "c": "Se han comparado sistemas operativos en base a sus requisitos, características, campos de aplicación y licencias de uso.",
+                        "d": "Se ha planificado el proceso de la instalación de sistemas operativos.",
+                        "e": "Se han instalado y actualizado sistemas operativos libres y propietarios.",
+                        "f": "Se han aplicado técnicas de actualización y recuperación del sistema.",
+                        "g": "Se han utilizado tecnologías de virtualización para instalar y probar sistemas operativos.",
+                        "h": "Se han instalado, desinstalado y actualizado aplicaciones.",
+                        "i": "Se han documentado los procesos realizados."
+                    }
+                },
+                "RA03": {
+                    "Resultado": "Gestiona la información del sistema identificando las estructuras de almacenamiento y aplicando medidas para asegurar la integridad de los datos.",
+                    "CriteriosEvaluacion": {
+                        "a": "Se han comparado sistemas de archivos.",
+                        "b": "Se ha identificado la estructura y función de los directorios del sistema operativo.",
+                        "c": "Se han utilizado herramientas en entorno gráfico y comandos para localizar información en el sistema de archivos.",
+                        "d": "Se han creado diferentes tipos de particiones y unidades lógicas.",
+                        "e": "Se han realizado y restaurado copias de seguridad.",
+                        "f": "Se han planificado y automatizado tareas.",
+                        "g": "Se han instalado y evaluado utilidades relacionadas con la gestión de información."
+                    }
+                },
+                "RA04": {
+                    "Resultado": "Gestiona sistemas operativos utilizando comandos y herramientas gráficas y evaluando las necesidades del sistema.",
+                    "CriteriosEvaluacion": {
+                        "a": "Se han configurado cuentas de usuario locales y grupos.",
+                        "b": "Se ha asegurado el acceso al sistema mediante el uso de directivas de cuenta y directivas de contraseñas.",
+                        "c": "Se han identificado, arrancado y detenido servicios y procesos.",
+                        "d": "Se ha protegido el acceso a la información mediante el uso de permisos locales y listas de control de acceso.",
+                        "e": "Se han utilizado comandos para realizar las tareas básicas de configuración y administración del sistema.",
+                        "f": "Se ha monitorizado el sistema.",
+                        "g": "Se han instalado y evaluado utilidades para el mantenimiento y optimización del sistema.",
+                        "h": "Se han evaluado las necesidades del sistema informático en relación con el desarrollo de aplicaciones."
+                    }
+                },
+                "RA05": {
+                    "Resultado": "Interconecta sistemas en red configurando dispositivos y protocolos.",
+                    "CriteriosEvaluacion": {
+                        "a": "Se ha configurado el protocolo TCP/IP.",
+                        "b": "Se han configurado redes de área local cableadas.",
+                        "c": "Se han configurado redes de área local inalámbricas.",
+                        "d": "Se han utilizado dispositivos de interconexión de redes.",
+                        "e": "Se ha configurado el acceso a redes de área extensa.",
+                        "f": "Se han gestionado puertos de comunicaciones.",
+                        "g": "Se ha verificado el funcionamiento de la red mediante el uso de comandos y herramientas básicas.",
+                        "h": "Se han aplicado protocolos seguros de comunicaciones."
+                    }
+                },
+                "RA06": {
+                    "Resultado": "Opera sistemas en red gestionando sus recursos e identificando las restricciones de seguridad existentes.",
+                    "CriteriosEvaluacion": {
+                        "a": "Se ha configurado el acceso a recursos locales y recursos de red.",
+                        "b": "Se han identificado y configurado los derechos de usuario y directivas de seguridad.",
+                        "c": "Se han explotado servidores de ficheros, servidores de impresión y servidores de aplicaciones.",
+                        "d": "Se ha accedido a los servidores utilizando técnicas de conexión remota.",
+                        "e": "Se ha evaluado la necesidad de proteger los recursos y el sistema.",
+                        "f": "Se han instalado y evaluado utilidades de seguridad básica.",
+                        "g": "Se han configurado y explotado dominios."
+                    }
+                },
+                "RA07": {
+                    "Resultado": "Elabora documentación valorando y utilizando aplicaciones informáticas de propósito general.",
+		    "CriteriosEvaluacion":{
+			"a":"Se ha clasificado software en función de su licencia y propósito.",
+			"b":"Se han analizado las necesidades específicas de software asociadas al uso de sistemas informáticos en diferentes entornos productivos.",
+			"c":"Se han realizado tareas de documentación mediante el uso de herramientas ofimáticas y de trabajo colaborativo.",
+			"d":"Se han utilizado sistemas de correo y mensajería electrónica.",
+			"e":"Se han utilizado los servicios de transferencia de ficheros.",
+			"f":"Se han utilizado métodos de búsqueda de documentación técnica mediante el uso de servicios de Internet.",
+			"g":"Se han utilizado herramientas de propósito general."
+		    }
+	    }
+		},
+		"horas":"100"
+    }
     }
 }
