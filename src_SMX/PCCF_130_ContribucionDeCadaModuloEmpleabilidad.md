@@ -7,5 +7,5 @@
 
 TODO 
 
-![Competencias para la Empleabilidad](imgs/empleabilidad.png)
+![Competencias para la Empleabilidad](imgs/empleabilidad.png){ width=50% }
 

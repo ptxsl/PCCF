@@ -7,4 +7,5 @@
 
 TODO 
 
-Lo mismo con Guillermo
+![Competencias para la Empleabilidad](imgs/empleabilidad.png){ width=50% }
+

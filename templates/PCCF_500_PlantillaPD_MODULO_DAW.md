@@ -27,6 +27,10 @@ Los **Resultados de Aprendizaje** relativos al módulo de {{modulo.nombre}} son:
 
 ## Secuenciación de las Unidades de Programación. 
 
+A RELLENAR POR DOCENTE
+
+Se propone esta tabla
+
 | Número | Título                    | Inicio    | Fin       |
 |--------|---------------------------|-----------|-----------|
 | 01     | Introducción a vim        | 08/09/2025| 10/10/2025|
@@ -35,6 +39,8 @@ Los **Resultados de Aprendizaje** relativos al módulo de {{modulo.nombre}} son:
 | 04     | vim: aprendiendo Regex    | 22/10/2025| 20/12/2025|
 
 ## Unidades de Programacion
+
+A RELLENAR POR DOCENTE
 
 ### Unidad 01 : Introducción
 ### Unidad 02 : ...
@@ -49,13 +55,19 @@ Atendiendo al PCCF. En cada SA se especifican.
 
 ## Uso de espacios y equipamientos. 
 
+A RELLENAR POR DOCENTE
+
 ## Medidas de atención a la diversidad. 
+
+A RELLENAR POR DOCENTE
 
 ## Evaluación del aprendizaje. 
 
-A RELLENAR
+A RELLENAR POR DOCENTE
 
 ## Actividades complementarias y extraescolares. 
+
+A RELLENAR POR DOCENTE
 
 ## Criterios y procedimientos para la evaluación del desarrollo de la programación y de la práctica docente. 
 
