@@ -83,8 +83,7 @@ proyecto-daw: files proyecto-base
 	@echo " ${LIGHTBLUE} Poblando desde DAW ${RESET}"
 
 	cp -r src_DAW/* temp/
-
-	./tools/jsonRAptor.py > temp/PCCF_500_SistemasInformaticos.md
+	./tools/jsonRAptor.py
 
 	@cd temp/ && pandoc --template $(TEMPLATE_TEX_PD) $(PANDOC_OPTIONS) -o $(PDF_PATH)/PCCF_SENIA_DAW.pdf ./PCCF_*.md
 

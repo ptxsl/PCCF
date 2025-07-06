@@ -20,9 +20,10 @@ Tiene una correspondéncia de Créditos de {{ modulo.creditos}}.
 
 Los **Resultados de Aprendizaje** relativos al módulo de {{modulo.nombre}} son:
 
-| Código | Resultado de Aprendizaje |
-|-----------------------|------------|{% for ra in modulo.ResultadosAprendizaje %}
+|Código| Resultado de Aprendizaje |
+|------|--------------------------|{% for ra in modulo.ResultadosAprendizaje %}
 | {{ ra }} | {{ modulo.ResultadosAprendizaje[ra].Resultado }} |{% endfor %}
+|<img width=200/>|<img width=500/>|
 
 ## Secuenciación de las Unidades de Programación. 
 
