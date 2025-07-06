@@ -2,9 +2,11 @@
 
 import json
 from box import Box
+# Importamos Jinja2
+import jinja2
 
 # Cargar el JSON desde un archivo
-print(" Json RAptor - El analizador de RAs")
+
 with open('./boe/rd-daw.json', 'r', encoding='utf-8') as f:
     data = json.load(f)
 
@@ -12,7 +14,27 @@ with open('./boe/rd-daw.json', 'r', encoding='utf-8') as f:
 data_box = Box(data)
 
 for codigo in data_box.ModulosProfesionales:
+
     modulo=data_box.ModulosProfesionales[codigo]
+    contexto=modulo.horas
+    UnidadesCompetenciaAcreditadas=modulo.UnidadesCompetenciaAcreditadas
+
+    modulonombre=modulo.nombre
+
+    templateLoader = jinja2.FileSystemLoader(searchpath="./templates/")
+    templateEnv = jinja2.Environment(loader=templateLoader)
+    TEMPLATE_FILE = "PCCF_500_PlantillaPD_MODULO_DAW.md"
+    template = templateEnv.get_template(TEMPLATE_FILE)
+    outputText = template.render(modulo=modulo)  # this is where to put args to the template renderer
+
+    print(outputText)
+
+
+
+
+
+
+    '''
     print(" * Trabajando con "+modulo.nombre)
     for ra in modulo.ResultadosAprendizaje:
         print("El Resultado de Aprendizaje "+ra+":")
@@ -24,5 +46,6 @@ for codigo in data_box.ModulosProfesionales:
             else:
                 print(criterio)
         print("-----")
+    '''
 
 

@@ -1,7 +1,7 @@
 \newpage
 
 
-# EVALUACIÓN
+# Evaluación
 
 ## Principios y objeto de la evaluación 
 

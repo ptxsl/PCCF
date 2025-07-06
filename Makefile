@@ -84,6 +84,8 @@ proyecto-daw: files proyecto-base
 
 	cp -r src_DAW/* temp/
 
+	./tools/jsonRAptor.py > temp/PCCF_500_SistemasInformaticos.md
+
 	@cd temp/ && pandoc --template $(TEMPLATE_TEX_PD) $(PANDOC_OPTIONS) -o $(PDF_PATH)/PCCF_SENIA_DAW.pdf ./PCCF_*.md
 
 local-proyecto-daw: proyecto-daw
