@@ -33,7 +33,6 @@ for codigo in data_box.ModulosProfesionales:
 
 
 
-
     '''
     print(" * Trabajando con "+modulo.nombre)
     for ra in modulo.ResultadosAprendizaje:
@@ -47,5 +46,6 @@ for codigo in data_box.ModulosProfesionales:
                 print(criterio)
         print("-----")
     '''
+
 
 

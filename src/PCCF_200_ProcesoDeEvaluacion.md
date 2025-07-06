@@ -7,10 +7,10 @@
 
 La evaluación es:
 
-- **Continua**: se realiza a lo largo del proceso de aprendizaje.  
-- **Formativa**: orientada a la mejora.  
-- **Integradora**: considera todos los aspectos del desarrollo del alumnado.  
-- **Adaptada**: contempla medidas para el alumnado con necesidades específicas.  
+- **Continua**: se realiza a lo largo del proceso de aprendizaje.
+- **Formativa**: orientada a la mejora.
+- **Integradora**: considera todos los aspectos del desarrollo del alumnado.
+- **Adaptada**: contempla medidas para el alumnado con necesidades específicas.
 - **Basada en la adquisición de competencias**: se evalúa mediante los **Resultados de Aprendizaje (RA)** y sus correspondientes **Criterios de Evaluación (CE)** definidos en el título.
 
 El objetivo de la evaluación es la superación del módulo por parte del alumnado. Para ello, es imprescindible que **todos los RA estén aprobados**.
