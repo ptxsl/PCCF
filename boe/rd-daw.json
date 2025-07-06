@@ -191,6 +191,228 @@
 		{
 			"UC0223_3":"Configurar y explotar sistemas informáticos."
 		}
-    }
+    },
+	"0484": {
+            "nombre": "Bases de Datos",
+            "creditos": "12",
+            "ResultadosAprendizaje": {
+                "RA01": {
+                    "Resultado": "Reconoce los elementos de las bases de datos analizando sus funciones y valorando la utilidad de los sistemas gestores.",
+                    "CriteriosEvaluacion": {
+                        "a": "Se han identificado los elementos de una base de datos.",
+                        "b": "Se han clasificado los distintos tipos de bases de datos.",
+                        "c": "Se han descrito las funciones de los sistemas gestores de bases de datos.",
+                        "d": "Se han identificado los distintos tipos de usuarios y lenguajes de un sistema gestor de bases de datos.",
+                        "e": "Se han identificado las tareas básicas de administración de una base de datos.",
+                        "f": "Se han identificado las características de los sistemas gestores de bases de datos más utilizados.",
+                        "g": "Se han utilizado sistemas gestores de bases de datos realizando tareas básicas."
+                    }
+                },
+                "RA02": {
+                    "Resultado": "Diseña bases de datos interpretando diagramas entidad/relación y aplicando los principios de la normalización.",
+                    "CriteriosEvaluacion": {
+                        "a": "Se han identificado los elementos de un modelo entidad/relación.",
+                        "b": "Se han identificado las reglas de transformación del modelo entidad/relación al modelo relacional.",
+                        "c": "Se han transformado modelos entidad/relación al modelo relacional.",
+                        "d": "Se han identificado las dependencias funcionales de un modelo relacional.",
+                        "e": "Se han aplicado las reglas de normalización hasta la tercera forma normal.",
+                        "f": "Se han documentado las estructuras creadas."
+                    }
+                },
+                "RA03": {
+                    "Resultado": "Define la estructura de la base de datos creando tablas, relaciones, vistas e índices.",
+                    "CriteriosEvaluacion": {
+                        "a": "Se han creado bases de datos.",
+                        "b": "Se han creado tablas con sus campos y claves.",
+                        "c": "Se han establecido relaciones entre tablas.",
+                        "d": "Se han creado vistas sobre los datos.",
+                        "e": "Se han creado índices sobre los campos de las tablas.",
+                        "f": "Se han documentado las estructuras creadas."
+                    }
+                },
+                "RA04": {
+                    "Resultado": "Consulta la información almacenada manejando asistentes, generadores de consultas y el lenguaje de manipulación de datos.",
+                    "CriteriosEvaluacion": {
+                        "a": "Se han utilizado asistentes y generadores de consultas.",
+                        "b": "Se han realizado consultas de selección con operadores de comparación y funciones.",
+                        "c": "Se han realizado consultas de resumen con agrupamientos y funciones de grupo.",
+                        "d": "Se han realizado consultas de unión y subconsultas.",
+                        "e": "Se han realizado consultas de acción.",
+                        "f": "Se han documentado las consultas realizadas."
+                    }
+                },
+                "RA05": {
+                    "Resultado": "Modifica la información almacenada utilizando asistentes, formularios y el lenguaje de manipulación de datos.",
+                    "CriteriosEvaluacion": {
+                        "a": "Se han utilizado asistentes y generadores de formularios.",
+                        "b": "Se han insertado, modificado y eliminado registros.",
+                        "c": "Se han utilizado formularios para modificar registros.",
+                        "d": "Se han utilizado instrucciones del lenguaje de manipulación de datos para modificar registros.",
+                        "e": "Se han documentado las modificaciones realizadas."
+                    }
+                },
+                "RA06": {
+                    "Resultado": "Garantiza la integridad de los datos identificando y aplicando las restricciones y reglas de integridad.",
+                    "CriteriosEvaluacion": {
+                        "a": "Se han identificado los distintos tipos de restricciones de integridad.",
+                        "b": "Se han aplicado restricciones de integridad en la definición de tablas.",
+                        "c": "Se han utilizado disparadores para garantizar la integridad de los datos.",
+                        "d": "Se han documentado las restricciones aplicadas."
+                    }
+                },
+                "RA07": {
+                    "Resultado": "Gestiona el acceso a la información definiendo y aplicando distintos niveles de autorización.",
+                    "CriteriosEvaluacion": {
+                        "a": "Se han identificado los distintos tipos de usuarios.",
+                        "b": "Se han creado cuentas de usuario.",
+                        "c": "Se han asignado privilegios a los usuarios.",
+                        "d": "Se han revocado privilegios a los usuarios.",
+                        "e": "Se han documentado las autorizaciones concedidas."
+                    }
+                }
+            },
+            "horas": "147",
+            "UnidadesCompetenciaAcreditadas": {
+                "UC0226_3": "Programar bases de datos relacionales."
+            }
+     },
+	"0485": {
+            "nombre": "Programación",
+            "creditos": "16",
+            "ResultadosAprendizaje": {
+                "RA01": {
+                    "Resultado": "Reconoce los elementos de un programa informático identificando su funcionalidad y aplicándolos en la elaboración de algoritmos.",
+                    "CriteriosEvaluacion": {
+                        "a": "Se han identificado los elementos de un programa informático.",
+                        "b": "Se han reconocido los tipos de datos y su utilidad.",
+                        "c": "Se han utilizado operadores y expresiones.",
+                        "d": "Se han utilizado estructuras de control.",
+                        "e": "Se han utilizado estructuras de datos lineales.",
+                        "f": "Se han elaborado algoritmos utilizando técnicas de programación estructurada.",
+                        "g": "Se han utilizado herramientas para la creación y depuración de diagramas de flujo.",
+                        "h": "Se han documentado los algoritmos elaborados."
+                    }
+                },
+                "RA02": {
+                    "Resultado": "Desarrolla programas estructurados analizando y utilizando estructuras de control y datos.",
+                    "CriteriosEvaluacion": {
+                        "a": "Se han utilizado estructuras de control condicional y repetitiva.",
+                        "b": "Se han utilizado estructuras de datos lineales y no lineales.",
+                        "c": "Se han utilizado funciones y procedimientos.",
+                        "d": "Se han utilizado parámetros en funciones y procedimientos.",
+                        "e": "Se han utilizado variables locales y globales.",
+                        "f": "Se han utilizado mecanismos de modularización.",
+                        "g": "Se han documentado los programas desarrollados."
+                    }
+                },
+                "RA03": {
+                    "Resultado": "Desarrolla programas utilizando técnicas de programación orientada a objetos.",
+                    "CriteriosEvaluacion": {
+                        "a": "Se han identificado los principios de la programación orientada a objetos.",
+                        "b": "Se han definido clases con atributos y métodos.",
+                        "c": "Se han creado objetos a partir de clases.",
+                        "d": "Se han utilizado mecanismos de encapsulamiento.",
+                        "e": "Se han utilizado mecanismos de herencia.",
+                        "f": "Se han utilizado mecanismos de polimorfismo.",
+                        "g": "Se han documentado los programas desarrollados."
+                    }
+                },
+                "RA04": {
+                    "Resultado": "Utiliza librerías de clases realizando la búsqueda y análisis de la información que contienen.",
+                    "CriteriosEvaluacion": {
+                        "a": "Se han identificado las librerías disponibles en el entorno de desarrollo.",
+                        "b": "Se han utilizado librerías de clases para realizar operaciones de entrada/salida.",
+                        "c": "Se han utilizado librerías de clases para manipular cadenas de caracteres.",
+                        "d": "Se han utilizado librerías de clases para gestionar estructuras de datos.",
+                        "e": "Se han utilizado librerías de clases para acceder a bases de datos.",
+                        "f": "Se han documentado las librerías utilizadas."
+                    }
+                },
+                "RA05": {
+                    "Resultado": "Depura y documenta programas interpretando los mensajes del compilador.",
+                    "CriteriosEvaluacion": {
+                        "a": "Se han identificado los errores de compilación e interpretación.",
+                        "b": "Se han utilizado herramientas de depuración.",
+                        "c": "Se han corregido errores sintácticos y semánticos.",
+                        "d": "Se han utilizado técnicas de depuración.",
+                        "e": "Se han documentado los errores detectados y las soluciones aplicadas.",
+                        "f": "Se ha elaborado la documentación técnica del programa.",
+                        "g": "Se ha elaborado la documentación de usuario."
+                    }
+                }
+            },
+            "horas": "256",
+            "UnidadesCompetenciaAcreditadas": {}
+	},
+        "0486": {
+            "nombre": "Lenguajes de marcas y sistemas de gestión de información",
+            "creditos": "5",
+            "ResultadosAprendizaje": {},
+            "horas": "90",
+            "UnidadesCompetenciaAcreditadas": {}
+        },
+        "0487": {
+            "nombre": "Entornos de desarrollo",
+            "creditos": "4",
+            "ResultadosAprendizaje": {},
+            "horas": "65",
+            "UnidadesCompetenciaAcreditadas": {}
+        },
+        "0488": {
+            "nombre": "Desarrollo web en entorno cliente",
+            "creditos": "7",
+            "ResultadosAprendizaje": {},
+            "horas": "95",
+            "UnidadesCompetenciaAcreditadas": {}
+        },
+        "0489": {
+            "nombre": "Desarrollo web en entorno servidor",
+            "creditos": "8",
+            "ResultadosAprendizaje": {},
+            "horas": "110",
+            "UnidadesCompetenciaAcreditadas": {}
+        },
+        "0490": {
+            "nombre": "Despliegue de aplicaciones web",
+            "creditos": "5",
+            "ResultadosAprendizaje": {},
+            "horas": "65",
+            "UnidadesCompetenciaAcreditadas": {}
+        },
+        "0491": {
+            "nombre": "Diseño de interfaces web",
+            "creditos": "6",
+            "ResultadosAprendizaje": {},
+            "horas": "100",
+            "UnidadesCompetenciaAcreditadas": {}
+        },
+        "0492": {
+            "nombre": "Proyecto de desarrollo de aplicaciones web",
+            "creditos": "5",
+            "ResultadosAprendizaje": {},
+            "horas": "30",
+            "UnidadesCompetenciaAcreditadas": {}
+        },
+        "0493": {
+            "nombre": "Formación y orientación laboral",
+            "creditos": "5",
+            "ResultadosAprendizaje": {},
+            "horas": "90",
+            "UnidadesCompetenciaAcreditadas": {}
+        },
+        "0494": {
+            "nombre": "Empresa e iniciativa emprendedora",
+            "creditos": "4",
+            "ResultadosAprendizaje": {},
+            "horas": "65",
+            "UnidadesCompetenciaAcreditadas": {}
+        },
+        "0495": {
+            "nombre": "Formación en centros de trabajo",
+            "creditos": "22",
+            "ResultadosAprendizaje": {},
+            "horas": "370",
+            "UnidadesCompetenciaAcreditadas": {}
+        }
     }
 }
