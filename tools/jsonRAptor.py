@@ -2,6 +2,8 @@
 
 import sys
 import json
+import os
+import shutil
 from box import Box
 # Importamos Jinja2
 import jinja2
@@ -24,16 +26,64 @@ inicio=501
 
 for codigo in data_box.ModulosProfesionales:
 
+
     modulo=data_box.ModulosProfesionales[codigo]
-    templateLoader = jinja2.FileSystemLoader(searchpath="./templates/")
-    templateEnv = jinja2.Environment(loader=templateLoader)
-    TEMPLATE_FILE = "PCCF_PD_Plantilla_MODULO_DAW.md"
-    template = templateEnv.get_template(TEMPLATE_FILE)
-    outputText = template.render(modulo=modulo)
-    fmod = "./temp/PCCF_"+str(inicio)+"_PD_"+modulo.nombre.replace(" ","")+".md"
-    fmodulo = open(fmod,"w")
-    fmodulo.write(outputText)
-    fmodulo.close()
+
+    fmod = "./temp/PD_"+str(inicio)+"_"+modulo.nombre.replace(" ","")+".md"
+
+    if os.path.exists(fmod):
+        print(" Fichero ya presente: , nada que hacer.")
+        print(" Se utilizara el ya subido de "+modulo.nombre.replace(" ",""))
+        print("")
+
+    else:
+        print(" Generando Programacion Didactica para "+modulo.nombre.replace(" ",""))
+        templateLoader = jinja2.FileSystemLoader(searchpath="./templates/")
+        templateEnv = jinja2.Environment(loader=templateLoader)
+        TEMPLATE_FILE = "PCCF_PD_Plantilla_MODULO_DAW.md"
+        template = templateEnv.get_template(TEMPLATE_FILE)
+        outputText = template.render(modulo=modulo)
+        fmod = "./temp/PD_"+str(inicio)+"_"+modulo.nombre.replace(" ","")+".md"
+        fmodulo = open(fmod,"w")
+        fmodulo.write(outputText)
+        fmodulo.close()
+
+    print(" - Includes from PCCF para "+modulo.nombre.replace(" ",""))
+
+    with open(fmod, "rt") as fin:
+         with open("./temp/out.txt", "wt") as fout:
+            for line in fin:
+                if "@@@" in line:
+                    pccff="".join(line.split('@')[3]).rstrip()
+                    print("   - [@@@] : "+"".join(line.split('@')[3]).rstrip())
+
+                    if os.path.exists("./temp/"+pccff):
+                        newpages=0
+                        with open("./temp/"+pccff, "rt") as fincluded:
+                            for linein in fincluded:
+                                ignorar=False
+                                if linein.startswith('\\newpage') and newpages < 10:
+                                    print("   - [!] Ignorando saltos de pagina en las 10 primeras lineas")
+                                    ignorar=True
+
+                                if linein.startswith('# '):
+                                    print("   - [!] Ignorando H1 "+linein)
+                                    ignorar=True
+
+                                if linein.startswith('#'):
+                                    linein='#'+linein
+
+                                if not ignorar :
+                                    fout.write(linein)
+
+                                newpages=newpages+1
+                    else:
+                        print(" File not exists, not included : ./temp/"+pccff)
+                else:
+                    fout.write(line)
+            fout.close()
+    shutil.move("./temp/out.txt", fmod)
+
     inicio  = inicio + 1
 
 sys.exit(0)

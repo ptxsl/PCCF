@@ -71,7 +71,7 @@ local-proyecto-smx : proyecto-smx
 
 programaciones-smx: proyecto-smx
 
-	@cd temp-SMX/ && pandoc --template $(TEMPLATE_TEX_PD) $(PANDOC_OPTIONS) -o $(PDF_PATH)/Programaciones_SENIA_SMX.pdf ./PD_*.md
+	@cd temp/ && pandoc --template $(TEMPLATE_TEX_PD) $(PANDOC_OPTIONS) -o $(PDF_PATH)/Programaciones_SENIA_SMX.pdf ./PD_*.md
 
 local-programaciones-smx : programaciones-smx
 
@@ -106,6 +106,14 @@ proyecto-daw: files proyecto-base
 local-proyecto-daw: proyecto-daw
 
 	xdg-open $(PDF_PATH)/PCCF_SENIA_DAW.pdf
+
+programaciones-daw: proyecto-daw
+
+	@cd temp/ && pandoc --template $(TEMPLATE_TEX_PD) $(PANDOC_OPTIONS) -o $(PDF_PATH)/Programaciones_SENIA_DAW.pdf ./PD_*.md
+
+local-programaciones-daw : programaciones-daw
+
+	xdg-open $(PDF_PATH)/Programaciones_SENIA_DAW.pdf
 
 
 proyecto-dam: files proyecto-base
