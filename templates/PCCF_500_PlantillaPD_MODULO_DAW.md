@@ -38,30 +38,34 @@ Se propone esta tabla
 | 03     | vim: Comando .            | 11/10/2025| 21/10/2025|
 | 04     | vim: aprendiendo Regex    | 22/10/2025| 20/12/2025|
 
-## Unidades de Programacion
-
-A RELLENAR POR DOCENTE
-
-### Unidad 01 : Introducción
-### Unidad 02 : ...
 
 ## Metodología del proceso de enseñanza-aprendizaje
 
+Texto generico: 
 Atendiendo al PCCF. En cada SA se especifican.
 
 ## Recursos
 
+Texto generico: 
 Atendiendo al PCCF. En cada SA se especifican.
 
 ## Uso de espacios y equipamientos. 
 
-A RELLENAR POR DOCENTE
+Texto generico: 
+Atendiendo al PCCF. En cada SA se especifican.
 
 ## Medidas de atención a la diversidad. 
 
-A RELLENAR POR DOCENTE
+Texto generico: 
+Atendiendo al PCCF. En cada SA se especifican.
 
 ## Evaluación del aprendizaje. 
+
+INCLUDE EL PCCF 
+
+A RELLENAR POR DOCENTE
+
+### Convocatoria Extraordinaria
 
 A RELLENAR POR DOCENTE
 
@@ -71,7 +75,7 @@ A RELLENAR POR DOCENTE
 
 ## Criterios y procedimientos para la evaluación del desarrollo de la programación y de la práctica docente. 
 
-Atendiendo al PCCF. En cada SA se especifican.
+INCLUDE EL PCCF 
 
 ## Esquema general de {{modulo.nombre}}
 

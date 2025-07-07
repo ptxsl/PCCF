@@ -205,7 +205,7 @@
                         "e": "Se ha reconocido la función de cada uno de los elementos de un sistema gestor de bases de datos.",
                         "f": "Se han clasificado los sistemas gestores de bases de datos.",
                         "g": "Se ha reconocido la utilidad de las bases de datos distribuidas.",
-                        "h": "Se han analizado las políticas de fragmentación de la información.",
+                        "h": "Se han analizado las políticas de fragmentación de la información.",
                         "i":"Se ha identificado la legislación vigente sobre protección de datos.",
                         "j":"Se han reconocido los conceptos de Big Data y de la inteligencia de negocios."
                     }
@@ -219,8 +219,8 @@
                         "d": "Se han definido los campos clave en las tablas.",
                         "e": "Se han implantado las restricciones reflejadas en el diseño lógico.",
                         "f": "Se han creado vistas.",
-                        "g": "Se han creado los usuarios y se les han asignado privilegios.",
-                        "h": "Se han utilizado asistentes, herramientas gráficas y los lenguajes de definición y control de datos."
+                        "g": "Se han creado los usuarios y se les han asignado privilegios.",
+                        "h": "Se han utilizado asistentes, herramientas gráficas y los lenguajes de definición y control de datos."
                     }
                 },
                 "RA03": {
@@ -232,8 +232,8 @@
                         "d": "Se han realizado consultas sobre el contenido de varias tablas mediante composiciones externas.",
                         "e": "Se han realizado consultas resumen.",
                         "f": "Se han realizado consultas con subconsultas.",
-                        "g": "Se han realizado consultas que implican múltiples selecciones.",
-                        "h": "Se han aplicado criterios de optimización de consultas."
+                        "g": "Se han realizado consultas que implican múltiples selecciones.",
+                        "h": "Se han aplicado criterios de optimización de consultas."
                     }
                 },
                 "RA04": {
@@ -245,8 +245,8 @@
                         "d": "Se han diseñado guiones de sentencias para llevar a cabo tareas complejas.",
                         "e": "Se ha reconocido el funcionamiento de las transacciones.",
                         "f": "Se han anulado parcial o totalmente los cambios producidos por una transacción.",
-                        "g": "Se han identificado los efectos de las distintas políticas de bloqueo de registros.",
-                        "h": "Se han adoptado medidas para mantener la integridad y consistencia de la información."
+                        "g": "Se han identificado los efectos de las distintas políticas de bloqueo de registros.",
+                        "h": "Se han adoptado medidas para mantener la integridad y consistencia de la información."
                     }
                 },
                 "RA05": {
