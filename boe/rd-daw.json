@@ -95,37 +95,36 @@
 	    "nombre":"Sistemas Informáticos",
 	    "creditos":"10",
 	    "ResultadosAprendizaje":{
-		"RA01":{
-		    "Resultado":"Evalúa sistemas informáticos, identificando sus componentes y características.",
-		    "CriteriosEvaluacion":
-		    {
-			"a":"Se han reconocido los componentes físicos de un sistema informático y sus mecanismos de interconexión.",
-			"b":"Se han clasificado los tipos de memorias, señalando sus características e identifcando sus prestaciones y la función que desarrollan en el conjunto del sistema.",
-			"c":"Se ha verificado el proceso de puesta en marcha de un equipo.",
-			"d":"Se han clasificado, instalado y configurado diferentes tipos de dispositivos periféricos.",
-			"e":"Se han identificado los tipos de redes y sistemas de comunicación.",
-			"f":"Se han identificado los componentes de una red informática.",
-			"g":"Se han interpretado mapas físicos y lógicos de una red informática.",
-			"h":"Se han reconocido las normas de seguridad y prevención de riesgos laborales en el uso de los sistemas informáticos."
-		    }
-		},
-		"RA02": {
-                    "Resultado": "Instala sistemas operativos planificando el proceso e interpretando documentación técnica.",
-                    "CriteriosEvaluacion": {
-                        "a": "Se han identificado los elementos funcionales de un sistema informático.",
-                        "b": "Se han analizado las características, funciones y arquitectura de un sistema operativo.",
-                        "c": "Se han comparado sistemas operativos en base a sus requisitos, características, campos de aplicación y licencias de uso.",
-                        "d": "Se ha planificado el proceso de la instalación de sistemas operativos.",
-                        "e": "Se han instalado y actualizado sistemas operativos libres y propietarios.",
-                        "f": "Se han aplicado técnicas de actualización y recuperación del sistema.",
-                        "g": "Se han utilizado tecnologías de virtualización para instalar y probar sistemas operativos.",
-                        "h": "Se han instalado, desinstalado y actualizado aplicaciones.",
-                        "i": "Se han documentado los procesos realizados."
+            "RA01":{
+                "Resultado":"Evalúa sistemas informáticos, identificando sus componentes y características.",
+                "CriteriosEvaluacion":{
+                "a":"Se han reconocido los componentes físicos de un sistema informático y sus mecanismos de interconexión.",
+                "b":"Se han clasificado los tipos de memorias, señalando sus características e identifcando sus prestaciones y la función que desarrollan en el conjunto del sistema.",
+                "c":"Se ha verificado el proceso de puesta en marcha de un equipo.",
+                "d":"Se han clasificado, instalado y configurado diferentes tipos de dispositivos periféricos.",
+                "e":"Se han identificado los tipos de redes y sistemas de comunicación.",
+                "f":"Se han identificado los componentes de una red informática.",
+                "g":"Se han interpretado mapas físicos y lógicos de una red informática.",
+                "h":"Se han reconocido las normas de seguridad y prevención de riesgos laborales en el uso de los sistemas informáticos."
+                }
+            },
+            "RA02": {
+                "Resultado": "Instala sistemas operativos planificando el proceso e interpretando documentación técnica.",
+                "CriteriosEvaluacion": {
+                    "a": "Se han identificado los elementos funcionales de un sistema informático.",
+                    "b": "Se han analizado las características, funciones y arquitectura de un sistema operativo.",
+                    "c": "Se han comparado sistemas operativos en base a sus requisitos, características, campos de aplicación y licencias de uso.",
+                    "d": "Se ha planificado el proceso de la instalación de sistemas operativos.",
+                    "e": "Se han instalado y actualizado sistemas operativos libres y propietarios.",
+                    "f": "Se han aplicado técnicas de actualización y recuperación del sistema.",
+                    "g": "Se han utilizado tecnologías de virtualización para instalar y probar sistemas operativos.",
+                    "h": "Se han instalado, desinstalado y actualizado aplicaciones.",
+                    "i": "Se han documentado los procesos realizados."
                     }
-                },
-                "RA03": {
-                    "Resultado": "Gestiona la información del sistema identificando las estructuras de almacenamiento y aplicando medidas para asegurar la integridad de los datos.",
-                    "CriteriosEvaluacion": {
+            },
+            "RA03": {
+                "Resultado": "Gestiona la información del sistema identificando las estructuras de almacenamiento y aplicando medidas para asegurar la integridad de los datos.",
+                "CriteriosEvaluacion": {
                         "a": "Se han comparado sistemas de archivos.",
                         "b": "Se ha identificado la estructura y función de los directorios del sistema operativo.",
                         "c": "Se han utilizado herramientas en entorno gráfico y comandos para localizar información en el sistema de archivos.",
@@ -199,50 +198,59 @@
                 "RA01": {
                     "Resultado": "Reconoce los elementos de las bases de datos analizando sus funciones y valorando la utilidad de los sistemas gestores.",
                     "CriteriosEvaluacion": {
-                        "a": "Se han identificado los elementos de una base de datos.",
-                        "b": "Se han clasificado los distintos tipos de bases de datos.",
-                        "c": "Se han descrito las funciones de los sistemas gestores de bases de datos.",
-                        "d": "Se han identificado los distintos tipos de usuarios y lenguajes de un sistema gestor de bases de datos.",
-                        "e": "Se han identificado las tareas básicas de administración de una base de datos.",
-                        "f": "Se han identificado las características de los sistemas gestores de bases de datos más utilizados.",
-                        "g": "Se han utilizado sistemas gestores de bases de datos realizando tareas básicas."
+                        "a": "Se han analizado los sistemas lógicos de almacenamiento y sus características.",
+                        "b": "Se han identificado los distintos tipos de bases de datos según el modelo de datos utilizado.",
+                        "c": "Se han identificado los distintos tipos de bases de datos en función de la ubicación de la información.",
+                        "d": "Se ha evaluado la utilidad de un sistema gestor de bases de datos.",
+                        "e": "Se ha reconocido la función de cada uno de los elementos de un sistema gestor de bases de datos.",
+                        "f": "Se han clasificado los sistemas gestores de bases de datos.",
+                        "g": "Se ha reconocido la utilidad de las bases de datos distribuidas.",
+                        "h": "Se han analizado las políticas de fragmentación de la información.",
+                        "i":"Se ha identificado la legislación vigente sobre protección de datos.",
+                        "j":"Se han reconocido los conceptos de Big Data y de la inteligencia de negocios."
                     }
                 },
                 "RA02": {
-                    "Resultado": "Diseña bases de datos interpretando diagramas entidad/relación y aplicando los principios de la normalización.",
+                    "Resultado": "Crea bases de datos definiendo su estructura y las características de sus elementos según el modelo relacional.",
                     "CriteriosEvaluacion": {
-                        "a": "Se han identificado los elementos de un modelo entidad/relación.",
-                        "b": "Se han identificado las reglas de transformación del modelo entidad/relación al modelo relacional.",
-                        "c": "Se han transformado modelos entidad/relación al modelo relacional.",
-                        "d": "Se han identificado las dependencias funcionales de un modelo relacional.",
-                        "e": "Se han aplicado las reglas de normalización hasta la tercera forma normal.",
-                        "f": "Se han documentado las estructuras creadas."
+                        "a": "Se ha analizado el formato de almacenamiento de la información.",
+                        "b": "Se han creado las tablas y las relaciones entre ellas.",
+                        "c": "Se han seleccionado los tipos de datos adecuados.",
+                        "d": "Se han definido los campos clave en las tablas.",
+                        "e": "Se han implantado las restricciones reflejadas en el diseño lógico.",
+                        "f": "Se han creado vistas.",
+                        "g": "Se han creado los usuarios y se les han asignado privilegios.",
+                        "h": "Se han utilizado asistentes, herramientas gráficas y los lenguajes de definición y control de datos."
                     }
                 },
                 "RA03": {
-                    "Resultado": "Define la estructura de la base de datos creando tablas, relaciones, vistas e índices.",
+                    "Resultado": "Consulta la información almacenada en una base de datos empleando asistentes, herramientas gráficas y el lenguaje de manipulación de datos.",
                     "CriteriosEvaluacion": {
-                        "a": "Se han creado bases de datos.",
-                        "b": "Se han creado tablas con sus campos y claves.",
-                        "c": "Se han establecido relaciones entre tablas.",
-                        "d": "Se han creado vistas sobre los datos.",
-                        "e": "Se han creado índices sobre los campos de las tablas.",
-                        "f": "Se han documentado las estructuras creadas."
+                        "a": "Se han identificado las herramientas y sentencias para realizar consultas.",
+                        "b": "Se han realizado consultas simples sobre una tabla.",
+                        "c": "Se han realizado consultas sobre el contenido de varias tablas mediante composiciones internas.",
+                        "d": "Se han realizado consultas sobre el contenido de varias tablas mediante composiciones externas.",
+                        "e": "Se han realizado consultas resumen.",
+                        "f": "Se han realizado consultas con subconsultas.",
+                        "g": "Se han realizado consultas que implican múltiples selecciones.",
+                        "h": "Se han aplicado criterios de optimización de consultas."
                     }
                 },
                 "RA04": {
-                    "Resultado": "Consulta la información almacenada manejando asistentes, generadores de consultas y el lenguaje de manipulación de datos.",
+                    "Resultado": "Modifica la información almacenada en la base de datos utilizando asistentes, herramientas gráficas y el lenguaje de manipulación de datos.",
                     "CriteriosEvaluacion": {
-                        "a": "Se han utilizado asistentes y generadores de consultas.",
-                        "b": "Se han realizado consultas de selección con operadores de comparación y funciones.",
-                        "c": "Se han realizado consultas de resumen con agrupamientos y funciones de grupo.",
-                        "d": "Se han realizado consultas de unión y subconsultas.",
-                        "e": "Se han realizado consultas de acción.",
-                        "f": "Se han documentado las consultas realizadas."
+                        "a": "Se han identificado las herramientas y sentencias para modificar el contenido de la base de datos.",
+                        "b": "Se han insertado, borrado y actualizado datos en las tablas.",
+                        "c": "Se ha incluido en una tabla la información resultante de la ejecución de una consulta.",
+                        "d": "Se han diseñado guiones de sentencias para llevar a cabo tareas complejas.",
+                        "e": "Se ha reconocido el funcionamiento de las transacciones.",
+                        "f": "Se han anulado parcial o totalmente los cambios producidos por una transacción.",
+                        "g": "Se han identificado los efectos de las distintas políticas de bloqueo de registros.",
+                        "h": "Se han adoptado medidas para mantener la integridad y consistencia de la información."
                     }
                 },
                 "RA05": {
-                    "Resultado": "Modifica la información almacenada utilizando asistentes, formularios y el lenguaje de manipulación de datos.",
+                    "Resultado": "POR AQUI VOY Modifica la información almacenada utilizando asistentes, formularios y el lenguaje de manipulación de datos.",
                     "CriteriosEvaluacion": {
                         "a": "Se han utilizado asistentes y generadores de formularios.",
                         "b": "Se han insertado, modificado y eliminado registros.",
@@ -271,7 +279,7 @@
                     }
                 }
             },
-            "horas": "147",
+            "horas": "105",
             "UnidadesCompetenciaAcreditadas": {
                 "UC0226_3": "Programar bases de datos relacionales."
             }

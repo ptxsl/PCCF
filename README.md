@@ -71,5 +71,8 @@ sudo apt install make pandoc \
 		 texlive-latex-extra \
 		 texlive-fonts-extra
 
+sudo apt install python3-jinja2 \
+		 python3-box
+		 
 ```
 

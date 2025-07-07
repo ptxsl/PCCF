@@ -26,8 +26,12 @@ PDF_PATH:=$(shell readlink -f PDFS)
 # RULES
 
 dependences:
-	@echo " [${BLUE} * Dependencias necesarias ${RESET}] "
+	@echo " [${BLUE} * Dependencias necesarias para PANDOC ${RESET}] "
 	sudo apt install make pandoc texlive-extra-utils texlive-lang-spanish texlive-latex-extra texlive-fonts-extra
+
+	@echo " [${BLUE} * Dependencias necesarias para PYTHON ${RESET}] "
+	sudo apt install make python3-jinja2 python3-box
+
 
 clean:
 	@echo " [${BLUE} * Step : Clean ${RESET}] "
@@ -83,7 +87,9 @@ proyecto-daw: files proyecto-base
 	@echo " ${LIGHTBLUE} Poblando desde DAW ${RESET}"
 
 	cp -r src_DAW/* temp/
-	./tools/jsonRAptor.py
+
+	@echo " ${LIGHTBLUE} Programaciones de DAW ${RESET}"
+	./tools/jsonRAptor.py DAW
 
 	@cd temp/ && pandoc --template $(TEMPLATE_TEX_PD) $(PANDOC_OPTIONS) -o $(PDF_PATH)/PCCF_SENIA_DAW.pdf ./PCCF_*.md
 
