@@ -50,6 +50,7 @@ files:
 	@echo "${LIGHTBLUE} * Limpiando [ temp/ ]${RESET}"
 	rm -rf temp/*
 
+
 proyecto-base: files
 	@echo " [${BLUE} * Poblando el Proyecto Base ${RESET}"
 	cp -r src/* temp/
@@ -68,6 +69,14 @@ local-proyecto-smx : proyecto-smx
 
 	xdg-open $(PDF_PATH)/PCCF_SENIA_SMX.pdf
 
+programaciones-smx: proyecto-smx
+
+	@cd temp-SMX/ && pandoc --template $(TEMPLATE_TEX_PD) $(PANDOC_OPTIONS) -o $(PDF_PATH)/Programaciones_SENIA_SMX.pdf ./PD_*.md
+
+local-programaciones-smx : programaciones-smx
+
+	xdg-open $(PDF_PATH)/Programaciones_SENIA_SMX.pdf
+
 proyecto-asir: files proyecto-base
 
 	@echo " [ ${BLUE} Proyecto Curricular : ASIR ${RESET}]"
@@ -80,6 +89,7 @@ proyecto-asir: files proyecto-base
 local-proyecto-asir: proyecto-asir
 
 	xdg-open $(PDF_PATH)/PCCF_SENIA_ASIR.pdf
+
 
 proyecto-daw: files proyecto-base
 

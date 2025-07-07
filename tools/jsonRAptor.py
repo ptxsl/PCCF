@@ -8,8 +8,14 @@ import jinja2
 
 # Cargar el JSON desde un archivo
 
-with open('./boe/rd-daw.json', 'r', encoding='utf-8') as f:
-    data = json.load(f)
+if sys.argv[1] == "DAW":
+
+    with open('./boe/rd-daw.json', 'r', encoding='utf-8') as f:
+        data = json.load(f)
+
+else:
+    print(" * No se ha indicado Ciclo ")
+    sys.exit(0)
 
 # Convertir el diccionario a un objeto Box
 data_box = Box(data)
@@ -21,7 +27,7 @@ for codigo in data_box.ModulosProfesionales:
     modulo=data_box.ModulosProfesionales[codigo]
     templateLoader = jinja2.FileSystemLoader(searchpath="./templates/")
     templateEnv = jinja2.Environment(loader=templateLoader)
-    TEMPLATE_FILE = "PCCF_500_PlantillaPD_MODULO_DAW.md"
+    TEMPLATE_FILE = "PCCF_PD_Plantilla_MODULO_DAW.md"
     template = templateEnv.get_template(TEMPLATE_FILE)
     outputText = template.render(modulo=modulo)
     fmod = "./temp/PCCF_"+str(inicio)+"_PD_"+modulo.nombre.replace(" ","")+".md"
