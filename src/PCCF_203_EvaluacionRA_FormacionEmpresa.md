@@ -9,6 +9,8 @@ Las Unidades de Programación/Situaciones de Aprendizaje deben:
 - Incorporar competencias para la empleabilidad (trabajo en equipo, comunicación, etc.). 
 - Incluir los contenidos necesarios alineados con los CE para conseguir los RA. 
 
+El equipo docente se compromente a facilitar en Aules un seguimiento del progreso de los RA por parte del alumnado.
+
 ## Formación en empresa 
 
 Cuando un estudiante de **primer curso no se incorpore a Formación en Empresa (FE)** por causa justificada y acreditada, permanecerá en el centro educativo realizando actividades complementarias, extraescolares y/o de refuerzo que le permitan acercarse al ámbito socio-laboral. 
