@@ -1,11 +1,5 @@
 \newpage
 
-# Criterios para la planificación de actividades complementarias y extraescolares
-
-*   Establecer criterios claros y consensuados para las actividades, asegurando su alineación con los objetivos y competencias del currículo del Ciclo Formativo .
-*   Aconsejable fijar criterios de pertinencia curricular, carácter inclusivo, coherencia con la programación, viabilidad organizativa .
-*   Establecer protocolos para garantizar información previa adecuada a familias y alumnado sobre objetivos, contenidos y detalles organizativos .
-
 # Actividades Complementarias y Extraescolares
 
 Durante el principio de curso, idealmente el mes de Septiembre, se deberían de establecer las fechas adecuadas para las actividades.
@@ -16,7 +10,7 @@ A continuación se indican diversas opciones así como información adicional (l
 
 - [1DAM,1DAW,1ASIR] Las Jornadas y Talleres **inforSénia**.
 
-- [2DAW,2ASIR] Asistencia a las FP Skills. [https://ceice.gva.es/es/web/formacion-profesional/skills](https://ceice.gva.es/es/web/formacion-profesional/skills)
+- [2DAW,2ASIR] Asistencia a las FP Skills. [Skills](https://ceice.gva.es/es/web/formacion-profesional/skills)
 
 - [1DAM,1DAW] ProgramaMe Regional: Concurso de programación para alumnos matriculados en Ciclos Formativos de Formación Profesional. Los alumnos participan en equipos formados por tres estudiantes. Los problemas son aplicaciones de consola y el ganador es el equipo que resuelve correctamente más problemas con menos tiempo acumulado en sus envíos correctos. Si se clasifican en el Regional de Valencia, los alumnos acudirán en el mes de junio a la Facultad de Informática de la Universidad Complutense de Madrid para participar en la gran final del concurso de programación.
 

@@ -1,4 +1,4 @@
-### Recuperación: 
+## Recuperación: 
 
 Para el alumnado que **no haya superado algún módulo o RA** se establecerá un **programa de recuperación individual** que se diseñará de forma diferenciada según periodos: 
 recuperación 
