@@ -75,16 +75,18 @@ Las adaptaciones específicas, tanto metodológicas como organizativas, se concr
 @@@PCCF_200_ProcesoDeEvaluacion.md
 @@@PCCF_201_TiposEvaluacion.md
 @@@PCCF_202_Calificaciones.md
+
+La ponderación de cada Resultado de Aprendizaje se indica en el Esquema General.
+
 @@@PCCF_203_EvaluacionRA_FormacionEmpresa.md
+
+[OBLIGATORIO]: A RELLENAR POR EL DOCENTE -> Cálculo de la calificación de un RA Dualizado.
+
 @@@PCCF_206_Recuperacion.md
-
-### Cuestiones adicionales 
-
-A RELLENAR POR DOCENTE
 
 ### Convocatoria Extraordinaria
 
-A RELLENAR POR DOCENTE
+[OBLIGATORIO] : A RELLENAR POR DOCENTE
 
 ## Actividades complementarias y extraescolares. 
 
@@ -92,7 +94,7 @@ A RELLENAR POR DOCENTE
 
 ## Criterios y procedimientos para la evaluación del desarrollo de la programación y de la práctica docente. 
 
-@@@PCCF_360_CriteriosEvaluacionPracticaDocente.md 
+La evaluación del propio proceso de *enseñanza-aprendizaje* contempladas en esta programación se fundamentan en los principios recogidos en el Proyecto Curricular del Ciclo Formativo (PCCF), que establece un marco común para garantizar una respuesta educativa inclusiva, equitativa y adaptada a las características del alumnado.
 
-## Esquema general de {{modulo.nombre}}
+## Esquema General de {{modulo.nombre}}
 
