@@ -13,7 +13,7 @@ Se puede leer más detalladamente el artículo aquí:
 
 [Revista Comunicar - Economia Circular](https://www.revistacomunicar.com/index.php?contenido=detalles&numero=73&articulo=73-2022-02])
 
-![Economia Circular](imgs/economiacircular.png)\
+![Economia Circular](imgs/economiacircular.png){ width=50% }\
 
 
 

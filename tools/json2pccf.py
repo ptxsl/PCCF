@@ -22,8 +22,6 @@ else:
 # Convertir el diccionario a un objeto Box
 data_box = Box(data)
 
-inicio=501
-
 for codigo in data_box.ModulosProfesionales:
 
 

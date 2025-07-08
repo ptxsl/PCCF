@@ -8,6 +8,8 @@
 *   Requiere contacto con los Consejos Territoriales y la visión de los prospectores de empresas para establecer una consulta directa con el sector productivo.
 *   Las decisiones tomadas deben reflejarse en el desarrollo del trabajo en el aula, haciendo que el peso asignado a cada Competencia Profesional tenga un reflejo práctico.
 
-TODO 
-Tabla de competencias y Valores primero valores
+TODO
+
+Tabla de competencias y Valores primero valores todos iguales
+
 Esta en el ejemplo.
