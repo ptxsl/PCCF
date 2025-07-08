@@ -1,7 +1,7 @@
 \newpage
 
 
-# Criterios para la organización del módulo profesional del proyecto intermodular
+# Criterios para la organización del módulo profesional del Proyecto Intermodular
 
 En el nuevo Sistema de Formación Profesional, el proyecto intermodular se enmarca en la parte troncal obligatoria de los currículos de los Grados D (ciclos formativos de grado básico, medio y superior).
 
@@ -39,7 +39,6 @@ El proyecto intermodular (en los CFGM y GS) tendrá carácter integrador de las 
 - El **profesor encargado** del módulo tendrá un **papel activo** durante las horas docentes en el aula. Su rol principal será guiar, ayudar, corregir y controlar el progreso de los alumnos a lo largo del curso.
 
 
-
 ### Evaluación
  - Se realizará un **seguimiento semanal** por parte del profesor encargado, mediante la observación directa en el aula, con la posible utilización de rúbricas.
 
@@ -54,6 +53,10 @@ El proyecto intermodular (en los CFGM y GS) tendrá carácter integrador de las 
 - Al igual que en el resto de módulos del ciclo, se requerirá una asistencia mínima del 85% para poder defender el proyecto.
 
 - Para los ciclos formativos de grado superior, **la nota final del proyecto** será la **media ponderada** de las calificaciones de primer y segundo curso, con un peso proporcional al reparto de las horas. Es decir, un 25% para la nota de primer curso y un 75% para la nota de segundo curso.
+
+### Diseño del Proyecto
+
+El equipo docente acuerda reunirse en la primera quincena de septiembre para diseñar el contenido del Módulo de Proyecto.
 
 ### Período de Formación en Empresa
 - El Proyecto intermodular no puede ser dualizado.

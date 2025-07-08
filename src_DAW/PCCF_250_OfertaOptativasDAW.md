@@ -1,9 +1,6 @@
 \newpage
+# Oferta de Optativas
 
-
-
-# Oferta de Optativas en DAW
-
-
-TODO
+En el Ciclo de Grado Superior, el resultado de la propuesta de oferta de optativas
+ha sido : **Introducción a la nube pública**.
 

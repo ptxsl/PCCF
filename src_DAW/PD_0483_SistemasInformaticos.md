@@ -79,7 +79,11 @@ Las adaptaciones específicas, tanto metodológicas como organizativas, se concr
 
 ## Evaluación del aprendizaje. 
 
+@@@PCCF_200_ProcesoDeEvaluacion.md
+@@@PCCF_201_TiposEvaluacion.md
+@@@PCCF_202_Calificaciones.md
 @@@PCCF_203_EvaluacionRA_FormacionEmpresa.md
+@@@PCCF_206_Recuperacion.md
 
 A RELLENAR POR DOCENTE
 
