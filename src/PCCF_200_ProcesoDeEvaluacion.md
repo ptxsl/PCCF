@@ -1,7 +1,6 @@
 \newpage
 
-
-# Evaluación
+# Criterios Generales del Proceso de Evaluación
 
 ## Principios y objeto de la evaluación 
 
