@@ -29,7 +29,7 @@ for codigo in data_box.ModulosProfesionales:
 
     modulo=data_box.ModulosProfesionales[codigo]
 
-    fmod = "./temp/PD_"+str(inicio)+"_"+modulo.nombre.replace(" ","")+".md"
+    fmod = "./temp/PD_"+str(codigo)+"_"+modulo.nombre.replace(" ","")+".md"
 
     if os.path.exists(fmod):
         print(" Fichero ya presente: , nada que hacer.")
@@ -43,7 +43,7 @@ for codigo in data_box.ModulosProfesionales:
         TEMPLATE_FILE = "PCCF_PD_Plantilla_MODULO_DAW.md"
         template = templateEnv.get_template(TEMPLATE_FILE)
         outputText = template.render(modulo=modulo)
-        fmod = "./temp/PD_"+str(inicio)+"_"+modulo.nombre.replace(" ","")+".md"
+        fmod = "./temp/PD_"+str(codigo)+"_"+modulo.nombre.replace(" ","")+".md"
 
         # Quitamos las Tildes graficas
         # Fixes : #2
@@ -89,7 +89,5 @@ for codigo in data_box.ModulosProfesionales:
                     fout.write(line)
             fout.close()
     shutil.move("./temp/out.txt", fmod)
-
-    inicio  = inicio + 1
 
 sys.exit(0)

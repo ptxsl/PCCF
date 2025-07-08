@@ -8,7 +8,7 @@ El alumnado podrá obtener las siguientes calificaciones:
 
 - **Nota final**: se calculará como la **media aritmética** de los módulos, excluyendo las convalidaciones sin nota.
 
-- **Mención honorífica**: se otorga a quienes obtienen un **10 en un módulo**, con un máximo del **10 % del grupo**.
+- **Mención honorífica**: se otorga a quienes obtienen un **10 en un módulo**, con un máximo del **10% del grupo**.
 
 - **Matrícula de honor**: se concede a quienes obtienen una **nota final igual o superior a 9**, con un máximo de **2 ciclo medio** y **3 en ciclo superior**.
 

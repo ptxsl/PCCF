@@ -142,6 +142,6 @@ programaciones-dam: proyecto-dam
 	@cd temp/ && pandoc --template $(TEMPLATE_TEX_PD) $(PANDOC_OPTIONS) -o $(PDF_PATH)/Programaciones_SENIA_DAM.pdf ./PD_*.md
 
 
-local-programaciones-daw : programaciones-dam
+local-programaciones-dam : programaciones-dam
 
 	xdg-open $(PDF_PATH)/Programaciones_SENIA_DAM.pdf

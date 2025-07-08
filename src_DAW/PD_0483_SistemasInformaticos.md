@@ -1,28 +1,34 @@
 \newpage
 
-# Programación didáctica: Módulo {{ modulo.nombre }}
+# Programación didáctica: Módulo Sistemas Informáticos
 
 ## Datos identificativos y contextualización del módulo. 
 
-Es un módulo de {{ modulo.horas }} horas que se imparte en el Ciclo de Grado Superior de 
+Es un módulo de 100 horas que se imparte en el Ciclo de Grado Superior de 
 Técnico en Desarrollo de Aplicaciones Web.
 
-Tiene una correspondéncia de Créditos de {{ modulo.creditos}}.
+Tiene una correspondéncia de Créditos de 10.
 
 ## Relación entre los estándares de competencia y los módulos del ciclo formativo
 
 | Unidad de Competencia | Descripción |
-|-----------------------|-------------|{% for uca in modulo.UnidadesCompetenciaAcreditadas %}
-| {{ uca }} | {{ modulo.UnidadesCompetenciaAcreditadas[uca] }} |
-{% endfor %}
+|-----------------------|-------------|
+| UC0223_3 | Configurar y explotar sistemas informáticos. |
+
 
 ## Resultados de Aprendizaje
 
-Los **Resultados de Aprendizaje** relativos al módulo de {{modulo.nombre}} son:
+Los **Resultados de Aprendizaje** relativos al módulo de Sistemas Informáticos son:
 
 |Código| Resultado de Aprendizaje |
-|------|--------------------------|{% for ra in modulo.ResultadosAprendizaje %}
-| {{ ra }} | {{ modulo.ResultadosAprendizaje[ra].Resultado }} |{% endfor %}
+|------|--------------------------|
+| RA01 | Evalúa sistemas informáticos, identificando sus componentes y características. |
+| RA02 | Instala sistemas operativos planificando el proceso e interpretando documentación técnica. |
+| RA03 | Gestiona la información del sistema identificando las estructuras de almacenamiento y aplicando medidas para asegurar la integridad de los datos. |
+| RA04 | Gestiona sistemas operativos utilizando comandos y herramientas gráficas y evaluando las necesidades del sistema. |
+| RA05 | Interconecta sistemas en red configurando dispositivos y protocolos. |
+| RA06 | Opera sistemas en red gestionando sus recursos e identificando las restricciones de seguridad existentes. |
+| RA07 | Elabora documentación valorando y utilizando aplicaciones informáticas de propósito general. |
 |<img width=200/>|<img width=500/>|
 
 ## Secuenciación de las Unidades de Programación. 
@@ -37,6 +43,7 @@ Se propone esta tabla
 | 02     | vim: Hay vida más de :wq! | 11/10/2025| 21/10/2025|
 | 03     | vim: Comando .            | 11/10/2025| 21/10/2025|
 | 04     | vim: aprendiendo Regex    | 22/10/2025| 20/12/2025|
+
 
 ## Metodología del proceso de enseñanza-aprendizaje
 
@@ -88,5 +95,4 @@ A RELLENAR POR DOCENTE
 
 @@@PCCF_360_CriteriosEvaluacionPracticaDocente.md 
 
-## Esquema general de {{modulo.nombre}}
-
+## Esquema general de Sistemas Informáticos
