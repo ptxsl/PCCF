@@ -9,12 +9,6 @@ Las Unidades de Programación/Situaciones de Aprendizaje deben:
 - Incorporar competencias para la empleabilidad (trabajo en equipo, comunicación, etc.). 
 - Incluir los contenidos necesarios alineados con los CE para conseguir los RA. 
 
-## Evaluación del Proyecto Intermodular 
-
-El **Proyecto Intermodular (PI)** integra RA de todos los módulos. Requiere coordinación del equipo docente 
-
-En segundo curso se calificará el proyecto intermodular. **La calificación de primer curso es una calificación provisional**. 
-
 ## Formación en empresa 
 
 Cuando un estudiante de **primer curso no se incorpore a Formación en Empresa (FE)** por causa justificada y acreditada, permanecerá en el centro educativo realizando actividades complementarias, extraescolares y/o de refuerzo que le permitan acercarse al ámbito socio-laboral. 

@@ -1,7 +1,7 @@
 ---
-title: Programaciones Didacticas - Desarrollo Aplicaciones Web
+title: Desarrollo Aplicaciones Web 
 subtitle: "Curso 2025-2026"
-author: Departamento de Informática
+author: Programaciones Didácticas del Departamento de Informática
 header-includes: |
 lang: es-ES
 keywords: [SMX]
