@@ -63,6 +63,9 @@ proyecto-smx: files proyecto-base
 
 	cp -r src_SMX/* temp/
 
+	@echo " ${LIGHTBLUE} Programaciones de SMX ${RESET}"
+	./tools/json2pccf.py SMX
+
 	@cd temp/ && pandoc --template $(TEMPLATE_TEX_PD) $(PANDOC_OPTIONS) -o $(PDF_PATH)/PCCF_SENIA_SMX.pdf ./PCCF_*.md
 
 local-proyecto-smx : proyecto-smx
@@ -83,6 +86,8 @@ proyecto-asir: files proyecto-base
 	@echo " ${LIGHTBLUE} Poblando desde ASIR ${RESET}"
 
 	cp -r src_ASIR/* temp/
+	@echo " ${LIGHTBLUE} Programaciones de ASIR ${RESET}"
+	./tools/json2pccf.py ASIR
 
 	@cd temp/ && pandoc --template $(TEMPLATE_TEX_PD) $(PANDOC_OPTIONS) -o $(PDF_PATH)/PCCF_SENIA_ASIR.pdf ./PCCF_*.md
 
@@ -99,7 +104,7 @@ proyecto-daw: files proyecto-base
 	cp -r src_DAW/* temp/
 
 	@echo " ${LIGHTBLUE} Programaciones de DAW ${RESET}"
-	./tools/jsonRAptor.py DAW
+	./tools/json2pccf.py DAW
 
 	@cd temp/ && pandoc --template $(TEMPLATE_TEX_PD) $(PANDOC_OPTIONS) -o $(PDF_PATH)/PCCF_SENIA_DAW.pdf ./PCCF_*.md
 
@@ -123,9 +128,20 @@ proyecto-dam: files proyecto-base
 
 	cp -r src_DAM/* temp/
 
+	@echo " ${LIGHTBLUE} Programaciones de DAM ${RESET}"
+	./tools/json2pccf.py DAM
+
 	@cd temp/ && pandoc --template $(TEMPLATE_TEX_PD) $(PANDOC_OPTIONS) -o $(PDF_PATH)/PCCF_SENIA_DAM.pdf ./PCCF_*.md
 
 local-proyecto-dam: proyecto-dam
 
 	xdg-open $(PDF_PATH)/PCCF_SENIA_DAM.pdf
 
+programaciones-dam: proyecto-dam
+
+	@cd temp/ && pandoc --template $(TEMPLATE_TEX_PD) $(PANDOC_OPTIONS) -o $(PDF_PATH)/Programaciones_SENIA_DAM.pdf ./PD_*.md
+
+
+local-programaciones-daw : programaciones-dam
+
+	xdg-open $(PDF_PATH)/Programaciones_SENIA_DAM.pdf

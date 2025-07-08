@@ -44,6 +44,12 @@ for codigo in data_box.ModulosProfesionales:
         template = templateEnv.get_template(TEMPLATE_FILE)
         outputText = template.render(modulo=modulo)
         fmod = "./temp/PD_"+str(inicio)+"_"+modulo.nombre.replace(" ","")+".md"
+
+        # Quitamos las Tildes graficas
+        # Fixes : #2
+
+        fmod = fmod.replace('á','a').replace('é','e').replace('í','i').replace('ó','o').replace('ú','u')
+
         fmodulo = open(fmod,"w")
         fmodulo.write(outputText)
         fmodulo.close()
