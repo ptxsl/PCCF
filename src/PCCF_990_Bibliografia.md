@@ -1,6 +1,0 @@
-
-\newpage
-
-# Bibliografía
-
-* Libracos buenos

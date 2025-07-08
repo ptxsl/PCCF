@@ -1,6 +1,0 @@
-\newpage
-
-
-# Otros Aspectos
-
-TODO

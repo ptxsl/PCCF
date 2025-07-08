@@ -58,7 +58,7 @@ La encuesta diseñada por el departamento ha sido elaborada teniendo en cuenta l
 
 Podéis encontrar 3 encuestas posibles en los anexos, ya en formato ~.xml~ para su despliegue en Aules.
 
-## Temporalización y ejecución de la ejecución de la Encuesta
+## Temporalización y ejecución de la Encuesta
 
 Con el objetivo de obtener una visión continua y evolutiva del proceso de enseñanza-aprendizaje, 
 la encuesta se aplica al menos **dos veces a lo largo del curso académico**, coincidiendo con el cierre de cada una de las evaluaciones. 
