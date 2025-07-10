@@ -37,5 +37,5 @@ Además, se reservarán unos días a final de curso, finalizado el período de F
 
 Esta presentación se puede simultanear, en su caso, con la presentación del Proyecto Intermodular, de tal modo que bien sea por una vía o por otra quede constancia de que cada estudiante ha adquirido todos los conocimientos requeridos en los diversos módulos. 
 
-Para superar un RA dualizado se debe **superar tanto la parte impartida en el centro como la realizada en la empresa**. Se considerará *superado si la nota resultante es igual o mayor a 5*.
+Para superar un RA dualizado se debe **superar tanto la parte impartida en el centro como la realizada en la empresa**. Se considerará *superado cuando la nota de cada una de las partes sea igual o mayor a 5*.
 
