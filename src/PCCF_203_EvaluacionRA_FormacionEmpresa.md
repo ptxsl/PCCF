@@ -19,11 +19,13 @@ La fase de Formación en Empresa podrá acogerse a las condiciones que cada empr
 
 Para realizar la Formación en Empresa es **requisito** que el alumno haya adquirido las competencias de riesgos específicos y medidas de **Prevención de Riesgos Laborales**. 
 
-### Superación de los RA’s asociados a la FE
+### Superación de los RA's asociados a la FE
 
 Respecto a la evaluación, el tutor recabará el parecer de los instructores, que compartirá con los profesores del equipo docente. 
 
 Además, se reservarán unos días a final de curso, finalizado el período de Formación en Empresa, para que el alumnado muestre el trabajo realizado en la empresa al profesorado, y pueda responder a las cuestiones que se le planteen desde cada módulo. 
 
 Esta presentación se puede simultanear, en su caso, con la presentación del Proyecto Intermodular, de tal modo que bien sea por una vía o por otra quede constancia de que cada estudiante ha adquirido todos los conocimientos requeridos en los diversos módulos. 
+
+Para superar un RA dualizado se debe **superar tanto la parte impartida en el centro como la realizada en la empresa**. Se considerará *superado si la nota resultante es igual o mayor a 5*.
 
