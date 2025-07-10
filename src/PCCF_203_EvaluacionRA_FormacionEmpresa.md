@@ -13,11 +13,21 @@ El equipo docente se compromente a facilitar en Aules un seguimiento del progres
 
 ## Formación en empresa 
 
-Cuando un estudiante de **primer curso no se incorpore a Formación en Empresa (FE)** por causa justificada y acreditada, permanecerá en el centro educativo realizando actividades complementarias, extraescolares y/o de refuerzo que le permitan acercarse al ámbito socio-laboral. 
+En el caso de que el alumnado no supere los Resultados de Aprendizaje requeridos
+para la Formación en Empresa, se elaborará un programa educativo especifico
+para la recuperación de los RA no superados. Este programa se llevará a cabo
+en el periodo que el alumnado debería estar realizando la Formación en Empresa
+y **antes de la Convocatoria Ordinaria**.
 
-La fase de Formación en Empresa podrá acogerse a las condiciones que cada empresa tenga establecidas con respecto al **teletrabajo**, de acuerdo con la normativa reguladora del mismo 
+Cuando un estudiante de **primer curso no se incorpore a Formación en Empresa (FE)** por causa 
+justificada y acreditada, permanecerá en el centro educativo realizando actividades complementarias, 
+extraescolares y/o de refuerzo que le permitan acercarse al ámbito socio-laboral. 
 
-Para realizar la Formación en Empresa es **requisito** que el alumno haya adquirido las competencias de riesgos específicos y medidas de **Prevención de Riesgos Laborales**. 
+La fase de Formación en Empresa podrá acogerse a las condiciones que cada empresa 
+tenga establecidas con respecto al **teletrabajo**, de acuerdo con la normativa reguladora del mismo 
+
+Para realizar la Formación en Empresa es **requisito** que el alumno haya adquirido las 
+competencias de riesgos específicos y medidas de **Prevención de Riesgos Laborales**. 
 
 ### Superación de los RA’s asociados a la FE
 

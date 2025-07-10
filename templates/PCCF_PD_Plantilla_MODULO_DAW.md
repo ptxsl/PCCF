@@ -78,15 +78,26 @@ Las adaptaciones específicas, tanto metodológicas como organizativas, se concr
 
 La ponderación de cada Resultado de Aprendizaje se indica en el Esquema General.
 
+[OBLIGATORIO]: A RELLENAR POR EL DOCENTE -> Cálculo de la calificación.
+
 @@@PCCF_203_EvaluacionRA_FormacionEmpresa.md
 
 [OBLIGATORIO]: A RELLENAR POR EL DOCENTE -> Cálculo de la calificación de un RA Dualizado.
 
 @@@PCCF_206_Recuperacion.md
 
+### Convocatoria Ordinaria
+
+1. Todo el alumnado tiene derecho a una Convocatoria Ordinaria, en el caso de que el alumnado haya superado todos los RAs 
+   durante la *evaluación continua*, se establecerá su calificación como la de la Convocatoria Ordinaria.
+2. Si hay RAs **no superados** durante la *evaluación continua*, el alumnado tiene derecho a una prueba que incluya dichos RAs con el objetivo 
+   de comprobar que ha adquirido los Resultados de Aprendizaje descritos en el Módulo. Esta prueba se ajustará
+   al calendario propuesto por el centro.
+
 ### Convocatoria Extraordinaria
 
-[OBLIGATORIO] : A RELLENAR POR DOCENTE
+La convocatoria extraordinaria del módulo se ajustará lo decidido de manera conjunta y ha sido 
+descrito en el Proyecto Curricular de Ciclo Formativo.
 
 ## Actividades complementarias y extraescolares. 
 
