@@ -16,7 +16,5 @@ El objetivo de la evaluación es la superación del módulo por parte del alumna
 
 Cada RA puede tener un **peso ponderado** en la calificación final del módulo. Para su evaluación, se tendrán en cuenta los CE asociados, también ponderados, que deben convertirse en **indicadores de logro claros, precisos y observables**.
 
-En caso de que un estudiante **no supere algún RA**, el docente elaborará un **informe** con las acciones propuestas que faciliten su recuperación.
-
 El **peso de los CE o RA** puede modificarse durante el curso si existe una justificación pedagógica. En tal caso, se informará al alumnado a través de los medios establecidos en esta guía.
 
