@@ -30,5 +30,6 @@ Incluirá solamente los Resultados de Aprendizaje que **no se han superado** en 
 
 Se realizará con posterioridad a la evaluación ordinaria ajustándose al calendario propuesto por el centro.
 
+Después de la evaluación de la primera convocatoria (ordinaria), ***el equipo educativo podrá autorizar la renuncia extraordinaria a la segunda convocatoria (extraordinaria)***. Las razones que se aleguen para la renuncia se deben justificar siempre documentalmente.
 
 
