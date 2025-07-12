@@ -35,6 +35,3 @@ Al enseñar en el IES las diferentes filosofías del software libre y cómo esta
 
 Enseñar a los alumnos sobre la filosofía del software libre no solo promueve una mentalidad más abierta y colaborativa en el ámbito tecnológico, sino que también puede inculcar valores fundamentales que los preparan para ser ciudadanos informados y éticos en una sociedad digital en constante evolución.
 
-Estos valores se han tenido en cuenta y se han implementado en toda la Infraestructura Software y Hardware del Instituto. Poniendo al alcance de todos el código fuente de los diferentes paquetes que configuran las máquinas del centro y la organización lógica del mismo usando un repositorio de Software público y protegido mediante una licencia GPL.
-
-El alumnado en el módulo y en el entorno del ciclo serán parte integrada de esta solución de Sistema Informático, otorgándoles responsabilidades y proyectos para la mejora del IES, fomentando así su responsabilidad y su creatividad.
