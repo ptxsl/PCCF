@@ -24,13 +24,13 @@ A continuación se indican diversas opciones así como información adicional (l
 
 - [1SMR,1ASIR,1DAM,1DAW] Visita del **Museo de la Informática de la UPV**. E incluso realizar alguno de sus talleres Retro. [https://museo.inf.upv.es/actividades-2/](https://museo.inf.upv.es/actividades-2/)
 
-- [TODOS] Traer a un **profesional del sector** con el fin de que les de una charla en el aula, explicándoles cómo funcionan las empresas de desarrollo, que tipo de carrera profesional les pueden ofrecer las diferentes empresas del sector, ... y que pueda responder a sus posibles inquietudes o preguntas.
+- [Interciclo] Traer a un **profesional del sector** con el fin de que les de una charla en el aula, explicándoles cómo funcionan las empresas de desarrollo, que tipo de carrera profesional les pueden ofrecer las diferentes empresas del sector, ... y que pueda responder a sus posibles inquietudes o preguntas.
 
-- [TODOS] Hacer alguna **visita a una empresa** para que puedan observar de qué forma trabajan los profesionales, al igual que a alguna universidad, instituto de investigación o centro de cálculo. 
+- [Interciclo] Hacer alguna **visita a una empresa** para que puedan observar de qué forma trabajan los profesionales, al igual que a alguna universidad, instituto de investigación o centro de cálculo. 
     - El CPD de la Feria Valencia. Así como una breve charla de la instalación de la infraestructura de Red.
     - Palacio de Congresos, para conocer su infraestructura de red e instalaciones. Contacto Javier Polit.
 
-- [TODOS] En coordinación con el **Plan de Fomento de la Lectura** del centro, dentro del módulo se realizarán las siguientes actividades o Lectura mediante el trabajo de textos específicos en varios idiomas y documentación de referencia para realizar trabajos de síntesis 
+- [Interciclo] En coordinación con el **Plan de Fomento de la Lectura** del centro, dentro del módulo se realizarán las siguientes actividades o Lectura mediante el trabajo de textos específicos en varios idiomas y documentación de referencia para realizar trabajos de síntesis 
     - [https://museo.inf.upv.es/literatura-recomendada/](https://museo.inf.upv.es/literatura-recomendada/)
 
 
