@@ -1,0 +1,679 @@
+{
+    "CompetenciasProfesionalesPersonalesSociales" : {
+	"a" : "Configurar y explotar sistemas informáticos, adaptando la configuración lógica del sistema según las necesidades de uso y los criterios establecidos.",
+	"b" : "Aplicar técnicas y procedimientos relacionados con la seguridad en sistemas, servicios y aplicaciones, cumpliendo el plan de seguridad.",
+	"c" : "Gestionar servidores de aplicaciones adaptando su configuración en cada caso para permitir el despliegue de aplicaciones web.",
+	"d" :"Gestionar bases de datos, interpretando su diseño lógico y verificando integridad, consistencia, seguridad y accesibilidad de los datos.",
+	"e":"Desarrollar aplicaciones web con acceso a bases de datos utilizando lenguajes, objetos de acceso y herramientas de mapeo adecuados a las especificaciones.",
+	"f": "Integrar contenidos en la lógica de una aplicación web, desarrollando componentes de acceso a datos adecuados a las especificaciones.",
+	"g":"Desarrollar interfaces en aplicaciones web de acuerdo con un manual de estilo, utilizando lenguajes de marcas y estándares web.",
+	"h": "Desarrollar componentes multimedia para su integración en aplicaciones web, empleando herramientas específicas y siguiendo las especificaciones establecidas.",
+	"i":"Integrar componentes multimedia en el interface de una aplicación web, realizando el análisis de interactividad, accesibilidad y usabilidad de la aplicación.",
+	"j": "Desarrollar e integrar componentes software en el entorno del servidor web, empleando herramientas y lenguajes específicos, para cumplir las especificaciones de la aplicación.",
+	"k": " Desarrollar servicios para integrar sus funciones en otras aplicaciones web, asegurando su funcionalidad.",
+	"l": " Integrar servicios y contenidos distribuidos en aplicaciones web, asegurando su funcionalidad.",
+	"m": " Completar planes de pruebas verificando el funcionamiento de los componentes software desarrollados, según las especificaciones.",
+	"n": " Elaborar y mantener la documentación de los procesos de desarrollo, utilizando herramientas de generación de documentación y control de versiones.",
+	"ñ": " Desplegar y distribuir aplicaciones web en distintos ámbitos de implantación, verificando su comportamiento y realizando modificaciones.",
+	"o": " Gestionar y/o realizar el mantenimiento de los recursos de su área en función de las cargas de trabajo y el plan de mantenimiento.",
+	"p": " Adaptarse a las nuevas situaciones laborales, manteniendo actualizados los conocimientos científicos, técnicos y tecnológicos relativos a su entorno profesional, gestionando su formación y los recursos existentes en el aprendizaje a lo largo de la vida y utilizando las tecnologías de la información y la comunicación.",
+	"q": " Resolver situaciones, problemas o contingencias con iniciativa y autonomía en el ámbito de su competencia, con creatividad, innovación y espíritu de mejora en el trabajo personal y en el de los miembros del equipo.",
+	"r": " Organizar y coordinar equipos de trabajo, supervisando el desarrollo del mismo, con responsabilidad, manteniendo relaciones fluidas y asumiendo el liderazgo, así como, aportando soluciones a los conflictos grupales que se presentan.",
+	"s": " Comunicarse con sus iguales, superiores, clientes y personas bajo su responsabilidad utilizando vías eficaces de comunicación, transmitiendo la información o conocimientos adecuados, y respetando la autonomía y competencia de las personas que intervienen en el ámbito de su trabajo.",
+	"t": " Generar entornos seguros en el desarrollo de su trabajo y el de su equipo, supervisando y aplicando los procedimientos de prevención de riesgos laborales y ambientales de acuerdo con lo establecido por la normativa y los objetivos de la empresa.",
+	"u": " Supervisar y aplicar procedimientos de gestión de calidad, de accesibilidad universal y de diseño para todos, en las actividades profesionales incluidas en los procesos de producción o prestación de servicios.",
+	"v": " Realizar la gestión básica para la creación y funcionamiento de una pequeña empresa y tener iniciativa en su actividad profesional con sentido de la responsabilidad social.",
+	"x": " Ejercer sus derechos y cumplir con las obligaciones derivadas de su actividad profesional, de acuerdo con lo establecido en la legislación vigente, participando activamente en la vida económica, social y cultural."
+    },
+    "CualificacionesINCUAL":
+    {
+	"Completas":
+	{
+	    "IFC154_3" :
+	    {
+		"Nombre":"Desarrollo de aplicaciones con tecnologías Web",
+		"UCs":
+		{
+		    "UC0491_3":"Desarrollar elementos software en el entorno cliente.",
+		    "UC0492_3":"Desarrollar elementos software en el entorno servidor.",
+		    "UC0493_3":"Implementar, verificar y documentar aplicaciones web en entornos internet, intranet y extranet."
+		}
+	    }
+	},
+	"Incompletas":
+	{
+	    "IFC155_3":
+	    {	
+		"Nombre":"Programación en lenguajes estructurados de aplicaciones de gestión",
+		"UCs":
+		{
+		    "UC0223_3":" Configurar y explotar sistemas informáticos.",
+		    "UC0226_3":"Programar bases de datos relacionales."
+		}
+	    },
+	    "IFC080_3":
+	    {
+		"Nombre": "Programación con lenguajes orientados a objetos y bases de datos relacionales",
+		"UCs":
+		{
+		    "UC0223_3":"Configurar y explotar sistemas informáticos.",
+		    "UC0226_3":"Programar bases de datos relacionales."
+		}
+	    }
+	}
+    },
+    "ObjetivosGenerales":{
+	"a":"Ajustar la configuración lógica del sistema analizando las necesidades y criterios establecidos para configurar y explotar sistemas informáticos.",
+	"b":"Identificar las necesidades de seguridad analizando vulnerabilidades y verificando el plan preestablecido para aplicar técnicas y procedimientos relacionados con la seguridad en el sistema.",
+	"c":"Interpretar el diseño lógico de bases de datos, analizando y cumpliendo las especificaciones relativas a su aplicación, para gestionar bases de datos.",
+	"d":"Instalar y configurar módulos y complementos, evaluando su funcionalidad, para gestionar entornos de desarrollo.",
+	"e":"Seleccionar y emplear lenguajes, herramientas y librerías, interpretando las especificaciones para desarrollar aplicaciones multiplataforma con acceso a bases de datos.",
+	"f":"Gestionar la información almacenada, planificando e implementando sistemas de formularios e informes para desarrollar aplicaciones de gestión.",
+	"g":"Seleccionar y utilizar herramientas específicas, lenguajes y librerías, evaluando sus posibilidades y siguiendo un manual de estilo, para manipular e integrar en aplicaciones multiplataforma contenidos gráficos y componentes multimedia.",
+	"h":"Emplear herramientas de desarrollo, lenguajes y componentes visuales, siguiendo las especificaciones y verificando interactividad y usabilidad, para desarrollar interfaces gráficos de usuario en aplicaciones multiplataforma.",
+	"i":"Seleccionar y emplear técnicas, motores y entornos de desarrollo, evaluando sus posibilidades, para participar en el desarrollo de juegos y aplicaciones en el ámbito del entretenimiento.",
+	"j":"Seleccionar y emplear técnicas, lenguajes y entornos de desarrollo, evaluando sus posibilidades, para desarrollar aplicaciones en teléfonos móviles, tabletas y otros dispositivos inteligentes.",
+	"k":"Valorar y emplear herramientas específicas, atendiendo a la estructura de los contenidos, para crear ayudas generales y sensibles al contexto.",
+	"l":"Valorar y emplear herramientas específicas, atendiendo a la estructura de los contenidos, para crear tutoriales, manuales de usuario y otros documentos asociados a una aplicación.",
+	"m":"Seleccionar y emplear técnicas y herramientas, evaluando la utilidad de los asistentes de instalación generados, para empaquetar aplicaciones.",
+	"n":"Analizar y aplicar técnicas y librerías específicas, simulando diferentes escenarios, para desarrollar aplicaciones capaces de ofrecer servicios en red.",
+	"ñ":"Analizar y aplicar técnicas y librerías de programación, evaluando su funcionalidad para desarrollar aplicaciones multiproceso y multihilo.",
+	"o":"Reconocer la estructura de los sistemas ERP-CRM, identificando la utilidad de cada uno de sus módulos, para participar en su implantación.",
+	"p":"Realizar consultas, analizando y evaluando su alcance, para gestionar la información almacenada en sistemas ERP-CRM.",
+	"q":"Seleccionar y emplear lenguajes y herramientas, atendiendo a los requerimientos, para desarrollar componentes personalizados en sistemas ERP-CRM.",
+	"r":"Verificar los componentes software desarrollados, analizando las especificaciones, para completar un plan de pruebas.",
+	"s":"Establecer procedimientos, verificando su funcionalidad, para desplegar y distribuir aplicaciones.",
+	"t":"Describir los roles de cada uno de los componentes del grupo de trabajo, identificando en cada caso la responsabilidad asociada, para establecer las relaciones profesionales más convenientes.",
+	"u":"Identificar formas de intervención ante conflictos de tipo personal y laboral, teniendo en cuenta las decisiones más convenientes, para garantizar un entorno de trabajo satisfactorio.",
+	"v":"Identificar y valorar las oportunidades de promoción profesional y de aprendizaje, analizando el contexto del sector, para elegir el itinerario laboral y formativo más conveniente.",
+	"w":"Identificar los cambios tecnológicos, organizativos, económicos y laborales en su actividad, analizando sus implicaciones en el ámbito de trabajo, para mantener el espíritu de innovación.",
+	"x":"Reconocer las oportunidades de negocio, identificando y analizando demandas del mercado para crear y gestionar una pequeña empresa.",
+	"y":"Reconocer sus derechos y deberes como agente activo en la sociedad, analizando el marco legal que regula las condiciones sociales y laborales para participar como ciudadano democrático."
+    },
+    "ModulosProfesionales":{
+	"0371":{
+	    "nombre":"Fundamentos de Hardware",
+	    "creditos":"6",
+	    "ResultadosAprendizaje":{
+            "RA01": {
+                    "Resultado": " Configura equipos microinformáticos, componentes y periféricos, analizando sus características y relación con el conjunto.",
+                        "CriteriosEvaluacion": {
+                                "a": "Se han identificado y caracterizado los dispositivos que constituyen los bloques funcionales de un equipo microinformático.",
+                                "b": "Se ha descrito el papel de los elementos físicos y lógicos que intervienen en el proceso de puesta en marcha de un equipo.",
+                                "c": "Se ha analizado la arquitectura general de un equipo y los mecanismos de conexión entre dispositivos.",
+                                "d": "Se han establecido los parámetros de configuración (hardware y software) de un equipo microinformático con las utilidades específicas.",
+                                "e": "Se ha evaluado las prestaciones del equipo.",
+                                "f": "Se han ejecutado utilidades de chequeo y diagnóstico.",
+                                "g": "Se han identificado averías y sus causas.",
+                                "h": "Se han clasificado los dispositivos periféricos y sus mecanismos de comunicación.",
+                                "i": "Se han utilizado protocolos estándar de comunicación inalámbrica entre dispositivos."}},
+            "RA02": {
+                    "Resultado": " Instala software de propósito general evaluando sus características y entornos de aplicación.",
+                        "CriteriosEvaluacion": {
+                                "a": "Se han catalogado los tipos de software según su licencia, distribución y propósito.",
+                                "b": "Se han analizado las necesidades específicas de software asociadas al uso de sistemas informáticos en diferentes entornos productivos.",
+                                "c": "Se han instalado y evaluado utilidades para la gestión de archivos, recuperación de datos, mantenimiento y optimización del sistema.",
+                                "d": "Se han instalado y evaluado utilidades de seguridad básica.",
+                                "e": "Se ha instalado y evaluado software ofimático y de utilidad general.",
+                                "f": "Se ha consultado la documentación y las ayudas interactivas.",
+                                "g": "Se ha verificado la repercusión de la eliminación, modificación y/o actualización de las utilidades instaladas en el sistema.",
+                                "h": "Se han probado y comparado aplicaciones portables y no portables.",
+                                "i": "Se han realizado inventarios del software instalado y las características de su licencia."}},
+            "RA03": {
+                    "Resultado": " Ejecuta procedimientos para recuperar el software base de un equipo, analizándolos y utilizando imágenes almacenadas en memoria auxiliar.",
+                        "CriteriosEvaluacion": {
+                                "a": "Se han identificado los soportes de memoria auxiliar adecuados para el almacenaje y restauración de imágenes de software.",
+                                "b": "Se ha reconocido la diferencia entre una instalación estándar y una preinstalación o imagen de software.",
+                                "c": "Se han identificado y probado las distintas secuencias de arranque configurables en un equipo.",
+                                "d": "Se han utilizado herramientas para el particionado de discos.",
+                                "e": "Se han empleado distintas utilidades y soportes para realizar imágenes.",
+                                "f": "Se han restaurado imágenes desde distintas ubicaciones."}},
+            "RA04": {
+                    "Resultado": " Implanta hardware específico de centros de proceso de datos (CPD), analizando sus características y aplicaciones.",
+                        "CriteriosEvaluacion": {
+                                "a": "Se han reconocido las diferencias entre las configuraciones hardware de tipo personal y empresarial.",
+                                "b": "Se han analizado entornos que requieren implantar soluciones hardware específicas.",
+                                "c": "Se han detallado componentes hardware específicos para soluciones empresariales.",
+                                "d": "Se han analizado los requerimientos básicos de seguridad física, organización y condiciones ambientales de un CPD.",
+                                "e": "Se han implantado sistemas de alimentación ininterrumpida y estabilizadores de tensión.",
+                                "f": "Se han manipulado correctamente dispositivos hardware para almacenamiento y alimentación con conexión en caliente.",
+                                "g": "Se han documentado procedimientos, incidencias y parámetros utilizados en la instalación y configuración de dispositivos hardware.",
+                                "h": "Se han utilizado herramientas de inventariado, registrando las características de los dispositivos hardware.",
+                                "i": "Se ha clasificado y organizado la documentación técnica, controladores, utilidades y accesorios del hardware."}},
+            "RA05": {
+                    "Resultado": " Cumple las normas de prevención de riesgos laborales y de protección ambiental, identificando los riesgos asociados, las medidas y equipos para prevenirlos.",
+                        "CriteriosEvaluacion": {
+                                "a": "Se han identificado los riesgos y el nivel de peligrosidad que suponen la manipulación de los materiales, herramientas, útiles, máquinas y medios de transporte.",
+                                "b": "Se han operado las máquinas respetando las normas de seguridad.",
+                                "c": "Se han identificado las causas más frecuentes de accidentes en la manipulación de materiales y herramientas, entre otras.",
+                                "d": "Se han descrito los elementos de seguridad (protecciones, alarmas, y pasos de emergencia, entre otros": " de las máquinas y los equipos de protección individual (calzado, protección ocular e indumentaria, entre otros": " que se deben emplear en las distintas operaciones de montaje y mantenimiento.",
+                                "e": "Se ha relacionado la manipulación de materiales, herramientas y máquinas con las medidas de seguridad y protección personal requeridos.",
+                                "f": "Se han identificado las posibles fuentes de contaminación del entorno ambiental.",
+                                "g": "Se han clasificado los residuos generados para su retirada selectiva.",
+                                "h": "Se ha valorado el orden y la limpieza de instalaciones y equipos como primer factor de prevención de riesgos."
+                                }
+                }
+
+		},
+		"horas":"55",
+		"UnidadesCompetenciaAcreditadas":
+		{
+            "UC0484_3": "Administrar los dispositivos hardware del sistema.",
+            "UC0223_3":"Configurar y explotar sistemas informáticos."
+		}
+    },
+	"0484": {
+            "nombre": "Bases de Datos",
+            "creditos": "12",
+            "ResultadosAprendizaje": {
+                "RA01": {
+                    "Resultado": "Reconoce los elementos de las bases de datos analizando sus funciones y valorando la utilidad de los sistemas gestores.",
+                    "CriteriosEvaluacion": {
+                        "a": "Se han analizado los sistemas lógicos de almacenamiento y sus características.",
+                        "b": "Se han identificado los distintos tipos de bases de datos según el modelo de datos utilizado.",
+                        "c": "Se han identificado los distintos tipos de bases de datos en función de la ubicación de la información.",
+                        "d": "Se ha evaluado la utilidad de un sistema gestor de bases de datos.",
+                        "e": "Se ha reconocido la función de cada uno de los elementos de un sistema gestor de bases de datos.",
+                        "f": "Se han clasificado los sistemas gestores de bases de datos.",
+                        "g": "Se ha reconocido la utilidad de las bases de datos distribuidas.",
+                        "h": "Se han analizado las políticas de fragmentación de la información.",
+                        "i":"Se ha identificado la legislación vigente sobre protección de datos.",
+                        "j":"Se han reconocido los conceptos de Big Data y de la inteligencia de negocios."
+                    }
+                },
+                "RA02": {
+                    "Resultado": "Crea bases de datos definiendo su estructura y las características de sus elementos según el modelo relacional.",
+                    "CriteriosEvaluacion": {
+                        "a": "Se ha analizado el formato de almacenamiento de la información.",
+                        "b": "Se han creado las tablas y las relaciones entre ellas.",
+                        "c": "Se han seleccionado los tipos de datos adecuados.",
+                        "d": "Se han definido los campos clave en las tablas.",
+                        "e": "Se han implantado las restricciones reflejadas en el diseño lógico.",
+                        "f": "Se han creado vistas.",
+                        "g": "Se han creado los usuarios y se les han asignado privilegios.",
+                        "h": "Se han utilizado asistentes, herramientas gráficas y los lenguajes de definición y control de datos."
+                    }
+                },
+                "RA03": {
+                    "Resultado": "Consulta la información almacenada en una base de datos empleando asistentes, herramientas gráficas y el lenguaje de manipulación de datos.",
+                    "CriteriosEvaluacion": {
+                        "a": "Se han identificado las herramientas y sentencias para realizar consultas.",
+                        "b": "Se han realizado consultas simples sobre una tabla.",
+                        "c": "Se han realizado consultas sobre el contenido de varias tablas mediante composiciones internas.",
+                        "d": "Se han realizado consultas sobre el contenido de varias tablas mediante composiciones externas.",
+                        "e": "Se han realizado consultas resumen.",
+                        "f": "Se han realizado consultas con subconsultas.",
+                        "g": "Se han realizado consultas que implican múltiples selecciones.",
+                        "h": "Se han aplicado criterios de optimización de consultas."
+                    }
+                },
+                "RA04": {
+                    "Resultado": "Modifica la información almacenada en la base de datos utilizando asistentes, herramientas gráficas y el lenguaje de manipulación de datos.",
+                    "CriteriosEvaluacion": {
+                        "a": "Se han identificado las herramientas y sentencias para modificar el contenido de la base de datos.",
+                        "b": "Se han insertado, borrado y actualizado datos en las tablas.",
+                        "c": "Se ha incluido en una tabla la información resultante de la ejecución de una consulta.",
+                        "d": "Se han diseñado guiones de sentencias para llevar a cabo tareas complejas.",
+                        "e": "Se ha reconocido el funcionamiento de las transacciones.",
+                        "f": "Se han anulado parcial o totalmente los cambios producidos por una transacción.",
+                        "g": "Se han identificado los efectos de las distintas políticas de bloqueo de registros.",
+                        "h": "Se han adoptado medidas para mantener la integridad y consistencia de la información."
+                    }
+                },
+                "RA05": {
+                    "Resultado": "Desarrolla procedimientos almacenados, evaluando y utilizando las sentencias del lenguaje incorporado en el sistema gestor de bases de datos.",
+                    "CriteriosEvaluacion": {
+                        "a": "Se han identificado las diversas formas de automatizar tareas.",
+                        "b": "Se han reconocido los métodos de ejecución de guiones.",
+                        "c": "Se han identificado las herramientas disponibles para editar guiones.",
+                        "d": "Se han definido y utilizado guiones para automatizar tareas.",
+                        "e": "Se ha hecho uso de las funciones proporcionadas por el sistema gestor.",
+                        "f": "Se han definido funciones de usuario.",
+                        "g": "Se han utilizado estructuras de control de flujo.",
+                        "h": "Se han definido disparadores.",
+                        "i": "Se han utilizado cursores."
+                    }
+                },
+                "RA06": {
+                    "Resultado": "Diseña modelos relacionales normalizados interpretando diagramas entidad/relación.",
+                    "CriteriosEvaluacion": {
+                        "a": "Se han utilizado herramientas gráficas para representar el diseño lógico.",
+                        "b": "Se han identificado las tablas del diseño lógico.",
+                        "c": "Se han identificado los campos que forman parte de las tablas del diseño lógico.",
+                        "d": "Se han analizado las relaciones entre las tablas del diseño lógico.",
+                        "e": "Se han identificado los campos clave.",
+                        "f": "Se han aplicado reglas de integridad.",
+                        "g": "Se han aplicado reglas de normalización.",
+                        "h": "Se han analizado y documentado las restricciones que no pueden plasmarse en el diseño lógico."
+                    }
+                },
+                "RA07": {
+                    "Resultado": "Gestiona la información almacenada en bases de datos objeto-relacionales, evaluando y utilizando las posibilidades que proporciona el sistema gestor",
+                    "CriteriosEvaluacion": {
+                        "a": "Se han identificado las características de las bases de datos objeto- relacionales.",
+                        "b": "Se han creado tipos de datos objeto, sus atributos y métodos.",
+                        "c": "Se han creado tablas de objetos y tablas de columnas tipo objeto.",
+                        "d": "Se han creado tipos de datos colección.",
+                        "e": "Se han realizado consultas.",
+                        "f": "Se ha modificado la información almacenada manteniendo la integridad y consistencia de los datos."
+                    }
+                }
+            },
+            "horas": "105",
+            "UnidadesCompetenciaAcreditadas": {
+                "UC0226_3": "Programar bases de datos relacionales."
+            },
+            "ObjetivosGenerales ": ["c","e","f","p","r"],
+            "CompetenciasTitulo" : ["b","c","e","p" ]
+     },
+	"0485": {
+            "nombre": "Programación",
+            "creditos": "14",
+            "ResultadosAprendizaje": {
+                "RA01": {
+                    "Resultado": " Reconoce la estructura de un programa informático, identificando y relacionando los elementos propios del lenguaje de programación utilizado.",
+                        "CriteriosEvaluacion": {
+                                "a": "Se han identificado los bloques que componen la estructura de un programa informático.",
+                                "b": "Se han creado proyectos de desarrollo de aplicaciones",
+                                "c": "Se han utilizado entornos integrados de desarrollo.",
+                                "d": "Se han identificado los distintos tipos de variables y la utilidad específica de cada uno.",
+                                "e": "Se ha modificado el código de un programa para crear y utilizar variables.",
+                                "f": "Se han creado y utilizado constantes y literales.",
+                                "g": "Se han clasificado, reconocido y utilizado en expresiones los operadores del lenguaje.",
+                                "h": "Se ha comprobado el funcionamiento de las conversiones de tipo explícitas e implícitas.",
+                                "i": "Se han introducido comentarios en el código."
+                                }},
+"RA02": {
+                    "Resultado": " Escribe y prueba programas sencillos, reconociendo y aplicando los fundamentos de la programación orientada a objetos.",
+                        "CriteriosEvaluacion": {
+                                "a": "Se han identificado los fundamentos de la programación orientada a objetos.",
+                                "b": "Se han escrito programas simples.",
+                                "c": "Se han instanciado objetos a partir de clases predefinidas.",
+                                "d": "Se han utilizado métodos y propiedades de los objetos.",
+                                "e": "Se han escrito llamadas a métodos estáticos.",
+                                "f": "Se han utilizado parámetros en la llamada a métodos.",
+                                "g": "Se han incorporado y utilizado librerías de objetos.",
+                                "h": "Se han utilizado constructores.",
+                                "i": "Se ha utilizado el entorno integrado de desarrollo en la creación y compilación de programas simples."}},
+"RA03": {
+                    "Resultado": " Escribe y depura código, analizando y utilizando las estructuras de control del lenguaje.",
+                        "CriteriosEvaluacion": {
+                                "a": "Se ha escrito y probado código que haga uso de estructuras de selección.",
+                                "b": "Se han utilizado estructuras de repetición.",
+                                "c": "Se han reconocido las posibilidades de las sentencias de salto.",
+                                "d": "Se ha escrito código utilizando control de excepciones.",
+                                "e": "Se han creado programas ejecutables utilizando diferentes estructuras de control.",
+                                "f": "Se han probado y depurado los programas.",
+                                "g": "Se ha comentado y documentado el código."}},
+"RA04": {
+                    "Resultado": " Desarrolla programas organizados en clases analizando y aplicando los principios de la programación orientada a objetos.",
+                        "CriteriosEvaluacion": {
+                                "a": "Se ha reconocido la sintaxis, estructura y componentes típicos de una clase.",
+                                "b": "Se han definido clases.",
+                                "c": "Se han definido propiedades y métodos.",
+                                "d": "Se han creado constructores.",
+                                "e": "Se han desarrollado programas que instancien y utilicen objetos de las clases creadas anteriormente.",
+                                "f": "Se han utilizado mecanismos para controlar la visibilidad de las clases y de sus miembros.",
+                                "g": "Se han definido y utilizado clases heredadas.",
+                                "h": "Se han creado y utilizado métodos estáticos.",
+                                "i": "Se han definido y utilizado interfaces.",
+                                "j": "Se han creado y utilizado conjuntos y librerías de clases."}},
+"RA05": {
+                    "Resultado": " Realiza operaciones de entrada y salida de información, utilizando procedimientos específicos del lenguaje y librerías de clases.",
+                        "CriteriosEvaluacion": {
+                                "a": "Se ha utilizado la consola para realizar operaciones de entrada y salida de información.",
+                                "b": "Se han aplicado formatos en la visualización de la información.",
+                                "c": "Se han reconocido las posibilidades de entrada / salida del lenguaje y las librerías asociadas.",
+                                "d": "Se han utilizado ficheros para almacenar y recuperar información.",
+                                "e": "Se han creado programas que utilicen diversos métodos de acceso al contenido de los ficheros.",
+                                "f": "Se han utilizado las herramientas del entorno de desarrollo para crear interfaces gráficos de usuario simples.",
+                                "g": "Se han programado controladores de eventos.",
+                                "h": "Se han escrito programas que utilicen interfaces gráficos para la entrada y salida de información."}},
+"RA06": {
+                    "Resultado": " Escribe programas que manipulen información, seleccionando y utilizando tipos avanzados de datos.",
+                        "CriteriosEvaluacion": {
+                                "a": "Se han escrito programas que utilicen arrays.",
+                                "b": "Se han reconocido las librerías de clases relacionadas con tipos de datos avanzados.",
+                                "c": "Se han utilizado listas para almacenar y procesar información.",
+                                "d": "Se han utilizado iteradores para recorrer los elementos de las listas.",
+                                "e": "Se han reconocido las características y ventajas de cada una de la colecciones de datos disponibles.",
+                                "f": "Se han creado clases y métodos genéricos.",
+                                "g": "Se han utilizado expresiones regulares en la búsqueda de patrones en cadenas de texto.",
+                                "h": "Se han identificado las clases relacionadas con el tratamiento de documentos XML.",
+                                "i": "Se han realizado programas que realicen manipulaciones sobre documentos XML."}},
+"RA07": {
+                    "Resultado": " Desarrolla programas, aplicando características avanzadas de los lenguajes orientados a objetos y del entorno de programación.",
+                        "CriteriosEvaluacion": {
+                                "a": "Se han identificado los conceptos de herencia, superclase y subclase.",
+                                "b": "Se han utilizado modificadores para bloquear y forzar la herencia de clases y métodos.",
+                                "c": "Se ha reconocido la incidencia de los constructores en la herencia.",
+                                "d": "Se han creado clases heredadas que sobrescriban la implementación de métodos de la superclase.",
+                                "e": "Se han diseñado y aplicado jerarquías de clases.",
+                                "f": "Se han probado y depurado las jerarquías de clases.",
+                                "g": "Se han realizado programas que implementen y utilicen jerarquías de clases.",
+                                "h": "Se ha comentado y documentado el código."}},
+"RA08": {
+                    "Resultado": " Utiliza bases de datos orientadas a objetos, analizando sus características y aplicando técnicas para mantener la persistencia de la información.",
+                        "CriteriosEvaluacion": {
+                                "a": "Se han identificado las características de las bases de datos orientadas a objetos.",
+                                "b": "Se ha analizado su aplicación en el desarrollo de aplicaciones mediante lenguajes orientados a objetos.",
+                                "c": "Se han instalado sistemas gestores de bases de datos orientados a objetos.",
+                                "d": "Se han clasificado y analizado los distintos métodos soportados por los sistemas gestores para la gestión de la información almacenada.",
+                                "e": "Se han creado bases de datos y las estructuras necesarias para el almacenamiento de objetos.",
+                                "f": "Se han programado aplicaciones que almacenen objetos en las bases de datos creadas.",
+                                "g": "Se han realizado programas para recuperar, actualizar y eliminar objetos de las bases de datos.",
+                                "h": "Se han realizado programas para almacenar y gestionar tipos de datos estructurados, compuestos y relacionados."}},
+"RA09": {
+                    "Resultado": " Gestiona información almacenada en bases de datos relacionales manteniendo la integridad y la consistencia de los datos.",
+                        "CriteriosEvaluacion": {
+                                "a": "Se han identificado las características y métodos de acceso a sistemas gestores de bases de datos relacionales.",
+                                "b": "Se han programado conexiones con bases de datos.",
+                                "c": "Se ha escrito código para almacenar información en bases de datos.",
+                                "d": "Se han creado programas para recuperar y mostrar información almacenada en bases de datos.",
+                                "e": "Se han efectuado borrados y modificaciones sobre la información almacenada.",
+                                "f": "Se han creado aplicaciones que ejecuten consultas sobre bases de datos.",
+                                "g": "Se han creado aplicaciones para posibilitar la gestión de información presente en bases de datos relacionales."
+                                }}
+        },
+            "horas": "135",
+            "UnidadesCompetenciaAcreditadas": {},
+            "ObjetivosGenerales ": ["e","j","q"],
+            "CompetenciasTitulo" : ["a","e","f","i","j","v","y","z" ]
+	},
+        "0486": {
+            "nombre": "Lenguajes de marcas y sistemas de gestión de información",
+            "creditos": "5",
+            "ResultadosAprendizaje": {
+            "RA01": {
+                    "Resultado": " Reconoce las características de lenguajes de marcas, analizando e interpretando fragmentos de código.",
+                        "CriteriosEvaluacion": {
+                                "a": "Se han identificado las características generales de los lenguajes de marcas.",
+                                "b": "Se han reconocido las ventajas que proporcionan en el tratamiento de la información.",
+                                "c": "Se han clasificado los lenguajes de marcas e identificado los más relevantes.",
+                                "d": "Se han diferenciado sus ámbitos de aplicación.",
+                                "e": "Se han reconocido la necesidad y los ámbitos específicos de aplicación de un lenguaje de marcas de propósito general.",
+                                "f": "Se han analizado las características propias del lenguaje XML.",
+                                "g": "Se han identificado la estructura de un documento XML y sus reglas sintácticas.",
+                                "h": "Se han contrastado la necesidad de crear documentos XML bien formados y la influencia en su procesamiento.",
+                                "i": "Se han identificado las ventajas que aportan los espacios de nombres."}},
+"RA02": {
+                    "Resultado": " Utiliza lenguajes de marcas para la transmisión de información a través de la web, analizando la estructura de los documentos e identificando sus elementos.",
+                        "CriteriosEvaluacion": {
+                                "a": "Se han identificado y clasificado los lenguajes de marcas relacionados con la web y sus diferentes versiones.",
+                                "b": "Se ha analizado la estructura de un documento HTML y se han identificado las secciones que lo componen.",
+                                "c": "Se han reconocido la funcionalidad de las principales etiquetas y los atributos del lenguaje HTML.",
+                                "d": "Se han establecido las semejanzas y diferencias entre los lenguajes HTML y XHTML.",
+                                "e": "Se ha reconocido la utilidad de XHTML en los sistemas de gestión de información.",
+                                "f": "Se han utilizado herramientas en la creación de documentos web.",
+                                "g": "Se han identificado las ventajas que aporta la utilización de hojas de estilo.",
+                                "h": "Se han aplicado hojas de estilo."}},
+"RA03": {
+                    "Resultado": " Genera canales de contenidos analizando y utilizando tecnologías de sindicación.",
+                        "CriteriosEvaluacion": {
+                                "a": "Se han identificado las ventajas que aporta la sindicación de contenidos en la gestión y transmisión de la información.",
+                                "b": "Se han definido sus ámbitos de aplicación.",
+                                "c": "Se han analizado las tecnologías en que se basa la sindicación de contenidos.",
+                                "d": "Se han identificado la estructura y la sintaxis de un canal de contenidos.",
+                                "e": "Se han creado y validado canales de contenidos.",
+                                "f": "Se ha comprobado la funcionalidad y el acceso a los canales.",
+                                "g": "Se han utilizado herramientas específicas como agregadores y directorios de canales."}},
+"RA04": {
+                    "Resultado": " Establece mecanismos de validación para documentos XML utilizando métodos para definir su sintaxis y estructura.",
+                        "CriteriosEvaluacion": {
+                                "a": "Se ha establecido la necesidad de describir la información transmitida en los documentos XML y sus reglas.",
+                                "b": "Se han identificado las tecnologías relacionadas con la definición de documentos XML.",
+                                "c": "Se ha analizado la estructura y sintaxis específica utilizada en la descripción.",
+                                "d": "Se han creado descripciones de documentos XML.",
+                                "e": "Se han utilizado descripciones en la elaboración y validación de documentos XML.",
+                                "f": "Se han asociado las descripciones con los documentos.",
+                                "g": "Se han utilizado herramientas específicas.",
+                                "h": "Se han documentado las descripciones."}},
+"RA05": {
+                    "Resultado": " Realiza conversiones sobre documentos XML utilizando técnicas y herramientas de procesamiento.",
+                        "CriteriosEvaluacion": {
+                                "a": "Se ha identificado la necesidad de la conversión de documentos XML.",
+                                "b": "Se han establecido ámbitos de aplicación.",
+                                "c": "Se han analizado las tecnologías implicadas y su modo de funcionamiento.",
+                                "d": "Se ha descrito la sintaxis específica utilizada en la conversión y adaptación de documentos XML.",
+                                "e": "Se han creado especificaciones de conversión.",
+                                "f": "Se han identificado y caracterizado herramientas específicas relacionadas con la conversión de documentos XML.",
+                                "g": "Se han realizado conversiones con distintos formatos de salida.",
+                                "h": "Se han documentado y depurado las especificaciones de conversión."}},
+"RA06": {
+                    "Resultado": " Gestiona información en formato XML analizando y utilizando tecnologías de almacenamiento y lenguajes de consulta.",
+                        "CriteriosEvaluacion": {
+                                "a": "Se han identificado los principales métodos de almacenamiento de la información usada en documentos XML.",
+                                "b": "Se han identificado los inconvenientes de almacenar información en formato XML.",
+                                "c": "Se han establecido tecnologías eficientes de almacenamiento de información en función de sus características.",
+                                "d": "Se han utilizado sistemas gestores de bases de datos relacionales en el almacenamiento de información en formato XML.",
+                                "e": "Se han utilizado técnicas específicas para crear documentos XML a partir de información almacenada en bases de datos relacionales.",
+                                "f": "Se han identificado las características de los sistemas gestores de bases de datos nativas XML.",
+                                "g": "Se han instalado y analizado sistemas gestores de bases de datos nativas XML.",
+                                "h": "Se han utilizado técnicas para gestionar la información almacenada en bases de datos nativas XML.",
+                                "i": "Se han identificado lenguajes y herramientas para el tratamiento y almacenamiento de información y su inclusión en documentos XML."}},
+"RA07": {
+                    "Resultado": " Opera sistemas empresariales de gestión de información realizando tareas de importación, integración, aseguramiento y extracción de la información.",
+                        "CriteriosEvaluacion": {
+                                "a": "Se han reconocido las ventajas de los sistemas de gestión y planificación de recursos empresariales.",
+                                "b": "Se han evaluado las características de las principales aplicaciones de gestión empresarial.",
+                                "c": "Se han instalado aplicaciones de gestión empresarial.",
+                                "d": "Se han configurado y adaptado las aplicaciones.",
+                                "e": "Se ha establecido y verificado el acceso seguro a la información.",
+                                "f": "Se han generado informes.",
+                                "g": "Se han realizado tareas de integración con aplicaciones ofimáticas.",
+                                "h": "Se han realizado procedimientos de extracción de información para su tratamiento e incorporación a diversos sistemas.",
+                                "i": "Se han realizado tareas de asistencia y resolución de incidencias.",
+                                "j": "Se han elaborado documentos relativos a la explotación de la aplicación."}}
+            },
+            "horas": "70",
+            "UnidadesCompetenciaAcreditadas": {},
+            "ObjetivosGenerales ": ["h","p","r"],
+            "CompetenciasTitulo" : ["e","f","h","p" ]
+        },
+        "0487": {
+            "nombre": "Entornos de desarrollo",
+            "creditos": "6",
+            "ResultadosAprendizaje": {"RA01": {
+                    "Resultado": " Reconoce los elementos y herramientas que intervienen en el desarrollo de un programa informático, analizando sus características y las fases en las que actúan hasta llegar a su puesta en funcionamiento.",
+                        "CriteriosEvaluacion": {
+                                "a": "Se ha reconocido la relación de los programas con los componentes del sistema informático: memoria, procesador y periféricos, entre otros.",
+                                "b": "Se han identificado las fases de desarrollo de una aplicación informática.",
+                                "c": "Se han diferenciado los conceptos de código fuente, código objeto y código ejecutable.",
+                                "d": "Se han reconocido las características de la generación de código intermedio para su ejecución en máquinas virtuales.",
+                                "e": "Se han clasificado los lenguajes de programación.",
+                                "f": "Se ha evaluado la funcionalidad ofrecida por las herramientas utilizadas en programación."}},
+"RA02": {
+                    "Resultado": " Evalúa entornos integrados de desarrollo, analizando, sus características para editar código fuente y generar ejecutables.",
+                        "CriteriosEvaluacion": {
+                                "a": "Se han instalado entornos de desarrollo, propietarios y libres.",
+                                "b": "Se han añadido y eliminado módulos en el entorno de desarrollo.",
+                                "c": "Se ha personalizado y automatizado el entorno de desarrollo.",
+                                "d": "Se ha configurado el sistema de actualización del entorno de desarrollo.",
+                                "e": "Se han generado ejecutables a partir de código fuente de diferentes lenguajes en un mismo entorno de desarrollo.",
+                                "f": "Se han generado ejecutables a partir de un mismo código fuente con varios entornos de desarrollo.",
+                                "g": "Se han identificado las características comunes y específicas de diversos entornos de desarrollo."}},
+"RA03": {
+                    "Resultado": " Verifica el funcionamiento de programas, diseñando y realizando pruebas.",
+                        "CriteriosEvaluacion": {
+                                "a": "Se han identificado los diferentes tipos de pruebas.",
+                                "b": "Se han definido casos de prueba.",
+                                "c": "Se han identificado las herramientas de depuración y prueba de aplicaciones ofrecidas por el entorno de desarrollo.",
+                                "d": "Se han utilizado herramientas de depuración para definir puntos de ruptura y seguimiento.",
+                                "e": "Se han utilizado las herramientas de depuración para examinar y modificar el comportamiento de un programa en tiempo de ejecución.",
+                                "f": "Se han efectuado pruebas unitarias de clases y funciones.",
+                                "g": "Se han implementado pruebas automáticas.",
+                                "h": "Se han documentado las incidencias detectadas."}},
+"RA04": {
+                    "Resultado": " Optimiza código empleando las herramientas disponibles en el entorno de desarrollo.",
+                        "CriteriosEvaluacion": {
+                                "a": "Se han identificado los patrones de refactorización más usuales.",
+                                "b": "Se han elaborado las pruebas asociadas a la refactorización.",
+                                "c": "Se ha revisado el código fuente usando un analizador de código.",
+                                "d": "Se han identificado las posibilidades de configuración de un analizador de código.",
+                                "e": "Se han aplicado patrones de refactorización con las herramientas que proporciona el entorno de desarrollo.",
+                                "f": "Se ha realizado el control de versiones integrado en el entorno de desarrollo.",
+                                "g": "Se han utilizado herramientas del entorno de desarrollo para documentar las clases."}},
+"RA05": {
+                    "Resultado": " Genera diagramas de clases valorando su importancia en el desarrollo de aplicaciones y empleando las herramientas disponibles en el entorno.",
+                        "CriteriosEvaluacion": {
+                                "a": "Se han identificado los conceptos básicos de la programación orientada a objetos.",
+                                "b": "Se ha instalado el módulo del entorno integrado de desarrollo que permite la utilización de diagramas de clases.",
+                                "c": "Se han identificado las herramientas para la elaboración de diagramas de clases.",
+                                "d": "Se ha interpretado el significado de diagramas de clases.",
+                                "e": "Se han trazado diagramas de clases a partir de las especificaciones de las mismas.",
+                                "f": "Se ha generado código a partir de un diagrama de clases.",
+                                "g": "Se ha generado un diagrama de clases mediante ingeniería inversa."}},
+"RA06": {
+                    "Resultado": " Genera diagramas de comportamiento valorando su importancia en el desarrollo de aplicaciones y empleando las herramientas disponibles en el entorno.",
+                        "CriteriosEvaluacion": {
+                                "a": "Se han identificado los distintos tipos de diagramas de comportamiento.",
+                                "b": "Se ha reconocido el significado de los diagramas de casos de uso.",
+                                "c": "Se han interpretado diagramas de interacción.",
+                                "d": "Se han elaborado diagramas de interacción sencillos.",
+                                "e": "Se ha interpretado el significado de diagramas de actividades.",
+                                "f": "Se han elaborado diagramas de actividades sencillos.",
+                                "g": "Se han interpretado diagramas de estados.",
+                                "h": "Se han planteado diagramas de estados sencillos."
+                                }
+        }},
+            "horas": "50",
+            "UnidadesCompetenciaAcreditadas": {},
+            "ObjetivosGenerales ": ["d","e","h","i","j"],
+            "CompetenciasTitulo" : ["d","f","h","i","j"]
+        },
+        "0179": {
+            "nombre": "Inglés Profesional (GS)",
+            "creditos": "4",
+            "ResultadosAprendizaje": {
+"RA01": {
+                    "Resultado": " Comprende información, de índole profesional, académica y cotidiana, contenida en todo tipo de discursos orales, emitidos por cualquier medio de comunicación en lengua estándar, interpretando con precisión el contenido del mensaje.",
+                        "CriteriosEvaluacion": {
+                                "a": "Se ha identificado la idea principal de mensajes en lengua estándar relacionados con la vida social, profesional o académica.",
+                                "b": "Se ha reconocido la finalidad de mensajes directos o emitidos en cualquier soporte en lengua estándar.",
+                                "c": "Se ha extraído información específica contenida en distintos discursos orales en lengua estándar, relacionada con la vida social, profesional o académica.",
+                                "d": "Se ha identificado el punto de vista y la actitud del hablante.",
+                                "e": "Se ha identificado el hilo argumental de mensajes orales y determinado los roles que aparecen en dichos mensajes.",
+                                "f": "Se han comprendido adecuadamente mensajes en lengua estándar en ambientes con contaminación acústica.",
+                                "g": "Se han extraído las ideas principales de conferencias, charlas e informes, y otras formas de presentación académica y profesional, lingüísticamente complejas.",
+                                "h": "Se ha tomado conciencia de la importancia de comprender globalmente un mensaje sin entender todos y cada uno de los elementos del mismo."}},
+"RA02": {
+                    "Resultado": " Comprende mensajes escritos, de naturaleza profesional, académica y cotidiana, de relativa dificultad, analizando de forma comprensiva su contenido.",
+                        "CriteriosEvaluacion": {
+                                "a": "Se ha identificado la idea principal de textos específicos de su ámbito social, profesional o académico.",
+                                "b": "Se ha reconocido la finalidad de distintos textos escritos en cualquier soporte, en lengua estándar y relacionados con la actividad profesional.",
+                                "c": "Se ha extraído información específica de textos, de diferente naturaleza, relativos a su profesión, y contenidos en distintos soportes.",
+                                "d": "Se ha tomado conciencia de la importancia de comprender globalmente un texto sin entender todos y cada uno de los elementos del mismo.",
+                                "e": "Se han leído y comprendido, de manera autónoma, textos relacionados con el sector con la velocidad y estilo de lectura propia del nivel competencial.",
+                                "f": "Se ha interpretado la correspondencia relativa a su especialidad, captando fácilmente el significado esencial.",
+                                "g": "Se han interpretado textos extensos, y de cierta complejidad, relacionados o no con su especialidad, pudiendo realizar varias lecturas del mismo.",
+                                "h": "Se ha identificado con rapidez el contenido y la importancia de noticias, artículos e informes sobre una amplia serie de temas profesionales.",
+                                "i": "Se han interpretado instrucciones, con distintos niveles de dificultad, y mensajes técnicos recibidos a través de soportes digitales.",
+                                "j": "Se han traducido textos de cierta complejidad, utilizando material de apoyo en caso necesario."}},
+"RA03": {
+                    "Resultado": " Produce mensajes orales claros y bien estructurados, analizando el contenido de la situación y adaptándose al registro lingüístico del interlocutor.",
+                        "CriteriosEvaluacion": {
+                                "a": "Se han emitido mensajes generales propios de sector y de la vida cotidiana, utilizando nexos y estrategias de interacción.",
+                                "b": "Se ha intercambiado con fluidez información específica y detallada utilizando estructuras de una complejidad acorde al nivel competencial.",
+                                "c": "Se han seleccionado y aplicado los registros adecuados para la emisión del mensaje, así como protocolos y normas de relación social propios del país.",
+                                "d": "Se han realizado presentaciones, bien estructuradas, sobre temas de su ámbito profesional, haciendo uso de los protocolos establecidos.",
+                                "e": "Se ha utilizado correctamente la terminología de la profesión.",
+                                "f": "Se ha descrito y secuenciado oralmente un proceso de trabajo de su competencia.",
+                                "g": "Se ha solicitado la reformulación del discurso o parte del mismo cuando se ha considerado necesario.",
+                                "h": "Se ha interaccionado espontáneamente, adoptando un nivel de formalidad adecuado a las circunstancias.",
+                                "i": "Se ha expresado con fluidez, precisión y eficacia sobre una amplia serie de temas generales, académicos, profesionales o de ocio, marcando con claridad la relación entre las ideas.",
+                                "j": "Se han expresado y defendido puntos de vista con claridad, proporcionando explicaciones y argumentos adecuados.",
+                                "k": "Se ha respondido a preguntas relativas a su vida socio-profesional, incluidas las propias de una entrevista de trabajo."}},
+"RA04": {
+                    "Resultado": " Redacta documentos e informes, propios del sector o de la vida académica y cotidiana, relacionando los recursos lingüísticos con el propósito de los mismos.",
+                        "CriteriosEvaluacion": {
+                                "a": "Se han escrito textos claros y detallados sobre una variedad de temas relacionados con su profesión, sintetizando y evaluando información y argumentos procedentes de varias fuentes.",
+                                "b": "Se ha cumplimentado documentación específica de su campo profesional, utilizando vocabulario específico y protocolos y normas de relación social propios del país.",
+                                "c": "Se ha organizado la información con corrección, precisión, con cohesión y coherencia, solicitando y/o facilitando información de tipo general o detallada.",
+                                "d": "Se han cumplimentado textos mediante apoyos visuales y claves lingüísticas.",
+                                "e": "Se han elaborado informes, destacando los aspectos significativos y ofreciendo detalles relevantes que sirvan de apoyo.",
+                                "f": "Se han escrito cartas, formales e informales, empleando las fórmulas de cortesía establecidas y el vocabulario específico para la elaboración de las mismas.",
+                                "g": "Se han resumido diferentes tipos de documentos escritos, utilizando sus propios recursos lingüísticos.",
+                                "h": "Se han utilizado las fórmulas de cortesía propias del documento que se va a elaborar."}},
+"RA05": {
+                    "Resultado": " Aplica actitudes y comportamientos profesionales en situaciones de comunicación, describiendo las relaciones típicas características del país de la lengua extranjera.",
+                        "CriteriosEvaluacion": {
+                                "a": "Se han definido los rasgos más significativos de las costumbres y usos de la comunidad donde se habla la lengua extranjera.",
+                                "b": "Se han descrito los protocolos y normas de relación social propios del país.",
+                                "c": "Se han identificado los valores y creencias propios de la comunidad donde se habla la lengua extranjera.",
+                                "d": "Se ha identificado los aspectos socio-profesionales propios del sector, en cualquier tipo de texto.",
+                                "e": "Se han aplicado los protocolos y normas de relación social propios del país de la lengua extranjera.",
+                                "f": "Se han reconocido los marcadores lingüísticos de la procedencia regional."
+                                }
+        }
+
+            },
+            "horas": "50",
+            "UnidadesCompetenciaAcreditadas": {},
+            "ObjetivosGenerales ": ["e","j","q"],
+            "CompetenciasTitulo" : ["a","e","f","i","j","v","y","z" ]
+        },
+        "0489": {
+            "nombre": "Desarrollo web en entorno servidor",
+            "creditos": "8",
+            "ResultadosAprendizaje": {},
+            "horas": "110",
+            "UnidadesCompetenciaAcreditadas": {},
+            "ObjetivosGenerales ": ["e","j","q"],
+            "CompetenciasTitulo" : ["a","e","f","i","j","v","y","z" ]
+        },
+        "0490": {
+            "nombre": "Despliegue de aplicaciones web",
+            "creditos": "5",
+            "ResultadosAprendizaje": {},
+            "horas": "65",
+             "UnidadesCompetenciaAcreditadas": {},
+            "ObjetivosGenerales ": ["e","j","q"],
+            "CompetenciasTitulo" : ["a","e","f","i","j","v","y","z" ]
+        },
+        "0491": {
+            "nombre": "Diseño de interfaces web",
+            "creditos": "6",
+            "ResultadosAprendizaje": {},
+            "horas": "100",
+            "UnidadesCompetenciaAcreditadas": {},
+            "ObjetivosGenerales ": ["e","j","q"],
+            "CompetenciasTitulo" : ["a","e","f","i","j","v","y","z" ]
+        },
+        "0492": {
+            "nombre": "Proyecto de desarrollo de aplicaciones web",
+            "creditos": "5",
+            "ResultadosAprendizaje": {},
+            "horas": "30",
+            "UnidadesCompetenciaAcreditadas": {},
+            "ObjetivosGenerales ": ["e","j","q"],
+            "CompetenciasTitulo" : ["a","e","f","i","j","v","y","z" ]
+        },
+        "0493": {
+            "nombre": "Formación y orientación laboral",
+            "creditos": "5",
+            "ResultadosAprendizaje": {},
+            "horas": "90",
+            "UnidadesCompetenciaAcreditadas": {},
+            "ObjetivosGenerales ": ["e","j","q"],
+            "CompetenciasTitulo" : ["a","e","f","i","j","v","y","z" ]
+        },
+        "0494": {
+            "nombre": "Empresa e iniciativa emprendedora",
+            "creditos": "4",
+            "ResultadosAprendizaje": {},
+            "horas": "65",
+            "UnidadesCompetenciaAcreditadas": {},
+            "ObjetivosGenerales ": ["e","j","q"],
+            "CompetenciasTitulo" : ["a","e","f","i","j","v","y","z" ]
+        },
+        "0495": {
+            "nombre": "Formación en centros de trabajo",
+            "creditos": "22",
+            "ResultadosAprendizaje": {},
+            "horas": "370",
+            "UnidadesCompetenciaAcreditadas": {},
+            "ObjetivosGenerales ": ["e","j","q"],
+            "CompetenciasTitulo" : ["a","e","f","i","j","v","y","z" ]
+        }
+    }
+}
