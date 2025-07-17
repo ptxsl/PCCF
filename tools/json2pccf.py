@@ -15,6 +15,12 @@ if sys.argv[1] == "DAW":
     with open('./boe/rd-daw.json', 'r', encoding='utf-8') as f:
         data = json.load(f)
 
+
+elif sys.argv[1] == "SMX":
+
+    with open('./boe/rd-smx.json', 'r', encoding='utf-8') as f:
+        data = json.load(f)
+
 else:
     print(" * No se ha indicado Ciclo ")
     sys.exit(0)

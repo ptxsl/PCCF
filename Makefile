@@ -25,6 +25,10 @@ PDF_PATH:=$(shell readlink -f PDFS)
 
 # RULES
 
+todo:
+	@echo " [ ${BLUE} * Cosas por hacer ${RESET}]"
+	@rgrep "TODO" . | grep -v ".git" | grep -v "./temp/"
+
 dependences:
 	@echo " [${BLUE} * Dependencias necesarias para PANDOC ${RESET}] "
 	sudo apt install make pandoc texlive-extra-utils texlive-lang-spanish texlive-latex-extra texlive-fonts-extra

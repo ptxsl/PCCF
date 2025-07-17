@@ -574,7 +574,7 @@
             "nombre": "Inglés Profesional (GS)",
             "creditos": "4",
             "ResultadosAprendizaje": {
-"RA01": {
+                "RA01": {
                     "Resultado": " Comprende información, de índole profesional, académica y cotidiana, contenida en todo tipo de discursos orales, emitidos por cualquier medio de comunicación en lengua estándar, interpretando con precisión el contenido del mensaje.",
                         "CriteriosEvaluacion": {
                                 "a": "Se ha identificado la idea principal de mensajes en lengua estándar relacionados con la vida social, profesional o académica.",
@@ -585,7 +585,7 @@
                                 "f": "Se han comprendido adecuadamente mensajes en lengua estándar en ambientes con contaminación acústica.",
                                 "g": "Se han extraído las ideas principales de conferencias, charlas e informes, y otras formas de presentación académica y profesional, lingüísticamente complejas.",
                                 "h": "Se ha tomado conciencia de la importancia de comprender globalmente un mensaje sin entender todos y cada uno de los elementos del mismo."}},
-"RA02": {
+                "RA02": {
                     "Resultado": " Comprende mensajes escritos, de naturaleza profesional, académica y cotidiana, de relativa dificultad, analizando de forma comprensiva su contenido.",
                         "CriteriosEvaluacion": {
                                 "a": "Se ha identificado la idea principal de textos específicos de su ámbito social, profesional o académico.",
@@ -598,7 +598,7 @@
                                 "h": "Se ha identificado con rapidez el contenido y la importancia de noticias, artículos e informes sobre una amplia serie de temas profesionales.",
                                 "i": "Se han interpretado instrucciones, con distintos niveles de dificultad, y mensajes técnicos recibidos a través de soportes digitales.",
                                 "j": "Se han traducido textos de cierta complejidad, utilizando material de apoyo en caso necesario."}},
-"RA03": {
+                "RA03": {
                     "Resultado": " Produce mensajes orales claros y bien estructurados, analizando el contenido de la situación y adaptándose al registro lingüístico del interlocutor.",
                         "CriteriosEvaluacion": {
                                 "a": "Se han emitido mensajes generales propios de sector y de la vida cotidiana, utilizando nexos y estrategias de interacción.",
@@ -612,7 +612,7 @@
                                 "i": "Se ha expresado con fluidez, precisión y eficacia sobre una amplia serie de temas generales, académicos, profesionales o de ocio, marcando con claridad la relación entre las ideas.",
                                 "j": "Se han expresado y defendido puntos de vista con claridad, proporcionando explicaciones y argumentos adecuados.",
                                 "k": "Se ha respondido a preguntas relativas a su vida socio-profesional, incluidas las propias de una entrevista de trabajo."}},
-"RA04": {
+                "RA04": {
                     "Resultado": " Redacta documentos e informes, propios del sector o de la vida académica y cotidiana, relacionando los recursos lingüísticos con el propósito de los mismos.",
                         "CriteriosEvaluacion": {
                                 "a": "Se han escrito textos claros y detallados sobre una variedad de temas relacionados con su profesión, sintetizando y evaluando información y argumentos procedentes de varias fuentes.",
@@ -623,7 +623,7 @@
                                 "f": "Se han escrito cartas, formales e informales, empleando las fórmulas de cortesía establecidas y el vocabulario específico para la elaboración de las mismas.",
                                 "g": "Se han resumido diferentes tipos de documentos escritos, utilizando sus propios recursos lingüísticos.",
                                 "h": "Se han utilizado las fórmulas de cortesía propias del documento que se va a elaborar."}},
-"RA05": {
+                "RA05": {
                     "Resultado": " Aplica actitudes y comportamientos profesionales en situaciones de comunicación, describiendo las relaciones típicas características del país de la lengua extranjera.",
                         "CriteriosEvaluacion": {
                                 "a": "Se han definido los rasgos más significativos de las costumbres y usos de la comunidad donde se habla la lengua extranjera.",
@@ -677,29 +677,267 @@
             "ObjetivosGenerales ": ["e","j","q"],
             "CompetenciasTitulo" : ["a","e","f","i","j","v","y","z" ]
         },
-        "0493": {
-            "nombre": "Formación y orientación laboral",
+        "1708": {
+            "nombre": "Sostenibilidad aplicada al sistema productivo",
             "creditos": "5",
-            "ResultadosAprendizaje": {},
-            "horas": "90",
+            "ResultadosAprendizaje": {
+                "RA01": {
+                    "Resultado": " Identifica los aspectos ambientales, sociales y de gobernanza (ASG) relativos a la sostenibilidad teniendo en cuenta el concepto de desarrollo sostenible y los marcos internacionales que contribuyen a su consecución.",
+                        "CriteriosEvaluacion": {
+                                "a": "Se ha descrito el concepto de sostenibilidad, estableciendo los marcos internacionales asociados al desarrollo sostenible.",
+                                "b": "Se han identificado los asuntos ambientales, sociales y de gobernanza que influyen en el desarrollo sostenible de las organizaciones empresariales.",
+                                "c": "Se han relacionado los Objetivos de Desarrollo Sostenible ODS,con su importancia para la consecución de la Agenda 2030.",
+                                "d": "Se ha analizado la importancia de identificar los aspectos ASG más relevantes para los grupos de interés de las organizaciones relacionándolos con los riesgos y oportunidades que suponen para la propia organización.",
+                                "e": "Se han identificado los principales estándares de métricas para la evaluación del desempeño en sostenibilidad y su papel en la rendición de cuentas que marca la legislación vigente y las futuras regulaciones en desarrollo.",
+                                "f": "Se ha descrito la inversión socialmente responsable y el papel de los analistas, inversores, agencias e índices de sostenibilidad en el fomento de la sostenibilidad."}},
+                "RA02": {
+                    "Resultado": " Caracteriza los retos ambientales y sociales a los que se enfrenta la sociedad, describiendo los impactos sobre las personas y los sectores productivos y proponiendo acciones para minimizarlos.",
+                        "CriteriosEvaluacion": {
+                                "a": "Se han identificado los principales retos ambientales y sociales.",
+                                "b": "Se han relacionado los retos ambientales y sociales con el desarrollo de la actividad económica.",
+                                "c": "Se ha analizado el efecto de los impactos ambientales y sociales sobre las personas y los sectores productivos.",
+                                "d": "Se han identificado las medidas y acciones encaminadas a minimizar los impactos ambientales y sociales.",
+                                "e": "Se ha analizado la importancia de establecer alianzas y trabajar de manera transversal y coordinada para abordar con éxito los retos ambientales y sociales."}},
+                "RA03": {
+                    "Resultado": " Establece la aplicación de criterios de sostenibilidad en el desempeño profesional y personal, identificando los elementos necesarios.",
+                        "CriteriosEvaluacion": {
+                                "a": "Se han identificado los ODS más relevantes para la actividad profesional que realiza.",
+                                "b": "Se han analizado los riesgos y oportunidades que representan los ODS.",
+                                "c": "Se han identificado las acciones necesarias para atender algunos de los retos ambientales y sociales desde la actividad profesional y el entorno personal."}},
+                "RA04": {
+                    "Resultado": " Propón productos y servicios responsables teniendo en cuenta los principios de la economía circular.",
+                        "CriteriosEvaluacion": {
+                                "a": "Se ha caracterizado el modelo de producción y consumo actual.",
+                                "b": "Se han identificado los principios de la economía verde y circular.",
+                                "c": "Se han contrastado los beneficios de la economía verde y circular frente al modelo clásico de producción.",
+                                "d": "Se han aplicado principios de ecodiseño.",
+                                "e": "Se ha analizado el ciclo de vida del producto.",
+                                "f": "Se han identificado los procesos de producción y los criterios de sostenibilidad aplicados."}},
+                "RA05": {
+                    "Resultado": " Realiza actividades sostenibles minimizando el impacto de las mismas en el medio ambiente.",
+                        "CriteriosEvaluacion": {
+                                "a": "Se ha caracterizado el modelo de producción y consumo actual.",
+                                "b": "Se han identificado los principios de la economía verde y circular.",
+                                "c": "Se han contrastado los beneficios de la economía verde y circular frente al modelo clásico de producción.",
+                                "d": "Se ha evaluado el impacto de las actividades personales y profesionales.",
+                                "e": "Se han aplicado principios de ecodiseño.",
+                                "f": "Se han aplicado estrategias sostenibles.",
+                                "g": "Se ha analizado el ciclo de vida del producto.",
+                                "h": "Se han identificado los procesos de producción y los criterios de sostenibilidad aplicados.",
+                                "i": "Se ha aplicado la normativa ambiental."}},
+                "RA06": {
+                    "Resultado": " Analiza un plan de sostenibilidad de una empresa del sector, identificando sus grupos de interés, los aspectos ASG materiales y justificando acciones para su gestión y medición.",
+                        "CriteriosEvaluacion": {
+                                "a": "Se han identificado los principales grupos de interés de la empresa.",
+                                "b": "Se han analizado los aspectos ASG materiales, las expectativas de los grupos de interés y la importancia de los aspectos ASG en relación con los objetivos empresariales.",
+                                "c": "Se han definido acciones encaminadas a minimizar los impactos negativos y aprovechar las oportunidades que plantean los principales aspectos ASG identificados.",
+                                "d": "Se han determinado las métricas de evaluación del desempeño de la empresa de acuerdo con los estándares de sostenibilidad más ampliamente utilizados.",
+                                "e": "Se ha elaborado un informe de sostenibilidad con el plan y los indicadores propuestos."
+                                }
+                    }
+                },
+            "horas": "30",
             "UnidadesCompetenciaAcreditadas": {},
             "ObjetivosGenerales ": ["e","j","q"],
             "CompetenciasTitulo" : ["a","e","f","i","j","v","y","z" ]
         },
-        "0494": {
-            "nombre": "Empresa e iniciativa emprendedora",
-            "creditos": "4",
-            "ResultadosAprendizaje": {},
-            "horas": "65",
+        "1709": {
+            "nombre": "Itinerario personal para la empleabilidad I",
+            "creditos": "5",
+            "ResultadosAprendizaje": {
+                "RA01": {
+                    "Resultado": " Distingue las características del sector productivo y define los puestos de trabajo relacionándolos con las competencias profesionales expresadas en el título.",
+                        "CriteriosEvaluacion": {
+                                "a": "Se han analizado las principales oportunidades de empleo y de inserción laboral en el sector profesional, identificando las posibilidades de empleo y analizado sus requerimientos actuales para el perfil profesional.",
+                                "b": "Se ha comparado los diferentes requerimientos exigidos por el mercado laboral con las exigencias para el trabajo en la función pública relacionados con el sector privado.",
+                                "c": "Se ha reflexionado sobre las actitudes y aptitudes requeridas actualmente para la actividad profesional relacionadas con el título, así como las competencias personales y sociales más relevantes para el sector identificando nuestra zona de desarrollo próximo."}},
+                "RA02": {
+                    "Resultado": " Adquiere las competencias necesarias para el desempeño de las funciones de nivel básico en Prevención de Riesgos Laborales.",
+                        "CriteriosEvaluacion": {
+                                "a": "Se ha valorado la importancia de la cultura preventiva en todos los ámbitos actividades de la empresa u organismo equiparado relacionado las condiciones laborales con la salud de la persona trabajadora identificando y clasificando los factores de riesgo en la actividad y los daños derivados de los mismos, especialmente las situaciones de riesgo más habituales en los entornos de trabajo del sector profesional relacionado con el título.",
+                                "b": "Se han clasificado y descrito los tipos de daños profesionales, con especial referencia a accidentes de trabajo y enfermedades profesionales, relacionados con el perfil profesional del título.",
+                                "c": "Se ha determinado la evaluación de riesgos en la empresa u organismo equiparado y definido las técnicas de prevención y de protección que deben aplicarse para evitar los daños en su origen y minimizar sus consecuencias.",
+                                "d": "Se han analizado los protocolos de actuación en caso de emergencia.",
+                                "e": "Se han determinado los principales derechos y deberes en materia de prevención de riesgos laborales.",
+                                "f": "Se han clasificado las distintas formas de gestión de la prevención en la empresa u organismo equiparado, en función de los distintos criterios establecidos en la normativa sobre prevención de riesgos laborales y determinado las formas de representación de las personas trabajadoras en la empresa u organismo equiparado en materia de prevención de riesgos.",
+                                "g": "Se ha valorado la importancia de la existencia de un plan preventivo en la empresa u organismo equiparado que incluya la secuenciación de actuaciones a realizar en caso de emergencia y reflexionado sobre el contenido del mismo.",
+                                "h": "Se han determinado los requisitos y condiciones para la vigilancia de la salud de la persona trabajadora y su importancia como medida de prevención.",
+                                "i": "Se han identificado las técnicas básicas de primeros auxilios que han de ser aplicadas en el lugar del accidente ante distintos tipos de daños y la composición y uso del botiquín." }},
+                "RA03": {
+                    "Resultado": " Analiza sus condiciones laborales como persona trabajadora por cuenta ajena identificándolas en los principales tipos de cambios y vicisitudes relevantes que se pueden presentar en la relación laboral en la normativa laboral y especialmente en el convenio colectivo del sector.",
+                        "CriteriosEvaluacion": {
+                                "a": "Se han analizado los derechos y obligaciones derivados de la relación laboral, así como las condiciones de trabajo pactadas en un convenio colectivo aplicable al sector profesional relacionado con el título.",
+                                "b": "Se han comparado las principales modalidades de contratación, localizando los diferentes modelos en las fuentes oficiales.",
+                                "c": "Se han identificado las características definitorias de los nuevos entornos de organización del trabajo y los derechos que conlleva.",
+                                "d": "Se han identificado los diferentes componentes del recibo de salario.",
+                                "e": "Se han identificado los recursos laborales existentes ante las diferentes vicisitudes que se pueden dar en la relación laboral.",
+                                "f": "Se ha valorado el papel de laSeguridad Social como pilar esencial para la mejora de la calidad de vida de los ciudadanos.",
+                                "g": "Se han analizado las principales prestaciones derivadas de la suspensión y extinción de la relación laboral."}},
+                "RA04": {
+                    "Resultado": " Analiza y evalúa su potencial profesional y sus intereses para guiarse en el proceso de autoorientación y elabora una hoja de ruta para la inserción profesional en base al análisis de las competencias, intereses y destrezas personales.",
+                        "CriteriosEvaluacion": {
+                                "a": "Se han evaluado los propios intereses, motivaciones, habilidades y destrezas en el marco de un proceso de autoconocimiento.",
+                                "b": "Se han analizado las cualidades y competencias personales afines a la actividad profesional relacionada con el perfil del título.",
+                                "c": "Se han determinado las competencias personales y sociales con valor para el empleo.",
+                                "d": "Se han señalado las preferencias profesionales, intereses y metas en el marco de un proyecto profesional.",
+                                "e": "Se ha valorado el concepto de autoestima en el proceso de búsqueda de empleo.",
+                                "f": "Se han identificado las fortalezas, debilidades, amenazas y oportunidades propias para la inserción profesional.",
+                                "g": "Se han identificado expectativas de futuro para inserción profesional analizando competencias, intereses y destrezas personales.",
+                                "h": "Se han valorado hitos importantes en la trayectoria vital con valor profesionalizador.",
+                                "i": "Se han identificado los itinerarios formativos profesionales relacionados con el perfil profesional.",
+                                "j": "Se han formulado objetivos profesionales y se ha determinado metas personales y profesionales para la mejora de la empleabilidad y las condiciones de inserción laboral.",
+                                "k": "Se ha trazado un plan de acción para desarrollar las áreas de mejora y potenciar las fortalezas personales con valor para el empleo."}},
+                "RA05": {
+                    "Resultado": " Aplica las estrategias para el aprendizaje autónomo reconociendo su valor profesionalizador, diseñando y optimizando su propio entorno de aprendizaje haciendo uso de las tecnologías digitales como herramientas de aprendizaje autónomo, siendo coherente con su identidad digital y sus propios objetivos profesionales planteados en su plan de desarrollo individual.",
+                        "CriteriosEvaluacion": {
+                                "a": "Se ha tomado conciencia de la responsabilidad individual en el desarrollo profesional valorando la actitud de aprendizaje permanente para el desarrollo de propias y nuevas competencias.",
+                                "b": "Se ha identificado la empleabilidad como capacidad de adaptación al entorno laboral.",
+                                "c": "Se han conocido y utilizado herramientas, fuentes de información, conexiones y actividades para la configuración de un entorno personal de aprendizaje para la empleabilidad.",
+                                "d": "Se ha puesto en práctica la competencia digital para configurar un entorno personal de aprendizaje para la empleabilidad.",
+                                "e": "Se ha analizado el concepto de identidad digital y su impacto en la empleabilidad.",
+                                "f": "Se ha justificado el diseño de su entorno de aprendizaje basado en cómo este mejora la empleabilidad.",
+                                "g": "Se ha elaborado su plan de desarrollo individual como herramienta para la mejora de la empleabilidad.",
+                                "h": "Se han aplicado las herramientas de aprendizaje autónomo para su desarrollo personal y profesional.",
+                                "i": "Se ha diseñado el entorno de aprendizaje que permite alcanzar el plan de desarrollo individual."}}
+            },
+            "horas": "50",
             "UnidadesCompetenciaAcreditadas": {},
             "ObjetivosGenerales ": ["e","j","q"],
             "CompetenciasTitulo" : ["a","e","f","i","j","v","y","z" ]
         },
-        "0495": {
-            "nombre": "Formación en centros de trabajo",
-            "creditos": "22",
-            "ResultadosAprendizaje": {},
-            "horas": "370",
+        "1710": {
+            "nombre": "Itinerario personal para la empleabilidad II",
+            "creditos": "5",
+            "ResultadosAprendizaje": {
+                "RA01": {
+                    "Resultado": " Planifica y pone en marcha estrategias en los diferentes procesos selectivos de empleo que le permiten mejorar sus posibilidades de inserción laboral.",
+                        "CriteriosEvaluacion": {
+                                "a": "Se han determinado las técnicas utilizadas actualmente en el sector para el proceso de selección de personal.",
+                                "b": "Se han desarrollado estrategias para la búsqueda de empleo relacionadas con las técnicas actuales más utilizadas contextualizadas al sector.",
+                                "c": "Se han valorado las actitudes y aptitudes que permiten superar procesos selectivos en el sector privado y en el sector público.",
+                                "d": "Se ha construido una marca personal identificando las necesidades del mercado actual, sus habilidades, destrezas y su aporte de valor."}},
+                "RA02": {
+                    "Resultado": " Aplica estrategias relacionadas con las competencias personales, sociales y emocionales para el empleo en búsqueda de la mejora de su empleabilidad.",
+                        "CriteriosEvaluacion": {
+                                "a": "Se ha valorado la importancia de las competencias personales y sociales en la empleabilidad en el sector de referencia.",
+                                "b": "Se ha participado activamente en el establecimiento de los objetivos del equipo y en la toma de decisiones del mismo y asumido la responsabilidad de las acciones y decisiones del grupo, participando activamente en el logro de unos objetivos compartidos cooperando con otras personas y compartiendo el liderazgo.",
+                                "c": "Se han incorporado al propio proceso de aprendizaje las técnicas y recursos de presentación y comunicación, tanto orales como escritos, adecuados para una comunicación efectiva y afectiva siendo capaz de adaptarlos a cada situación y circunstancias, valorando las oportunidades y dificultades que ofrece cada una de ellas.",
+                                "d": "Se han aplicado técnicas y estrategias para la gestión del tiempo disponible para alcanzar los objetivos tanto individuales como del equipo y programado las actividades necesarias.",
+                                "e": "Se han aplicado estrategias para canalizar las emociones mostrando una actitud flexible en las relaciones con otras personas.",
+                                "f": "Se han desarrollado estrategias para la programación de actividades atendiendo a criterios de organización eficiente y previendo las posibles dificultades.",
+                                "g": "Se ha reaccionado de forma flexible y positiva ante conflictos y situaciones nuevas, aprovechando las oportunidades y gestionando las dificultades haciendo uso de estrategias relacionadas con la inteligencia emocional."}},
+                "RA03": {
+                    "Resultado": " Pone en práctica las habilidades emprendedoras necesarias para el desarrollo de procesos de innovación e investigación aplicadas que promuevan la modernización del sector productivo hacia un modelo sostenible.",
+                        "CriteriosEvaluacion": {
+                                "a": "Se ha identificado el concepto de innovación y su relación con la construcción de una sociedad más sostenible que mejore en el bienestar de los individuos.",
+                                "b": "Se han analizado las distintas metodologías para emprender y su importancia para favorecer la innovación y como fuente de creación de empleo y bienestar social.",
+                                "c": "Se han aplicado las habilidades emprendedoras necesarias para promover el emprendimiento y el intraemprendimiento.",
+                                "d": "Se ha puesto en práctica el trabajo colaborativo como requisito para el desarrollo de procesos de innovación.",
+                                "e": "Se ha desarrollado la competencia digital necesaria para la mejora de los procesos de innovación e investigación aplicadas que promuevan la modernización del sector productivo.",
+                                "f": "Se han incorporado los objetivos de las políticas e iniciativas relacionadas con la sostenibilidad y el medio ambiente a la estrategia empresarial enfocada al desarrollo de un modelo económico y social sostenible."}},
+                "RA04": {
+                    "Resultado": " Identifica, define y valida ideas de emprendimiento generadoras de nuevas oportunidades a partir de estrategias de análisis del entorno socio productivo utilizando metodologías ágiles para el emprendimiento.",
+                        "CriteriosEvaluacion": {
+                                "a": "Se han identificado los problemas de las personas destinatarias potenciales del proyecto emprendedor como paso previo a la propuesta de soluciones que se conviertan en oportunidades.",
+                                "b": "Se ha puesto en práctica el proceso creativo con el fin de conseguir una idea emprendedora que aporte valor económico, social y/o cultural.",
+                                "c": "Se ha diseñado un modelo de negocio y/o gestión derivado de la idea emprendedora.",
+                                "d": "Se han incorporado valores éticos y sociales a la idea emprendedora analizando modelos de balance social.",
+                                "e": "Se ha analizado la contribución de la Economía Circular y la Economía del Bien Común al desarrollo de un modelo económico y social basado en la equidad, la justicia social y la sostenibilidad.",
+                                "f": "Se han analizado los principales componentes del entorno general y específico, y su impacto en la idea emprendedora.",
+                                "g": "Se han realizado entrevistas de problema para validar el perfil y el problema de las personas destinatarias de la idea emprendedora.",
+                                "h": "Se ha validado la solución mediante la creación de prototipos buscando el encaje problema-solución.",
+                                "i": "Se ha experimentado con la puesta en práctica de estrategias de marketing para desarrollar destrezas en técnicas de comunicación y venta."}},
+                "RA05": {
+                    "Resultado": " Desarrolla un proyecto emprendedor de innovación social y/o tecnológica aplicada en colaboración con el entorno.",
+                        "CriteriosEvaluacion": {
+                                "a": "Se han analizado los conceptos básicos del emprendimiento y la innovación social.",
+                                "b": "Se ha reflexionado sobre la necesidad del liderazgo ético y sostenible en las organizaciones.",
+                                "c": "Se ha reflexionado sobre la tecnología como base para el cambio del modelo productivo.",
+                                "d": "Se han puesto en marcha las estrategias propias del pensamiento de diseño para detectar necesidades sociales y medioambientales.",
+                                "e": "Se han analizado los elementos del diseño de modelos de negocio ecosociales y/o de base tecnológica.",
+                                "f": "Se han alineado metas de desarrollo sostenible con el diseño de modelos de negocio ecosociales y/o de base tecnológica.",
+                                "g": "Se han aplicado las estrategias necesarias para analizar la viabilidad del proyecto emprendedor.",
+                                "h": "Se han investigado las opciones financieras socialmente responsables.",
+                                "i": "Se han definido los agentes implicados en el proyecto, así como su participación en el mismo."
+                                }
+                    }
+            },
+            "horas": "50",
+            "UnidadesCompetenciaAcreditadas": {},
+            "ObjetivosGenerales ": ["e","j","q"],
+            "CompetenciasTitulo" : ["a","e","f","i","j","v","y","z" ]
+        },
+        "1665": {
+            "nombre": "Digitalización aplicada a los sectores productivos (GS)",
+            "creditos": "3",
+            "ResultadosAprendizaje": {
+                "RA01": {
+                    "Resultado": " Analiza el concepto de digitalización y su repercusión en los sectores productivos teniendo en cuenta la actividad de la empresa e identificando entornos IT (Information Technology: tecnología de la información) y OT (Operation Technology: tecnología de operación) característicos.",
+                        "CriteriosEvaluacion": {
+                                "a": "Se ha descrito en qué consiste el concepto de digitalización.",
+                                "b": "Se ha relacionado la implantación de la tecnología digital con la organización de las empresas.",
+                                "c": "Se han establecido las diferencias y similitudes entre los entornos IT y OT.",
+                                "d": "Se han identificado los departamentos típicos de las empresas que pueden constituir entornos IT.",
+                                "e": "Se han seleccionado las tecnologías típicas de la digitalización en planta y en negocio.",
+                                "f": "Se ha analizado la importancia de la conexión entre entornos IT y OT.",
+                                "g": "Se han analizado las ventajas de digitalizar una empresa industrial de extremo a extremo."}},
+                "RA02": {
+                    "Resultado": " Caracteriza las tecnologías habilitadoras digitales necesarias para la adecuación/transformación de las empresas a entornos digitales describiendo sus características y aplicaciones.",
+                        "CriteriosEvaluacion": {
+                                "a": "Se han identificado las principales tecnologías habilitadoras digitales.",
+                                "b": "Se han relacionado las THD con el desarrollo de productos y servicios.",
+                                "c": "Se ha relacionado la importancia de las THD con la economía sostenible y eficiente.",
+                                "d": "Se han identificado nuevos mercados generados por las THD.",
+                                "e": "Se ha analizado la implicación de THD tanto en la parte de negocio como en la parte de planta.",
+                                "f": "Se han identificado las mejoras producidas debido a la implantación de las tecnologías habilitadoras en relación con los entornos IT y OT.",
+                                "g": "Se ha elaborado un informe que relacione, las tecnologías con sus características y áreas de aplicación."}},
+                "RA03": {
+                    "Resultado": " Identifica sistemas basados en cloud/nube y su influencia en el desarrollo de los sistemas digitales.",
+                        "CriteriosEvaluacion": {
+                                "a": "Se han identificado los diferentes niveles de la cloud/nube.",
+                                "b": "Se han identificado las principales funciones de la cloud/nube (procesamiento de datos, intercambio de información, ejecución de aplicaciones, entre otros",
+                                "c": "Se ha descrito el concepto de edge computing y su relación con la cloud/nube.",
+                                "d": "Se han definido los conceptos de fog y mist y sus zonas de aplicación en el conjunto.",
+                                "e": "Se han identificado las ventajas que proporciona la utilización de la cloud/nube en los sistemas conectados."}},
+                "RA04": {
+                    "Resultado": " Identifica aplicaciones de la IA (inteligencia artificial) en entornos del sector donde está enmarcado el título describiendo las mejoras implícitas en su implementación.",
+                        "CriteriosEvaluacion": {
+                                "a": "Se ha identificado la importancia de la IA en la automatización de procesos y su optimización.",
+                                "b": "Se ha relacionado la IA con la recogida masiva de datos (Big Data y su tratamiento)",
+                                "c": "Se ha valorado la importancia presente y futura de la IA.",
+                                "d": "Se han identificado los sectores con implantación más relevante de IA.",
+                                "e": "Se han identificado los lenguajes de programación en IA.",
+                                "f": "Se ha descrito como influye la IA en el sector del título."}},
+                "RA05": {
+                    "Resultado": " Evalúa la importancia de los datos, así como su protección en una economía digital globalizada, definiendo sistemas de seguridad y ciberseguridad tanto a nivel de equipo/sistema, como globales.",
+                        "CriteriosEvaluacion": {
+                                "a": "Se ha establecido la diferencia entre dato e información.",
+                                "b": "Se ha descrito el ciclo de vida del dato.",
+                                "c": "Se ha identificado la relación entre Big Data, análisis de datos, machine/ deep learning e inteligencia artificial.",
+                                "d": "Se han descrito las características que definen Big Data.",
+                                "e": "Se han descrito las etapas típicas de la ciencia de datos y su relación en el proceso.",
+                                "f": "Se han descrito los procedimientos de almacenaje de datos en la cloud/nube.",
+                                "g": "Se ha descrito la importancia del cloud computing.",
+                                "h": "Se han identificado los principales objetivos de la ciencia de datos en las diferentes empresas.",
+                                "i": "Se ha valorado la importancia de la seguridad y su regulación en relación con los datos."}},
+                "RA06": {
+                    "Resultado": " Desarrolla un proyecto de transformación digital de una empresa de un sector relacionado con el título, teniendo en cuenta los cambios que se deben producir en función de los objetivos de la empresa.",
+                        "CriteriosEvaluacion": {
+                                "a": "Se han identificado los objetivos estratégicos de la empresa.",
+                                "b": "Se han identificado y alineado las áreas de producción/negocio y de comunicaciones.",
+                                "c": "Se han identificado las áreas susceptibles de ser digitalizadas.",
+                                "d": "Se ha analizado el encaje de AD (áreas digitalizadasentre sí y con las que no lo están.",
+                                "e": "Se han tenido en cuenta las necesidades presentes y futuras de la empresa.",
+                                "f": "Se han relacionado cada una de las áreas con la implantación de las tecnologías.",
+                                "g": "Se han analizado las posibles brechas de seguridad en cada una de las áreas.",
+                                "h": "Se ha definido el tratamiento de los datos y su análisis.",
+                                "i": "Se ha tenido en cuenta la integración entre datos, aplicaciones, plataformas que los soportan, entre otros.",
+                                "j": "Se han documentado los cambios realizados en función de la estrategia.",
+                                "k": "Se han tenido en cuenta la idoneidad de los recursos humanos."
+                            }
+                }
+            },
+            "horas": "30",
             "UnidadesCompetenciaAcreditadas": {},
             "ObjetivosGenerales ": ["e","j","q"],
             "CompetenciasTitulo" : ["a","e","f","i","j","v","y","z" ]

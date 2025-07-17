@@ -43,6 +43,7 @@ En **sesiones de carácter accesorio**, o temporadas pre-vacacionales, o guardia
 Posibles actividades ajenas a las sesiones en el centro educativo, de ámbito lúdico. Tales como:
 
 - Juegos de ordenador, tales como,
+
     - **PC Building Simulator**, un simulador de montaje de ordenador. [https://gogunlocked.com/pc-building-simulator-free-download/](https://gogunlocked.com/pc-building-simulator-free-download/)
     - **CodeStrike**, juego de aprendizaje de Python. [https://www.genbeta.com/desarrollo/aprender-programacion-al-estilo-clasico-te-aburre-este-videojuego-gratis-permite-aprender-python-vas-pasando-nivel](https://www.genbeta.com/desarrollo/aprender-programacion-al-estilo-clasico-te-aburre-este-videojuego-gratis-permite-aprender-python-vas-pasando-nivel)
     - **while True: learn()**
@@ -51,13 +52,15 @@ Posibles actividades ajenas a las sesiones en el centro educativo, de ámbito l�
     - [https://www.shellcheck.net/](https://www.shellcheck.net/)
 
 - Juegos de mesa como,
+
     -  **MOON**: Aprendizaje de utilización de binario. Compra, o PrintAndPlay o Android [https://compus.deusto.es/es/moon-1110011/](https://compus.deusto.es/es/moon-1110011/) 
     - **Arqueras de NAND**: Aprendizaje de cláusulas WHERE del SELECT. Compra, o PrintAndPlay [https://compus.deusto.es/es/nand/](https://compus.deusto.es/es/nand/)
     - **UNIX Pipe Game**: Aprendizaje de comandos UNIX y tuberías. PrintAndPlay [https://punkx.org/unix-pipe-game/](https://punkx.org/unix-pipe-game/)
     - **4917**: Aprendizaje de flujo de ejecución de una CPU. PrintAndPlay [https://punkx.org/4917/](https://punkx.org/4917/)
-    - **Trivial Pursuit de SMR**. Autor, Angel Berlanas.
+    - **Trivial Pursuit de Sistemas Operativos**. Autor, Angel Berlanas.
 
 - Aplicaciones de móviles, de aprendizaje de programación, tales como,
+
     - **Sololearn: Aprende a Programar**, Android e iOS.
     - **Programming Hub**, Android e iOS.
     - **Programming Hero**, aprender a programar terminando con la creación de un videojuego.

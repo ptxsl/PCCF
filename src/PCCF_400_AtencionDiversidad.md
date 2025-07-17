@@ -29,9 +29,11 @@ El Decreto 104/2018, 27 julio, establece un modelo de educación inclusiva para 
 
 ## Estrategias a seguir
 
-__El equipo docente:__
+### El equipo docente:
 
 * Evaluación inicial: intercambio y recopilación de información del alumnado con NEAE. El Departamento de Orientación Educativa y Profesional aportará información sobre las NEAE del alumnado registrada en ITACA 3, así como el alumnado que tiene certificado de discapacidad que ha entrado por la reserva de plazas. Detectar alumnos con NEAE no diagnosticados y necesidad de ampliación del número de convocatorias para el alumnado que ha aportado la documentación necesaria.
 
 * Medidas de respuesta para la inclusión: para poder atender a las necesidades educativas del alumnado, se llevarán a cabo medidas de nivel II y III descritas en la Orden 20/2019 de organización de la respuesta educativa para la inclusión. Se podrán realizar medidas no significativas, es decir, que no alteren los resultados de aprendizaje que debe conseguir el alumnado para alcanzar los objetivos del ciclo.
+
+
 El Departamento de Orientación Educativa y Profesional asesorará en cuanto a las medidas de respuesta para la inclusión que se pueden aplicar en cada caso.
