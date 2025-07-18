@@ -1,87 +1,45 @@
-name: Makefile CI
+name: ConstruccionProyectos
 
-#on:
-#  push:
-#    tags:
-#      - "*"
-
+# Cuando se hara?
 on:
   push:
     branches:
       - main
 
+# Permisos?
 permissions:
   contents: write
-  
+
+# Que tiene que hacer?
 jobs:
-  create-release:
+  crear-los-pdfs:
     runs-on: ubuntu-latest
 
     steps:
     - uses: actions/checkout@v4
 
-    - name: Install dependencies
+    - name: Instalamos las dependencias
       run: make dependences
 
-    - name: Proyecto SMX
-      run: make proyecto-smx	
+    - name: SMX - Proyecto
+      run: make proyecto-smx
+    - name: SMX - Programaciones
+      run: make proyecto-smx
+      
 
-    - name: Proyecto DAW
+    - name: DAW - Proyecto
       run: make proyecto-daw	
-    - name: Programaciones DAW
+    - name: DAW - Programaciones
       run: make programaciones-daw
 
-    - name: Proyecto DAM
+    - name: DAM - Proyecto
       run: make proyecto-dam	
       
-    - name: Proyecto ASIR
+    - name: ASIR - Proyecto
       run: make proyecto-asir
       
     - uses: actions/upload-artifact@v4
       with:
-        name: PCCFs
+        name: PDFs-PCCFs
         path: PDFS/ 
 
-#    - name: Comprobar existencia de los PDFs
-#      run: |
-#        test -f PDFS/PCCF_SENIA_SMX.pdf || (echo "Falta PCCF_SENIA_SMX.pdf" && exit 1)
-#        test -f PDFS/PCCF_SENIA_DAW.pdf || (echo "Falta PCCF_SENIA_DAW.pdf" && exit 1)
-#        test -f PDFS/Programaciones_SENIA_DAW.pdf || (echo "Falta PCCF_SENIA_DAW.pdf" && exit 1)
-#        test -f PDFS/PCCF_SENIA_DAM.pdf || (echo "Falta PCCF_SENIA_DAM.pdf" && exit 1)
-#        test -f PDFS/PCCF_SENIA_ASIR.pdf || (echo "Falta PCCF_SENIA_ASIR.pdf" && exit 1
-
-#  release:
-#    runs-on: ubuntu-latest
-#    needs: create-release
-    
-#    steps:
-#      - uses: actions/download-artifact@v4
-#        with:
-#          name: PCCFs
-#          path: downloaded/
-#      - name: Comprobar existencia de los PDFs
-#        run: |
-#          test -f downloaded/PCCF_SENIA_SMX.pdf || (echo "Falta downloaded/PCCF_SENIA_SMX.pdf" && exit 1)
-          
-#      - name: Create GitHub Release with PDFs
-#       uses: softprops/action-gh-release@v2.3.2
-#        with:
-#          files: |
-#            downloaded/PCCF_SENIA_DAM.pdf
-#            downloaded/PCCF_SENIA_SMX.pdf
-#            downloaded/PCCF_SENIA_DAW.pdf
-#            downloaded/PCCF_SENIA_ASIR.pdf
-#        env:
-#          GITHUB_TOKEN: ${{ secrets.GH_PAT }}
-#         # GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
-#    - name: Release with Notes
-#      uses: softprops/action-gh-release@v2.3.2
-#      with:
-#        files: |
-#          PDFS/PCCF_SENIA_DAM.pdf
-#          PDFS/PCCF_SENIA_SMX.pdf
-#          PDFS/PCCF_SENIA_DAW.pdf
-#          PDFS/PCCF_SENIA_ASIR.pdf   
-#      env:
-#          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
