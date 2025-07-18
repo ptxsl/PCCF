@@ -24,7 +24,7 @@ jobs:
     - name: SMX - Proyecto
       run: make proyecto-smx
     - name: SMX - Programaciones
-      run: make proyecto-smx
+      run: make programaciones-smx
       
 
     - name: DAW - Proyecto
