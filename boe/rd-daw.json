@@ -191,7 +191,9 @@
             "UnidadesCompetenciaAcreditadas":
             {
                 "UC0223_3":"Configurar y explotar sistemas informáticos."
-            }
+            },
+            "ObjetivosGenerales ": ["a","b","t","u","v","w","x"],
+            "CompetenciasTitulo" : ["a","b","l","t","u","v","w","x","y" ]
         },
         "0484":{
                 "nombre": "Bases de Datos",
