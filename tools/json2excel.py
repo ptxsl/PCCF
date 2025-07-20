@@ -37,6 +37,7 @@ p_nombre='B2'
 p_ra_col_l='B'
 p_ra_titulo_col=2
 p_ra_titulo_row=8
+p_ce_col_l='E'
 
 for codigo in data_box.ModulosProfesionales:
 
@@ -70,13 +71,58 @@ for codigo in data_box.ModulosProfesionales:
     ws.cell(column=p_percent_ra_col,row=p_percent_ra_row).alignment = Alignment(horizontal='center', vertical='center')
     ws.cell(column=p_percent_ra_col,row=p_percent_ra_row).fill = PatternFill('gray125')
 
-    print(" - %RA ")
+    print(" - COMP ")
     p_comp_col=p_percent_ra_col+1
     p_comp_row=p_percent_ra_row
     ws.merge_cells(start_row=p_comp_row, start_column=p_comp_col, end_row=p_comp_row+1, end_column=p_comp_col)
     ws.cell(column=p_comp_col,row=p_comp_row).value="COMP"
     ws.cell(column=p_comp_col,row=p_comp_row).alignment = Alignment(horizontal='center', vertical='center')
     ws.cell(column=p_comp_col,row=p_comp_row).fill = PatternFill('gray125')
+
+    print(" - CRITERIOS DE EVALUACIÓN ")
+    p_ce_col=p_comp_col+1
+    p_ce_row=p_comp_row
+    ws.merge_cells(start_row=p_ce_row, start_column=p_ce_col, end_row=p_comp_row+1, end_column=p_ce_col)
+    ws.cell(column=p_ce_col,row=p_ce_row).value="CRITERIOS DE EVALUACIÓN"
+    ws.cell(column=p_ce_col,row=p_ce_row).alignment = Alignment(horizontal='center', vertical='center')
+    ws.cell(column=p_ce_col,row=p_ce_row).fill = PatternFill('gray125')
+
+    ws.column_dimensions[p_ce_col_l].width = 90
+
+
+
+    print(" - HORAS ")
+    p_h_col=p_ce_col+1
+    p_h_row=p_ce_row
+    ws.merge_cells(start_row=p_h_row, start_column=p_h_col, end_row=p_h_row+1, end_column=p_h_col)
+    ws.cell(column=p_h_col,row=p_h_row).value="HORAS"
+    ws.cell(column=p_h_col,row=p_h_row).alignment = Alignment(horizontal='center', vertical='center')
+    ws.cell(column=p_h_col,row=p_h_row).fill = PatternFill('gray125')
+
+
+    print(" - %CE ")
+    p_ce_per_col=p_h_col+1
+    p_ce_per_row=p_h_row
+    ws.merge_cells(start_row=p_ce_per_row, start_column=p_ce_per_col, end_row=p_ce_per_row+1, end_column=p_ce_per_col)
+    ws.cell(column=p_ce_per_col,row=p_ce_per_row).value="% CE"
+    ws.cell(column=p_ce_per_col,row=p_ce_per_row).alignment = Alignment(horizontal='center', vertical='center')
+    ws.cell(column=p_ce_per_col,row=p_ce_per_row).fill = PatternFill('gray125')
+
+    print(" - REQUISITO FE")
+    p_req_fe_col=p_ce_per_col+1
+    p_req_fe_row=p_h_row
+    ws.merge_cells(start_row=p_req_fe_row, start_column=p_req_fe_col, end_row=p_req_fe_row+1, end_column=p_req_fe_col)
+    ws.cell(column=p_req_fe_col,row=p_req_fe_row).value="REQUISITO FE"
+    ws.cell(column=p_req_fe_col,row=p_req_fe_row).alignment = Alignment(horizontal='center', vertical='center',wrap_text=True)
+    ws.cell(column=p_req_fe_col,row=p_req_fe_row).fill = PatternFill('gray125')
+
+    print(" - HORAS DUAL ")
+    p_horas_dual_col=p_req_fe_col+1
+    p_horas_dual_row=p_req_fe_row
+    ws.merge_cells(start_row=p_horas_dual_row, start_column=p_horas_dual_col, end_row=p_horas_dual_row+1, end_column=p_horas_dual_col)
+    ws.cell(column=p_horas_dual_col,row=p_horas_dual_row).value="HORAS DUAL"
+    ws.cell(column=p_horas_dual_col,row=p_horas_dual_row).alignment = Alignment(horizontal='center', vertical='center',wrap_text=True)
+    ws.cell(column=p_horas_dual_col,row=p_horas_dual_row).fill = PatternFill('gray125')
 
 
 
@@ -88,13 +134,20 @@ for codigo in data_box.ModulosProfesionales:
     for ra in modulo.ResultadosAprendizaje:
         listaCriterios=modulo.ResultadosAprendizaje[ra].CriteriosEvaluacion
         numCriterios=len(listaCriterios)
-        print(" -- Criterios del RA "+str(len(listaCriterios)))
-        print(listaCriterios)
-        ws.cell(column=p_ra_titulo_col,row=p_ra_titulo_row).value=modulo.ResultadosAprendizaje[ra].Resultado
+
+        ws.cell(column=p_ra_titulo_col,row=p_ra_titulo_row).value=ra+"."+modulo.ResultadosAprendizaje[ra].Resultado
         ws.cell(column=p_ra_titulo_col,row=p_ra_titulo_row).alignment = Alignment(horizontal='center', vertical='center',wrap_text=True)
         ws.merge_cells(start_row=p_ra_titulo_row, start_column=p_ra_titulo_col, end_row=p_ra_titulo_row+numCriterios+1, end_column=p_ra_titulo_col)
 
-
+        # TODOS
+        p_ce_row=p_ce_row+2
+        ws.cell(column=p_ce_col,row=p_ce_row).value="TODOS"
+        ws.cell(column=p_ce_col,row=p_ce_row).alignment=Alignment(horizontal='center', vertical='center')
+        ws.cell(column=p_ce_col,row=p_ce_row).fill = PatternFill('gray0625')
+        for ce in listaCriterios:
+            p_ce_row=p_ce_row+1
+            ws.cell(column=p_ce_col,row=p_ce_row).value=ce+" -> "+listaCriterios[ce]
+            ws.cell(column=p_ce_col,row=p_ce_row).alignment = Alignment(horizontal='left', vertical='center',wrap_text=True)
 
 
         # Incrementamos la fila
