@@ -28,7 +28,7 @@ data_box = Box(data)
 # Abrimos el excel
 #writer = pd.ExcelWriter("datos.xlsx", engine="openpyxl")
 
-libro=str(sys.argv[1])+"_libro.xlsx"
+libro="PDFS/"+str(sys.argv[1])+"_libro.xlsx"
 wb = openpyxl.Workbook()
 
 # Algunas posiciones fijas
@@ -38,6 +38,7 @@ p_ra_col_l='B'
 p_ra_titulo_col=2
 p_ra_titulo_row=8
 p_ce_col_l='E'
+p_req_fe_col_l='H'
 
 for codigo in data_box.ModulosProfesionales:
 
@@ -115,6 +116,7 @@ for codigo in data_box.ModulosProfesionales:
     ws.cell(column=p_req_fe_col,row=p_req_fe_row).value="REQUISITO FE"
     ws.cell(column=p_req_fe_col,row=p_req_fe_row).alignment = Alignment(horizontal='center', vertical='center',wrap_text=True)
     ws.cell(column=p_req_fe_col,row=p_req_fe_row).fill = PatternFill('gray125')
+    ws.column_dimensions[p_req_fe_col_l].width =15
 
     print(" - HORAS DUAL ")
     p_horas_dual_col=p_req_fe_col+1
@@ -130,6 +132,8 @@ for codigo in data_box.ModulosProfesionales:
 
     # Ahora ya seguimos para abajo
     p_ra_titulo_row=p_ra_titulo_row+2
+    ra_per=100/len(modulo.ResultadosAprendizaje)
+
 
     for ra in modulo.ResultadosAprendizaje:
         listaCriterios=modulo.ResultadosAprendizaje[ra].CriteriosEvaluacion
@@ -139,16 +143,30 @@ for codigo in data_box.ModulosProfesionales:
         ws.cell(column=p_ra_titulo_col,row=p_ra_titulo_row).alignment = Alignment(horizontal='center', vertical='center',wrap_text=True)
         ws.merge_cells(start_row=p_ra_titulo_row, start_column=p_ra_titulo_col, end_row=p_ra_titulo_row+numCriterios+1, end_column=p_ra_titulo_col)
 
+        ws.cell(column=p_ra_titulo_col+1,row=p_ra_titulo_row).value='{0:.2f}'.format(ra_per)
+        ws.cell(column=p_ra_titulo_col+1,row=p_ra_titulo_row).alignment = Alignment(horizontal='center', vertical='center',wrap_text=True)
+        ws.merge_cells(start_row=p_ra_titulo_row, start_column=p_ra_titulo_col+1, end_row=p_ra_titulo_row+numCriterios+1, end_column=p_ra_titulo_col+1)
+
+        # Criterios de Evaluacion de cada uno de los RA
+
         # TODOS
         p_ce_row=p_ce_row+2
         ws.cell(column=p_ce_col,row=p_ce_row).value="TODOS"
         ws.cell(column=p_ce_col,row=p_ce_row).alignment=Alignment(horizontal='center', vertical='center')
         ws.cell(column=p_ce_col,row=p_ce_row).fill = PatternFill('gray0625')
+        ws.cell(column=p_ce_col+1,row=p_ce_row).value="=SUM(F"+str(p_ce_row+1)+":F"+str(p_ce_row+numCriterios)+")"
+
+        ce_per=100/numCriterios
+
         for ce in listaCriterios:
             p_ce_row=p_ce_row+1
-            ws.cell(column=p_ce_col,row=p_ce_row).value=ce+" -> "+listaCriterios[ce]
+            ws.cell(column=p_ce_col,row=p_ce_row).value=ce+") "+listaCriterios[ce]
             ws.cell(column=p_ce_col,row=p_ce_row).alignment = Alignment(horizontal='left', vertical='center',wrap_text=True)
-
+            # Horas del Criterio
+            ws.cell(column=p_ce_col+1,row=p_ce_row).value=0
+            # Porcentaje del Criterio
+            ws.cell(column=p_ce_col+2,row=p_ce_row).value='{0:.2f}'.format(ce_per)
+            ws.cell(column=p_ce_col+2,row=p_ce_row).alignment = Alignment(horizontal='right', vertical='center',wrap_text=True)
 
         # Incrementamos la fila
         p_ra_titulo_row=p_ra_titulo_row+numCriterios+2
