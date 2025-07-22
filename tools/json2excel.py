@@ -32,8 +32,8 @@ libro="PDFS/"+str(sys.argv[1])+"_libro.xlsx"
 wb = openpyxl.Workbook()
 
 # Algunas posiciones fijas
-p_codigo='B1'
-p_nombre='B2'
+p_codigo='C1'
+p_nombre='C2'
 p_ra_col_l='B'
 p_ra_titulo_col=2
 p_ra_titulo_row=8
@@ -50,10 +50,26 @@ for codigo in data_box.ModulosProfesionales:
 
     ws = wb.create_sheet(title=modulo.nombre)
     wb.active = wb.sheetnames.index(modulo.nombre)
-    ws['A1'].value="Codigo"
-    ws['A2'].value="Nombre"
+
+    ws['B1'].value="Código"
+    ws['B1'].alignment = Alignment(horizontal='center',vertical='center')
+    ws['B1'].fill = PatternFill('lightHorizontal')
+
+    ws['B2'].value="Nombre"
+    ws['B2'].alignment = Alignment(horizontal='center',vertical='center')
+    ws['B2'].fill = PatternFill('lightHorizontal')
+
+    ws.merge_cells(start_row=1,start_column=3,end_row=1,end_column=5)
     ws[p_codigo].value=codigo
+    ws[p_codigo].alignment = Alignment(horizontal='center',vertical='center')
+    ws[p_codigo].fill = PatternFill('darkTrellis')
+    ws[p_codigo].font = Font(size=13)
+
+    ws.merge_cells(start_row=2,start_column=3,end_row=2,end_column=5)
     ws[p_nombre].value=modulo.nombre
+    ws[p_nombre].alignment = Alignment(horizontal='center',vertical='center')
+    ws[p_nombre].fill = PatternFill('darkTrellis')
+    ws[p_nombre].font = Font(size=14)
 
 
     print(" - Resultados de Aprendizaje ")
@@ -171,5 +187,8 @@ for codigo in data_box.ModulosProfesionales:
         # Incrementamos la fila
         p_ra_titulo_row=p_ra_titulo_row+numCriterios+2
 
+print(" * Quitamos la primera hoja ")
+del wb['Sheet']
+print(" * Guardamos el libro en : "+str(libro))
 wb.save(libro)
 
