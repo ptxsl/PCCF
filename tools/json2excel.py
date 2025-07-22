@@ -12,6 +12,10 @@ from openpyxl.styles import Alignment
 from openpyxl.styles import Font, Fill
 from openpyxl.styles.colors import Color
 from openpyxl.styles import PatternFill
+from openpyxl.styles import NamedStyle
+
+# Estilos para celdas
+numberStyle = NamedStyle(name='numberStyle', number_format='0.00')
 
 # Importamos Jinja2
 import jinja2
@@ -159,7 +163,8 @@ for codigo in data_box.ModulosProfesionales:
         ws.cell(column=p_ra_titulo_col,row=p_ra_titulo_row).alignment = Alignment(horizontal='center', vertical='center',wrap_text=True)
         ws.merge_cells(start_row=p_ra_titulo_row, start_column=p_ra_titulo_col, end_row=p_ra_titulo_row+numCriterios+1, end_column=p_ra_titulo_col)
 
-        ws.cell(column=p_ra_titulo_col+1,row=p_ra_titulo_row).value='{0:.2f}'.format(ra_per)
+        ws.cell(column=p_ra_titulo_col+1,row=p_ra_titulo_row).value=ra_per
+        ws.cell(column=p_ra_titulo_col+1,row=p_ra_titulo_row).style = numberStyle
         ws.cell(column=p_ra_titulo_col+1,row=p_ra_titulo_row).alignment = Alignment(horizontal='center', vertical='center',wrap_text=True)
         ws.merge_cells(start_row=p_ra_titulo_row, start_column=p_ra_titulo_col+1, end_row=p_ra_titulo_row+numCriterios+1, end_column=p_ra_titulo_col+1)
 
@@ -169,8 +174,15 @@ for codigo in data_box.ModulosProfesionales:
         p_ce_row=p_ce_row+2
         ws.cell(column=p_ce_col,row=p_ce_row).value="TODOS"
         ws.cell(column=p_ce_col,row=p_ce_row).alignment=Alignment(horizontal='center', vertical='center')
-        ws.cell(column=p_ce_col,row=p_ce_row).fill = PatternFill('gray0625')
+
         ws.cell(column=p_ce_col+1,row=p_ce_row).value="=SUM(F"+str(p_ce_row+1)+":F"+str(p_ce_row+numCriterios)+")"
+        ws.cell(column=p_ce_col+2,row=p_ce_row).value="=SUM(G"+str(p_ce_row+1)+":G"+str(p_ce_row+numCriterios)+")"
+        ws.cell(column=p_ce_col+4,row=p_ce_row).value="=SUM(I"+str(p_ce_row+1)+":I"+str(p_ce_row+numCriterios)+")"
+
+        ws.cell(column=p_ce_col,row=p_ce_row).fill = PatternFill('gray0625')
+        ws.cell(column=p_ce_col+1,row=p_ce_row).fill = PatternFill('gray0625')
+        ws.cell(column=p_ce_col+2,row=p_ce_row).fill = PatternFill('gray0625')
+        ws.cell(column=p_ce_col+4,row=p_ce_row).fill = PatternFill('gray0625')
 
         ce_per=100/numCriterios
 
@@ -181,7 +193,8 @@ for codigo in data_box.ModulosProfesionales:
             # Horas del Criterio
             ws.cell(column=p_ce_col+1,row=p_ce_row).value=0
             # Porcentaje del Criterio
-            ws.cell(column=p_ce_col+2,row=p_ce_row).value='{0:.2f}'.format(ce_per)
+            ws.cell(column=p_ce_col+2,row=p_ce_row).value=ce_per
+            ws.cell(column=p_ce_col+2,row=p_ce_row).style = numberStyle
             ws.cell(column=p_ce_col+2,row=p_ce_row).alignment = Alignment(horizontal='right', vertical='center',wrap_text=True)
 
         # Incrementamos la fila
