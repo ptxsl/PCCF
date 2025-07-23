@@ -43,6 +43,13 @@ p_ra_titulo_col=2
 p_ra_titulo_row=8
 p_ce_col_l='E'
 p_req_fe_col_l='H'
+p_contenidos_col_l='J'
+
+p_TOTAL_HORAS_titulo="F4"
+p_TOTAL_HORAS="F5"
+p_TOTAL_HORAS_DUAL_titulo="I4"
+p_TOTAL_HORAS_DUAL="I5"
+
 
 for codigo in data_box.ModulosProfesionales:
 
@@ -74,6 +81,12 @@ for codigo in data_box.ModulosProfesionales:
     ws[p_nombre].alignment = Alignment(horizontal='center',vertical='center')
     ws[p_nombre].fill = PatternFill('darkTrellis')
     ws[p_nombre].font = Font(size=14)
+
+    ws[p_TOTAL_HORAS_titulo].value="TOTAL HORAS"
+    ws[p_TOTAL_HORAS_titulo].fill = PatternFill('darkTrellis')
+    ws[p_TOTAL_HORAS_titulo].font = Font(size=14)
+    # TODO
+    ws[p_TOTAL_HORAS].value="=SUM(F)
 
 
     print(" - Resultados de Aprendizaje ")
@@ -147,7 +160,15 @@ for codigo in data_box.ModulosProfesionales:
     ws.cell(column=p_horas_dual_col,row=p_horas_dual_row).fill = PatternFill('gray125')
 
 
+    print(" - CONTENIDOS ")
+    p_contenidos_col=p_horas_dual_col+1
+    p_contenidos_row=p_horas_dual_row
+    ws.merge_cells(start_row=p_contenidos_row, start_column=p_contenidos_col, end_row=p_contenidos_row+1, end_column=p_contenidos_col)
+    ws.cell(column=p_contenidos_col,row=p_contenidos_row).value="CONTENIDOS"
+    ws.cell(column=p_contenidos_col,row=p_contenidos_row).alignment = Alignment(horizontal='center', vertical='center',wrap_text=True)
+    ws.cell(column=p_contenidos_col,row=p_contenidos_row).fill = PatternFill('gray125')
 
+    ws.column_dimensions[p_contenidos_col_l].width = 50
 
 
     # Ahora ya seguimos para abajo
@@ -168,6 +189,8 @@ for codigo in data_box.ModulosProfesionales:
         ws.cell(column=p_ra_titulo_col+1,row=p_ra_titulo_row).alignment = Alignment(horizontal='center', vertical='center',wrap_text=True)
         ws.merge_cells(start_row=p_ra_titulo_row, start_column=p_ra_titulo_col+1, end_row=p_ra_titulo_row+numCriterios+1, end_column=p_ra_titulo_col+1)
 
+        # Contenidos
+        ws.merge_cells(start_row=p_ra_titulo_row, start_column=p_contenidos_col, end_row=p_ra_titulo_row+numCriterios, end_column=p_contenidos_col)
         # Criterios de Evaluacion de cada uno de los RA
 
         # TODOS
@@ -184,6 +207,32 @@ for codigo in data_box.ModulosProfesionales:
         ws.cell(column=p_ce_col+2,row=p_ce_row).fill = PatternFill('gray0625')
         ws.cell(column=p_ce_col+4,row=p_ce_row).fill = PatternFill('gray0625')
 
+        # Ingenieria para las competencias
+        if numCriterios < 3:
+            print(" * Demasiados pocos criterios, no se hace nada mas que los titulos")
+            ws.cell(column=p_comp_col,row=p_ce_row+1).value="CPROF"
+            ws.cell(column=p_comp_col,row=p_ce_row+2).value="EMPLEA"
+        else:
+            if numCriterios % 2 == 1:
+                numCProf = numCriterios // 2 + 1
+            else:
+                numCProf = numCriterios // 2
+            numCEmplea = numCriterios - numCProf
+            print(" -- NCRITERIOS "+str(numCriterios))
+            print(" -- Tenemos CPROF : "+str(numCProf))
+            print(" -- Tenemos EMPLEA : "+str(numCEmplea))
+
+            ws.cell(column=p_comp_col,row=p_ce_row).value="CPROF"
+            ws.cell(column=p_comp_col,row=p_ce_row).fill = PatternFill('gray125')
+            ws.merge_cells(start_row=p_ce_row+1, start_column=p_comp_col, end_row=p_ce_row+numCProf, end_column=p_comp_col)
+            ws.cell(column=p_comp_col,row=p_ce_row+1).alignment=Alignment(horizontal='center', vertical='center')
+
+            ws.cell(column=p_comp_col,row=p_ce_row+numCProf+1).value="EMPLEA"
+            ws.cell(column=p_comp_col,row=p_ce_row+numCProf+1).fill = PatternFill('gray125')
+            ws.merge_cells(start_row=p_ce_row+2+numCProf, start_column=p_comp_col, end_row=p_ce_row+2+numCProf+numCEmplea-1, end_column=p_comp_col)
+            ws.cell(column=p_comp_col,row=p_ce_row+numCProf+2).alignment=Alignment(horizontal='center', vertical='center')
+
+
         ce_per=100/numCriterios
 
         for ce in listaCriterios:
@@ -199,6 +248,7 @@ for codigo in data_box.ModulosProfesionales:
 
         # Incrementamos la fila
         p_ra_titulo_row=p_ra_titulo_row+numCriterios+2
+
 
 print(" * Quitamos la primera hoja ")
 del wb['Sheet']
