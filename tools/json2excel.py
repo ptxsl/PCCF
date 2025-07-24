@@ -82,11 +82,20 @@ for codigo in data_box.ModulosProfesionales:
     ws[p_nombre].fill = PatternFill('darkTrellis')
     ws[p_nombre].font = Font(size=14)
 
+    ws.merge_cells(start_row=4,start_column=6,end_row=4,end_column=7)
     ws[p_TOTAL_HORAS_titulo].value="TOTAL HORAS"
     ws[p_TOTAL_HORAS_titulo].fill = PatternFill('darkTrellis')
     ws[p_TOTAL_HORAS_titulo].font = Font(size=14)
     # TODO
-    ws[p_TOTAL_HORAS].value="=SUM(F)
+    ws[p_TOTAL_HORAS].value="=SUM(F8:F200)/2"
+
+    ws.merge_cells(start_row=4,start_column=9,end_row=4,end_column=10)
+    ws[p_TOTAL_HORAS_DUAL_titulo].value="TOTAL H.DUAL"
+    ws[p_TOTAL_HORAS_DUAL_titulo].fill = PatternFill('darkTrellis')
+    ws[p_TOTAL_HORAS_DUAL_titulo].font = Font(size=14)
+    # TODO
+    ws[p_TOTAL_HORAS_DUAL].value="=SUM(I8:I200)/2"
+
 
 
     print(" - Resultados de Aprendizaje ")
