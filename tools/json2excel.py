@@ -38,6 +38,7 @@ wb = openpyxl.Workbook()
 # Algunas posiciones fijas
 p_codigo='C1'
 p_nombre='C2'
+p_horas='C3'
 p_ra_col_l='B'
 p_ra_titulo_col=2
 p_ra_titulo_row=8
@@ -69,6 +70,17 @@ for codigo in data_box.ModulosProfesionales:
     ws['B2'].value="Nombre"
     ws['B2'].alignment = Alignment(horizontal='center',vertical='center')
     ws['B2'].fill = PatternFill('lightHorizontal')
+
+    ws['B3'].value="Horas"
+    ws['B3'].alignment = Alignment(horizontal='center',vertical='center')
+    ws['B3'].fill = PatternFill('lightHorizontal')
+
+    ws.merge_cells(start_row=3,start_column=3,end_row=3,end_column=5)
+    ws['C3'].value=modulo.horas
+    ws['C3'].alignment = Alignment(horizontal='center',vertical='center')
+    ws['C3'].fill = PatternFill('darkTrellis')
+    ws['C3'].font = Font(size=13)
+
 
     ws.merge_cells(start_row=1,start_column=3,end_row=1,end_column=5)
     ws[p_codigo].value=codigo
