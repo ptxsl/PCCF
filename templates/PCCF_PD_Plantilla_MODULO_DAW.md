@@ -33,10 +33,10 @@ Se propone esta tabla
 
 | Número | Título                    | Inicio    | Fin       |
 |--------|---------------------------|-----------|-----------|
-| 01     | Introducción a vim        | 08/09/2025| 10/10/2025|
-| 02     | vim: Hay vida más de :wq! | 11/10/2025| 21/10/2025|
-| 03     | vim: Comando .            | 11/10/2025| 21/10/2025|
-| 04     | vim: aprendiendo Regex    | 22/10/2025| 20/12/2025|
+| 01     | UP01: Introducción a vim  | 08/09/2025| 10/10/2025|
+| 02     | UP02: Más allá de :wq     | 11/10/2025| 21/10/2025|
+| 03     | UP03: El poder de RegEx   | 11/10/2025| 21/10/2025|
+| 04     | UP04: El camino del zen   | 22/10/2025| 20/12/2025|
 
 ## Metodología del proceso de enseñanza-aprendizaje
 
@@ -111,3 +111,6 @@ La evaluación del propio proceso de *enseñanza-aprendizaje* contempladas en es
 
 ## Esquema General de {{modulo.nombre}}
 
+NOTA : Aquí se generará de manera automática la tabla a partir del Excel compartido con los RA, CE y Horas Asignadas. 
+
+NO RELLENAR.

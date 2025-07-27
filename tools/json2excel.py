@@ -45,9 +45,9 @@ p_ce_col_l='E'
 p_req_fe_col_l='H'
 p_contenidos_col_l='J'
 
-p_TOTAL_HORAS_titulo="F4"
+p_TOTAL_HORAS_titulo="F3"
 p_TOTAL_HORAS="F5"
-p_TOTAL_HORAS_DUAL_titulo="I4"
+p_TOTAL_HORAS_DUAL_titulo="I3"
 p_TOTAL_HORAS_DUAL="I5"
 
 
@@ -82,17 +82,25 @@ for codigo in data_box.ModulosProfesionales:
     ws[p_nombre].fill = PatternFill('darkTrellis')
     ws[p_nombre].font = Font(size=14)
 
-    ws.merge_cells(start_row=4,start_column=6,end_row=4,end_column=7)
+    ws.merge_cells(start_row=3,start_column=6,end_row=4,end_column=6)
     ws[p_TOTAL_HORAS_titulo].value="TOTAL HORAS"
     ws[p_TOTAL_HORAS_titulo].fill = PatternFill('darkTrellis')
-    ws[p_TOTAL_HORAS_titulo].font = Font(size=14)
+    ws[p_TOTAL_HORAS_titulo].font = Font(size=13)
+    ws[p_TOTAL_HORAS_titulo].alignment = Alignment(horizontal='center', vertical='center',wrap_text=True)
+    ws.column_dimensions['I'].width = 15
+
+    ws[p_TOTAL_HORAS].font = Font(size=16)
+
     # TODO
     ws[p_TOTAL_HORAS].value="=SUM(F8:F200)/2"
 
-    ws.merge_cells(start_row=4,start_column=9,end_row=4,end_column=10)
+    ws.merge_cells(start_row=3,start_column=9,end_row=4,end_column=9)
     ws[p_TOTAL_HORAS_DUAL_titulo].value="TOTAL H.DUAL"
     ws[p_TOTAL_HORAS_DUAL_titulo].fill = PatternFill('darkTrellis')
-    ws[p_TOTAL_HORAS_DUAL_titulo].font = Font(size=14)
+    ws[p_TOTAL_HORAS_DUAL_titulo].font = Font(size=13)
+    ws[p_TOTAL_HORAS_DUAL_titulo].alignment = Alignment(horizontal='center', vertical='center',wrap_text=True)
+    ws[p_TOTAL_HORAS_DUAL].font = Font(size=14)
+    ws.column_dimensions['F'].width = 15
     # TODO
     ws[p_TOTAL_HORAS_DUAL].value="=SUM(I8:I200)/2"
 
