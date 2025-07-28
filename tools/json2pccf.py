@@ -15,6 +15,10 @@ if sys.argv[1] == "DAW":
     with open('./boe/rd-daw.json', 'r', encoding='utf-8') as f:
         data = json.load(f)
 
+elif sys.argv[1] == "DAM":
+
+    with open('./boe/rd-dam.json', 'r', encoding='utf-8') as f:
+        data = json.load(f)
 
 elif sys.argv[1] == "SMX":
 

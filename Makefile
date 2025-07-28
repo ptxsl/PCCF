@@ -139,12 +139,15 @@ local-programaciones-daw : programaciones-daw
 proyecto-dam: files proyecto-base
 
 	@echo " [ ${BLUE} Proyecto Curricular : DAM ${RESET}]"
-	@echo " ${LIGHTBLUE} Poblando desde DAM ${RESET}"
 
+	@echo " ${LIGHTBLUE} Poblando desde DAM ${RESET}"
 	cp -r src_DAM/* temp/
 
 	@echo " ${LIGHTBLUE} Programaciones de DAM ${RESET}"
 	./tools/json2pccf.py DAM
+
+	@echo " ${LIGHTBLUE} Libro de las Programaciones de DAM ${RESET}"
+	./tools/json2excel.py DAM
 
 	@cd temp/ && pandoc --template $(TEMPLATE_TEX_PD) $(PANDOC_OPTIONS) -o $(PDF_PATH)/PCCF_SENIA_DAM.pdf ./PCCF_*.md
 
@@ -156,7 +159,12 @@ programaciones-dam: proyecto-dam
 
 	@cd temp/ && pandoc --template $(TEMPLATE_TEX_PD) $(PANDOC_OPTIONS) -o $(PDF_PATH)/Programaciones_SENIA_DAM.pdf ./PD_*.md
 
-
 local-programaciones-dam : programaciones-dam
 
 	xdg-open $(PDF_PATH)/Programaciones_SENIA_DAM.pdf
+
+local-excel-dam: files
+
+	@echo " [ ${BLUE} Excel : DAM ${RESET}]"
+	./tools/json2excel.py DAM
+	libreoffice PDFS/DAM_libro.xlsx
