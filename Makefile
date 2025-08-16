@@ -148,8 +148,11 @@ proyecto-dam: files proyecto-base
 
 	@echo " ${LIGHTBLUE} Libro de las Programaciones de DAM ${RESET}"
 	./tools/json2excel.py DAM
+	@echo " ${LIGHTBLUE} Excel Generado para DAM ${RESET}"
 
+	@echo " ${LIGHTBLUE} Generando $(PDF_PATH)/PCCF_SENIA_DAM.pdf ${RESET}"
 	@cd temp/ && pandoc --template $(TEMPLATE_TEX_PD) $(PANDOC_OPTIONS) -o $(PDF_PATH)/PCCF_SENIA_DAM.pdf ./PCCF_*.md
+	@echo " ${LIGHTBLUE} PDF Generado para DAM ${RESET}"
 
 local-proyecto-dam: proyecto-dam
 
@@ -157,7 +160,10 @@ local-proyecto-dam: proyecto-dam
 
 programaciones-dam: proyecto-dam
 
-	@cd temp/ && pandoc --template $(TEMPLATE_TEX_PD) $(PANDOC_OPTIONS) -o $(PDF_PATH)/Programaciones_SENIA_DAM.pdf ./PD_*.md
+	# Me dejo aqui el --verbose por si quiero apuntar algo mas fino en los errores.
+	@echo " ${LIGHTBLUE} Generando $(PDF_PATH)/Programaciones_SENIA_DAM.pdf ${RESET}"
+	@cd temp/ && pandoc  --template $(TEMPLATE_TEX_PD) $(PANDOC_OPTIONS) -o $(PDF_PATH)/Programaciones_SENIA_DAM.pdf ./PD_*.md
+	@echo " ${LIGHTBLUE} Programaciones Generadas para DAM ${RESET}"
 
 local-programaciones-dam : programaciones-dam
 
