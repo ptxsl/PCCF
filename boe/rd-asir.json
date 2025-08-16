@@ -1,63 +1,71 @@
 {
     "CompetenciasProfesionalesPersonalesSociales" : {
-	"a" : "Configurar y explotar sistemas informáticos, adaptando la configuración lógica del sistema según las necesidades de uso y los criterios establecidos.",
-	"b" : "Aplicar técnicas y procedimientos relacionados con la seguridad en sistemas, servicios y aplicaciones, cumpliendo el plan de seguridad.",
-	"c" : "Gestionar servidores de aplicaciones adaptando su configuración en cada caso para permitir el despliegue de aplicaciones web.",
-	"d" :"Gestionar bases de datos, interpretando su diseño lógico y verificando integridad, consistencia, seguridad y accesibilidad de los datos.",
-	"e":"Desarrollar aplicaciones web con acceso a bases de datos utilizando lenguajes, objetos de acceso y herramientas de mapeo adecuados a las especificaciones.",
-	"f": "Integrar contenidos en la lógica de una aplicación web, desarrollando componentes de acceso a datos adecuados a las especificaciones.",
-	"g":"Desarrollar interfaces en aplicaciones web de acuerdo con un manual de estilo, utilizando lenguajes de marcas y estándares web.",
-	"h": "Desarrollar componentes multimedia para su integración en aplicaciones web, empleando herramientas específicas y siguiendo las especificaciones establecidas.",
-	"i":"Integrar componentes multimedia en el interface de una aplicación web, realizando el análisis de interactividad, accesibilidad y usabilidad de la aplicación.",
-	"j": "Desarrollar e integrar componentes software en el entorno del servidor web, empleando herramientas y lenguajes específicos, para cumplir las especificaciones de la aplicación.",
-	"k": " Desarrollar servicios para integrar sus funciones en otras aplicaciones web, asegurando su funcionalidad.",
-	"l": " Integrar servicios y contenidos distribuidos en aplicaciones web, asegurando su funcionalidad.",
-	"m": " Completar planes de pruebas verificando el funcionamiento de los componentes software desarrollados, según las especificaciones.",
-	"n": " Elaborar y mantener la documentación de los procesos de desarrollo, utilizando herramientas de generación de documentación y control de versiones.",
-	"ñ": " Desplegar y distribuir aplicaciones web en distintos ámbitos de implantación, verificando su comportamiento y realizando modificaciones.",
-	"o": " Gestionar y/o realizar el mantenimiento de los recursos de su área en función de las cargas de trabajo y el plan de mantenimiento.",
-	"p": " Adaptarse a las nuevas situaciones laborales, manteniendo actualizados los conocimientos científicos, técnicos y tecnológicos relativos a su entorno profesional, gestionando su formación y los recursos existentes en el aprendizaje a lo largo de la vida y utilizando las tecnologías de la información y la comunicación.",
-	"q": " Resolver situaciones, problemas o contingencias con iniciativa y autonomía en el ámbito de su competencia, con creatividad, innovación y espíritu de mejora en el trabajo personal y en el de los miembros del equipo.",
-	"r": " Organizar y coordinar equipos de trabajo, supervisando el desarrollo del mismo, con responsabilidad, manteniendo relaciones fluidas y asumiendo el liderazgo, así como, aportando soluciones a los conflictos grupales que se presentan.",
-	"s": " Comunicarse con sus iguales, superiores, clientes y personas bajo su responsabilidad utilizando vías eficaces de comunicación, transmitiendo la información o conocimientos adecuados, y respetando la autonomía y competencia de las personas que intervienen en el ámbito de su trabajo.",
-	"t": " Generar entornos seguros en el desarrollo de su trabajo y el de su equipo, supervisando y aplicando los procedimientos de prevención de riesgos laborales y ambientales de acuerdo con lo establecido por la normativa y los objetivos de la empresa.",
-	"u": " Supervisar y aplicar procedimientos de gestión de calidad, de accesibilidad universal y de diseño para todos, en las actividades profesionales incluidas en los procesos de producción o prestación de servicios.",
-	"v": " Realizar la gestión básica para la creación y funcionamiento de una pequeña empresa y tener iniciativa en su actividad profesional con sentido de la responsabilidad social.",
-	"x": " Ejercer sus derechos y cumplir con las obligaciones derivadas de su actividad profesional, de acuerdo con lo establecido en la legislación vigente, participando activamente en la vida económica, social y cultural."
+	"a" : "Administrar sistemas operativos de servidor, instalando y configurando el software, en condiciones de calidad para asegurar el funcionamiento del sistema.",
+	"b" : "Administrar servicios de red (web, mensajería electrónica y transferencia de archivos, entre otros) instalando y configurando el software, en condiciones de calidad.",
+	"c" : "Administrar aplicaciones instalando y configurando el software, en condiciones de calidad para responder a las necesidades de la organización.",
+	"d" : "Implantar y gestionar bases de datos instalando y administrando el software de gestión en condiciones de calidad, según las características de la explotación.",
+	"e" : "Optimizar el rendimiento del sistema configurando los dispositivos hardware de acuerdo a los requisitos de funcionamiento.",
+	"f" : "Evaluar el rendimiento de los dispositivos hardware identificando posibilidades de mejoras según las necesidades de funcionamiento.",
+	"g" : "Determinar la infraestructura de redes telemáticas elaborando esquemas y seleccionando equipos y elementos.",
+	"h" : "Integrar equipos de comunicaciones en infraestructuras de redes telemáticas, determinando la configuración para asegurar su conectividad.",
+	"i" : "Implementar soluciones de alta disponibilidad, analizando las distintas opciones del mercado, para proteger y recuperar el sistema ante situaciones imprevistas.",
+	"j" : "Supervisar la seguridad física según especificaciones del fabricante y el plan de seguridad para evitar interrupciones en la prestación de servicios del sistema.",
+	"k" : "Asegurar el sistema y los datos según las necesidades de uso y las condiciones de seguridad establecidas para prevenir fallos y ataques externos.",
+	"l" : "Administrar usuarios de acuerdo a las especificaciones de explotación para garantizar los accesos y la disponibilidad de los recursos del sistema.",
+	"m" : "Diagnosticar las disfunciones del sistema y adoptar las medidas correctivas para restablecer su funcionalidad.",
+	"n" : "Gestionar y/o realizar el mantenimiento de los recursos de su área (programando y verificando su cumplimiento), en función de las cargas de trabajo y el plan de mantenimiento.",
+	"ñ" : "Efectuar consultas, dirigiéndose a la persona adecuada y saber respetar la autonomía de los subordinados, informando cuando sea conveniente.",
+	"o" : "Mantener el espíritu de innovación y actualización en el ámbito de su trabajo para adaptarse a los cambios tecnológicos y organizativos de su entorno profesional.",
+	"p" : "Liderar situaciones colectivas que se puedan producir, mediando en conflictos personales y laborales, contribuyendo al establecimiento de un ambiente de trabajo agradable y actuando en todo momento de forma sincera, respetuosa y tolerante.",
+	"q" : "Resolver problemas y tomar decisiones individuales, siguiendo las normas y procedimientos establecidos, definidos dentro del ámbito de su competencia.",
+	"r" : "Gestionar su carrera profesional, analizando las oportunidades de empleo, autoempleo y de aprendizaje.",
+	"s" : "Participar de forma activa en la vida económica, social y cultural con actitud crítica y responsable.",
+	"t" : "Crear y gestionar una pequeña empresa, realizando un estudio de viabilidad de productos, de planificación de la producción y de comercialización."
     },
     "CualificacionesINCUAL":
     {
 	"Completas":
 	{
-	    "IFC154_3" :
+	    "IFC152_3" :
 	    {
-		"Nombre":"Desarrollo de aplicaciones con tecnologías Web",
+		"Nombre":"Gestión de sistemas informáticos",
 		"UCs":
 		{
-		    "UC0491_3":"Desarrollar elementos software en el entorno cliente.",
-		    "UC0492_3":"Desarrollar elementos software en el entorno servidor.",
-		    "UC0493_3":"Implementar, verificar y documentar aplicaciones web en entornos internet, intranet y extranet."
+		    "UC0484_3":"Administrar los dispositivos hardware del sistema.",
+		    "UC0485_3":"Instalar, configurar y administrar el software de base y de aplicación del sistema.",
+		    "UC0486_3":"Asegurar equipos informáticos.    "
 		}
-	    }
+	    },
+	    "IFC156_3":
+	    {
+            "Nombre":"Administración de servicios de Internet",
+            "UCs":
+            {
+            "UC0495_3":"Instalar, configurar y administrar el software para gestionar un entorno web.",
+            "UC0496_3":"Instalar, configurar y administrar servicios de mensajería electrónica.",
+            "UC0497_3":"Instalar, configurar y administrar servicios de transferencia de archivos y multimedia.",
+            "UC0490_3":"Gestionar servicios en el sistema informático."
+            }
+	    },
+        "IFC079_3":
+        {
+            "Nombre":"Administración de bases de datos",
+            "UCs":
+            {
+            "UC0223_3":"Configurar y explotar sistemas informáticos.",
+            "UC0224_3":"Configurar y gestionar un sistema gestor de bases de datos.",
+            "UC0225_3":"Configurar y gestionar la base de datos."
+            }
+        }
 	},
 	"Incompletas":
 	{
-	    "IFC155_3":
+	    "IFC154_3":
 	    {	
-		"Nombre":"Programación en lenguajes estructurados de aplicaciones de gestión",
+		"Nombre":"Desarrollo de aplicaciones con tecnologías web",
 		"UCs":
 		{
-		    "UC0223_3":" Configurar y explotar sistemas informáticos.",
-		    "UC0226_3":"Programar bases de datos relacionales."
-		}
-	    },
-	    "IFC080_3":
-	    {
-		"Nombre": "Programación con lenguajes orientados a objetos y bases de datos relacionales",
-		"UCs":
-		{
-		    "UC0223_3":"Configurar y explotar sistemas informáticos.",
-		    "UC0226_3":"Programar bases de datos relacionales."
+		    "UC0493_3":"Implementar, verificar y documentar aplicaciones web en entornos internet, intranet y extranet.",
 		}
 	    }
 	}
