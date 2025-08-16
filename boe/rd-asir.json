@@ -65,38 +65,33 @@
 		"Nombre":"Desarrollo de aplicaciones con tecnologías web",
 		"UCs":
 		{
-		    "UC0493_3":"Implementar, verificar y documentar aplicaciones web en entornos internet, intranet y extranet.",
+		    "UC0493_3":"Implementar, verificar y documentar aplicaciones web en entornos internet, intranet y extranet."
 		}
 	    }
 	}
     },
     "ObjetivosGenerales":{
-	"a":"Ajustar la configuración lógica del sistema analizando las necesidades y criterios establecidos para configurar y explotar sistemas informáticos.",
-	"b":"Identificar las necesidades de seguridad analizando vulnerabilidades y verificando el plan preestablecido para aplicar técnicas y procedimientos relacionados con la seguridad en el sistema.",
-	"c":"Interpretar el diseño lógico de bases de datos, analizando y cumpliendo las especificaciones relativas a su aplicación, para gestionar bases de datos.",
-	"d":"Instalar y configurar módulos y complementos, evaluando su funcionalidad, para gestionar entornos de desarrollo.",
-	"e":"Seleccionar y emplear lenguajes, herramientas y librerías, interpretando las especificaciones para desarrollar aplicaciones multiplataforma con acceso a bases de datos.",
-	"f":"Gestionar la información almacenada, planificando e implementando sistemas de formularios e informes para desarrollar aplicaciones de gestión.",
-	"g":"Seleccionar y utilizar herramientas específicas, lenguajes y librerías, evaluando sus posibilidades y siguiendo un manual de estilo, para manipular e integrar en aplicaciones multiplataforma contenidos gráficos y componentes multimedia.",
-	"h":"Emplear herramientas de desarrollo, lenguajes y componentes visuales, siguiendo las especificaciones y verificando interactividad y usabilidad, para desarrollar interfaces gráficos de usuario en aplicaciones multiplataforma.",
-	"i":"Seleccionar y emplear técnicas, motores y entornos de desarrollo, evaluando sus posibilidades, para participar en el desarrollo de juegos y aplicaciones en el ámbito del entretenimiento.",
-	"j":"Seleccionar y emplear técnicas, lenguajes y entornos de desarrollo, evaluando sus posibilidades, para desarrollar aplicaciones en teléfonos móviles, tabletas y otros dispositivos inteligentes.",
-	"k":"Valorar y emplear herramientas específicas, atendiendo a la estructura de los contenidos, para crear ayudas generales y sensibles al contexto.",
-	"l":"Valorar y emplear herramientas específicas, atendiendo a la estructura de los contenidos, para crear tutoriales, manuales de usuario y otros documentos asociados a una aplicación.",
-	"m":"Seleccionar y emplear técnicas y herramientas, evaluando la utilidad de los asistentes de instalación generados, para empaquetar aplicaciones.",
-	"n":"Analizar y aplicar técnicas y librerías específicas, simulando diferentes escenarios, para desarrollar aplicaciones capaces de ofrecer servicios en red.",
-	"ñ":"Analizar y aplicar técnicas y librerías de programación, evaluando su funcionalidad para desarrollar aplicaciones multiproceso y multihilo.",
-	"o":"Reconocer la estructura de los sistemas ERP-CRM, identificando la utilidad de cada uno de sus módulos, para participar en su implantación.",
-	"p":"Realizar consultas, analizando y evaluando su alcance, para gestionar la información almacenada en sistemas ERP-CRM.",
-	"q":"Seleccionar y emplear lenguajes y herramientas, atendiendo a los requerimientos, para desarrollar componentes personalizados en sistemas ERP-CRM.",
-	"r":"Verificar los componentes software desarrollados, analizando las especificaciones, para completar un plan de pruebas.",
-	"s":"Establecer procedimientos, verificando su funcionalidad, para desplegar y distribuir aplicaciones.",
-	"t":"Describir los roles de cada uno de los componentes del grupo de trabajo, identificando en cada caso la responsabilidad asociada, para establecer las relaciones profesionales más convenientes.",
-	"u":"Identificar formas de intervención ante conflictos de tipo personal y laboral, teniendo en cuenta las decisiones más convenientes, para garantizar un entorno de trabajo satisfactorio.",
-	"v":"Identificar y valorar las oportunidades de promoción profesional y de aprendizaje, analizando el contexto del sector, para elegir el itinerario laboral y formativo más conveniente.",
-	"w":"Identificar los cambios tecnológicos, organizativos, económicos y laborales en su actividad, analizando sus implicaciones en el ámbito de trabajo, para mantener el espíritu de innovación.",
-	"x":"Reconocer las oportunidades de negocio, identificando y analizando demandas del mercado para crear y gestionar una pequeña empresa.",
-	"y":"Reconocer sus derechos y deberes como agente activo en la sociedad, analizando el marco legal que regula las condiciones sociales y laborales para participar como ciudadano democrático."
+        "a":"Analizar la estructura del software de base, comparando las características y prestaciones de sistemas libres y propietarios, para administrar sistemas operativos de servidor.",
+        "b":"Instalar y configurar el software de base, siguiendo documentación técnica y especificaciones dadas, para administrar sistemas operativos de servidor.",
+        "c":"Instalar y configurar software de mensajería y transferencia de ficheros, entre otros, relacionándolos con su aplicación y siguiendo documentación y especificaciones dadas, para administrar servicios de red.",
+        "d":"Instalar y configurar software de gestión, siguiendo especificaciones y analizando entornos de aplicación, para administrar aplicaciones.",
+        "e":"Instalar y administrar software de gestión, relacionándolo con su explotación, para implantar y gestionar bases de datos.",
+        "f":"Configurar dispositivos hardware, analizando sus características funcionales, para optimizar el rendimiento del sistema.",
+        "g":"Configurar hardware de red, analizando sus características funcionales y relacionándolo con su campo de aplicación, para integrar equipos de comunicaciones.",
+        "h":"Analizar tecnologías de interconexión, describiendo sus características y posibilidades de aplicación, para configurar la estructura de la red telemática y evaluar su rendimiento.",
+        "i":"Elaborar esquemas de redes telemáticas utilizando software especifico para configurar la estructura de la red telemática.",
+        "j":"Seleccionar sistemas de protección y recuperación, analizando sus características funcionales, para poner en marcha soluciones de alta disponibilidad.",
+        "k":"Identificar condiciones de equipos e instalaciones, interpretando planes de seguridad y especificaciones de fabricante, para supervisar la seguridad física.",
+        "l":"Aplicar técnicas de protección contra amenazas externas, tipificándolas y evaluándolas para asegurar el sistema.",
+        "m":"Aplicar técnicas de protección contra pérdidas de información, analizando planes de seguridad y necesidades de uso para asegurar los datos.",
+        "n":"Asignar los accesos y recursos del sistema, aplicando las especificaciones de la explotación, para administrar usuarios",
+        "ñ":"Aplicar técnicas de monitorización interpretando los resultados y relacionándolos con las medidas correctoras para diagnosticar y corregir las disfunciones.",
+        "o":"Establecer la planificación de tareas, analizando actividades y cargas de trabajo del sistema para gestionar el mantenimiento.",
+        "p":"Identificar los cambios tecnológicos, organizativos, económicos y laborales en su actividad, analizando sus implicaciones en el ámbito de trabajo, para resolver problemas y mantener una cultura de actualización e innovación.",
+        "q":"Identificar formas de intervención en situaciones colectivas, analizando el proceso de toma de decisiones y efectuando consultas para liderar las mismas.",
+        "r":"Identificar y valorar las oportunidades de aprendizaje y su relación con el mundo laboral, analizando las ofertas y demandas del mercado para gestionar su carrera profesional.",
+        "s":"Reconocer las oportunidades de negocio, identificando y analizando demandas del mercado para crear y gestionar una pequeña empresa.",
+        "t":"Reconocer sus derechos y deberes como agente activo en la sociedad, analizando el marco legal que regula las condiciones sociales y laborales para participar como ciudadano democrático."
     },
     "ModulosProfesionales":{
 	"0371":{
@@ -104,7 +99,7 @@
 	    "creditos":"6",
 	    "ResultadosAprendizaje":{
             "RA01": {
-                    "Resultado": " Configura equipos microinformáticos, componentes y periféricos, analizando sus características y relación con el conjunto.",
+                    "Resultado": "Configura equipos microinformáticos, componentes y periféricos, analizando sus características y relación con el conjunto.",
                         "CriteriosEvaluacion": {
                                 "a": "Se han identificado y caracterizado los dispositivos que constituyen los bloques funcionales de un equipo microinformático.",
                                 "b": "Se ha descrito el papel de los elementos físicos y lógicos que intervienen en el proceso de puesta en marcha de un equipo.",
@@ -116,7 +111,7 @@
                                 "h": "Se han clasificado los dispositivos periféricos y sus mecanismos de comunicación.",
                                 "i": "Se han utilizado protocolos estándar de comunicación inalámbrica entre dispositivos."}},
             "RA02": {
-                    "Resultado": " Instala software de propósito general evaluando sus características y entornos de aplicación.",
+                    "Resultado": "Instala software de propósito general evaluando sus características y entornos de aplicación.",
                         "CriteriosEvaluacion": {
                                 "a": "Se han catalogado los tipos de software según su licencia, distribución y propósito.",
                                 "b": "Se han analizado las necesidades específicas de software asociadas al uso de sistemas informáticos en diferentes entornos productivos.",
@@ -154,7 +149,7 @@
                                 "a": "Se han identificado los riesgos y el nivel de peligrosidad que suponen la manipulación de los materiales, herramientas, útiles, máquinas y medios de transporte.",
                                 "b": "Se han operado las máquinas respetando las normas de seguridad.",
                                 "c": "Se han identificado las causas más frecuentes de accidentes en la manipulación de materiales y herramientas, entre otras.",
-                                "d": "Se han descrito los elementos de seguridad (protecciones, alarmas, y pasos de emergencia, entre otros": " de las máquinas y los equipos de protección individual (calzado, protección ocular e indumentaria, entre otros": " que se deben emplear en las distintas operaciones de montaje y mantenimiento.",
+                                "d": "Se han descrito los elementos de seguridad (protecciones, alarmas, y pasos de emergencia, entre otros) de las máquinas y los equipos de protección individual (calzado, protección ocular e indumentaria, entre otros) que se deben emplear en las distintas operaciones de montaje y mantenimiento.",
                                 "e": "Se ha relacionado la manipulación de materiales, herramientas y máquinas con las medidas de seguridad y protección personal requeridos.",
                                 "f": "Se han identificado las posibles fuentes de contaminación del entorno ambiental.",
                                 "g": "Se han clasificado los residuos generados para su retirada selectiva.",
