@@ -2,6 +2,11 @@
 
 Proyectos Curriculares de la Familía de Informática del IES La Sénia - Paiporta.
 
+En este Repositorio podrás encontrar las fuentes en formato Markdown de los diferentes
+Proyectos Curriculares de la Familia de Informática, así como la posibilidad de generar
+las diferentes hojas de cálculo de las Programaciones Didácticas de los Módulos
+a partir de los contenidos del BOE que se leen desde diferentes JSON.
+
 ## Ciclos Formativos
 
 | Siglas | Nombre Completo | Nivel |
@@ -31,6 +36,15 @@ Sistemas Operativos que promuevan el Software Libre y Abierto, como Ubuntu o Deb
 [![Open Source? Yes!](https://badgen.net/badge/Open%20Source%20%3F/Yes%21/blue?icon=github)](https://fsfe.org/)
 
 ---
+
+## Descripción de las utilidades
+
+En la carpeta ~/tools~ podemos encontrar una serie de utilidades que se ha desarrollado para la generación de los diferentes
+Markdowns y las hojas de cálculo.
+
+También hay pequeñas utilidades (`tricky-tools`) que se han utilizado para ir construyendo los diferentes JSON que definen los
+datos de los Ciclos Formativos.
+
 ## Construyendo Proyectos en Local
 
 Usando `Makefile` se han preparado una serie de reglas para faciliar la *compilación* a PDF de los diferentes Proyectos
@@ -38,23 +52,26 @@ Curriculares de Ciclo Formativo.
 
 Este `Makefile` se utiliza también por parte de las Acciones de GitHub para la **Construcción Automática** de los diferentes proyectos cuando se hacen contribuciones.
 
-### SMX
-```shell
-make proyecto-smx
-```
+Algunos de los `targets` disponibles están listados a continuación, con el propósito de generar los PDFs y las diferentes
+hojas de cálculo.
 
-### ASIR
-```shell
-make proyecto-asir
-```
+No todos los `targets` tienen las mismas opciones y estan en construcción, así que se no se espera que tengan los mismos
+mensajes de salida, ni el mismo formato (colores) ^_^.
 
-### DAM
+### Usage de los targets
+
+Se muestran algunos usages de `targets` a modo de ejemplo, pero lo mejor siempre : *Use the source, Luke!*:
+
 ```shell
-make proyecto-dam
-```
-### DAW
-```shell
-make proyecto-daw
+# Crea el PDF de PCCF de SMX y lo abre mediante xdg-open.
+make local-proyecto-smx
+# Lo mismo para ASIR, DAM y DAW
+make local-proyecto-asir
+make local-proyecto-dam
+make local-proyecto-daw
+
+# Crea la hoja de calculo para DAW
+make local-excel-daw
 ```
 
 ## Dependencias
