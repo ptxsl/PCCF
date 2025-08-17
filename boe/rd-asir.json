@@ -781,6 +781,286 @@
                         }
 
             }
+        },
+        "0372":{
+            "nombre":"Gestión de Base de Datos",
+            "horas": "166",
+            "UnidadesCompetenciaAcreditadas" : {},
+            "ObjetivosGenerales" : ["d","e","m"],
+            "CompetenciasTitulo" : ["c","d","m"],
+            "creditos":"11",
+            "ResultadosAprendizaje":{
+                "RA01": {
+                    "Resultado": " Reconoce los elementos de las bases de datos analizando sus funciones y valorando la utilidad de sistemas gestores.",
+                        "CriteriosEvaluacion": {
+                                "a": "Se han analizado los distintos sistemas lógicos de almacenamiento y sus funciones.",
+                                "b": "Se han identificado los distintos tipos de bases de datos según el modelo de datos utilizado.",
+                                "c": "Se han identificado los distintos tipos de bases de datos en función de la ubicación de la información.",
+                                "d": "Se ha reconocido la utilidad de un sistema gestor de bases de datos.",
+                                "e": "Se ha descrito la función de cada uno de los elementos de un sistema gestor de bases de datos.",
+                                "f": "Se han clasificado los sistemas gestores de bases de datos."}},
+                "RA02": {
+                    "Resultado": " Diseña modelos lógicos normalizados interpretando diagramas entidad/relación.",
+                        "CriteriosEvaluacion": {
+                                "a": "Se ha identificado el significado de la simbología propia de los diagramas entidad/relación.",
+                                "b": "Se han utilizado herramientas gráficas para representar el diseño lógico.",
+                                "c": "Se han identificado las tablas del diseño lógico.",
+                                "d": "Se han identificado los campos que forman parte de las tablas del diseño lógico.",
+                                "e": "Se han identificado las relaciones entre las tablas del diseño lógico.",
+                                "f": "Se han definido los campos clave.",
+                                "g": "Se han aplicado las reglas de integridad.",
+                                "h": "Se han aplicado las reglas de normalización hasta un nivel adecuado.",
+                                "i": "Se han identificado y documentado las restricciones que no pueden plasmarse en el diseño lógico."}},
+                "RA03": {
+                    "Resultado": " Realiza el diseño físico de bases de datos utilizando asistentes, herramientas gráficas y el lenguaje de definición de datos.",
+                        "CriteriosEvaluacion": {
+                                "a": "Se han definido las estructuras físicas de almacenamiento.",
+                                "b": "Se han creado tablas.",
+                                "c": "Se han seleccionado los tipos de datos adecuados.",
+                                "d": "Se han definido los campos clave en las tablas.",
+                                "e": "Se han implantado todas las restricciones reflejadas en el diseño lógico.",
+                                "f": "Se ha verificado mediante un conjunto de datos de prueba que la implementación se ajusta al modelo.",
+                                "g": "Se han utilizado asistentes y herramientas gráficas.",
+                                "h": "Se ha utilizado el lenguaje de definición de datos.",
+                                "i": "Se ha definido y documentado el diccionario de datos."}},
+                "RA04": {
+                    "Resultado": " Consulta la información almacenada manejando asistentes, herramientas gráficas y el lenguaje de manipulación de datos.",
+                        "CriteriosEvaluacion": {
+                                "a": "Se han identificado las herramientas y sentencias para realizar consultas.",
+                                "b": "Se han realizado consultas simples sobre una tabla.",
+                                "c": "Se han realizado consultas que generan valores de resumen.",
+                                "d": "Se han realizado consultas sobre el contenido de varias tablas mediante composiciones internas.",
+                                "e": "Se han realizado consultas sobre el contenido de varias tablas mediante composiciones externas.",
+                                "f": "Se han realizado consultas con subconsultas.",
+                                "g": "Se han valorado las ventajas e inconvenientes de las distintas opciones válidas para llevar a cabo una consulta determinada."}},
+                "RA05": {
+                    "Resultado": " Modifica la información almacenada utilizando asistentes, herramientas gráficas y el lenguaje de manipulación de datos.",
+                        "CriteriosEvaluacion": {
+                                "a": "Se han identificado las herramientas y sentencias para modificar el contenido de la base de datos.",
+                                "b": "Se han insertado, borrado y actualizado datos en las tablas.",
+                                "c": "Se ha incluido en una tabla la información resultante de la ejecución de una consulta.",
+                                "d": "Se han adoptado medidas para mantener la integridad y consistencia de la información.",
+                                "e": "Se han diseñado guiones de sentencias para llevar a cabo tareas complejas.",
+                                "f": "Se ha reconocido el funcionamiento de las transacciones.",
+                                "g": "Se han anulado parcial o totalmente los cambios producidos por una transacción.",
+                                "h": "Se han identificado los efectos de las distintas políticas de bloqueo de registros."}},
+                "RA06": {
+                    "Resultado": " Ejecuta tareas de aseguramiento de la información, analizándolas y aplicando mecanismos de salvaguarda y transferencia.",
+                        "CriteriosEvaluacion": {
+                                "a": "Se han identificado herramientas gráficas y en línea de comandos para la administración de copias de seguridad.",
+                                "b": "Se han realizado copias de seguridad.",
+                                "c": "Se han restaurado copias de seguridad.",
+                                "d": "Se han identificado las herramientas para importar y exportar datos.",
+                                "e": "Se han exportado datos a diversos formatos.",
+                                "f": "Se han importado datos con distintos formatos.",
+                                "g": "Se ha interpretado correctamente la información suministrada por los mensajes de error y los ficheros de registro.",
+                                "h": "Se ha transferido información entre sistemas gestores."
+                                }
+                            }
+            }
+        },
+        "0374":{
+            "nombre":"Administración de Sistemas Operativos",
+            "horas": "133",
+            "UnidadesCompetenciaAcreditadas" : {},
+            "ObjetivosGenerales" : ["a", "b", "n", "ñ", "o" , "q" ],
+            "CompetenciasTitulo" : ["a", "l", "m", "n", "ñ", "o", "q", "r", "s"],
+            "creditos":"8",
+            "ResultadosAprendizaje":{
+                "RA01": {
+                    "Resultado": " Administra el servicio de directorio interpretando especificaciones e integrándolo en una red.",
+                        "CriteriosEvaluacion": {
+                                "a": "Se han identificado la función, los elementos y las estructuras lógicas del servicio de directorio.",
+                                "b": "Se ha determinado y creado el esquema del servicio de directorio.",
+                                "c": "Se ha realizado la instalación del servicio de directorio en el servidor.",
+                                "d": "Se ha realizado la configuración y personalización del servicio de directorio.",
+                                "e": "Se ha integrado el servicio de directorio con otros servicios.",
+                                "f": "Se han aplicado filtros de búsqueda en el servicio de directorio.",
+                                "g": "Se ha utilizado el servicio de directorio como mecanismo de acreditación centralizada de los usuarios en una red.",
+                                "h": "Se ha realizado la configuración del cliente para su integración en el servicio de directorio.",
+                                "i": "Se han utilizado herramientas gráficas y comandos para la administración del servicio de directorio.",
+                                "j": "Se ha documentado la estructura e implantación del servicio de directorio."}},
+                "RA02": {
+                    "Resultado": " Administra procesos del sistema describiéndolos y aplicando criterios de seguridad y eficiencia.",
+                        "CriteriosEvaluacion": {
+                                "a": "Se han descrito el concepto de proceso del sistema, tipos, estados y ciclo de vida.",
+                                "b": "Se han utilizado interrupciones y excepciones para describir los eventos internos del procesador.",
+                                "c": "Se ha diferenciado entre proceso, hilo y trabajo.",
+                                "d": "Se han realizado tareas de creación, manipulación y terminación de procesos.",
+                                "e": "Se ha utilizado el sistema de archivos como medio lógico para el registro e identificación de los procesos del sistema.",
+                                "f": "Se han utilizado herramientas gráficas y comandos para el control y seguimiento de los procesos del sistema.",
+                                "g": "Se ha comprobado la secuencia de arranque del sistema, los procesos implicados y la relación entre ellos.",
+                                "h": "Se han tomado medidas de seguridad ante la aparición de procesos no identificados.",
+                                "i": "Se han documentado los procesos habituales del sistema, su función y relación entre ellos."}},
+                "RA03": {
+                    "Resultado": " Gestiona la automatización de tareas del sistema, aplicando criterios de eficiencia y utilizando comandos y herramientas gráficas.",
+                        "CriteriosEvaluacion": {
+                                "a": "Se han descrito las ventajas de la automatización de las tareas repetitivas en el sistema.",
+                                "b": "Se han utilizado los comandos del sistema para la planificación de tareas.",
+                                "c": "Se han establecido restricciones de seguridad.",
+                                "d": "Se han realizado planificaciones de tareas repetitivas o puntuales relacionadas con la administración del sistema.",
+                                "e": "Se ha automatizado la administración de cuentas.",
+                                "f": "Se han instalado y configurado herramientas gráficas para la planificación de tareas.",
+                                "g": "Se han utilizado herramientas gráficas para la planificación de tareas.",
+                                "h": "Se han documentado los procesos programados como tareas automáticas."}},
+                "RA04": {
+                    "Resultado": " Administra de forma remota el sistema operativo en red valorando su importancia y aplicando criterios de seguridad.",
+                        "CriteriosEvaluacion": {
+                                "a": "Se han descrito métodos de acceso y administración remota de sistemas.",
+                                "b": "Se ha diferenciado entre los servicios orientados a sesión y los no orientados a sesión.",
+                                "c": "Se han utilizado herramientas de administración remota suministradas por el propio sistema operativo.",
+                                "d": "Se han instalado servicios de acceso y administración remota.",
+                                "e": "Se han utilizado comandos y herramientas gráficas para gestionar los servicios de acceso y administración remota.",
+                                "f": "Se han creado cuentas de usuario para el acceso remoto.",
+                                "g": "Se han realizado pruebas de acceso y administración remota entre sistemas heterogéneos.",
+                                "h": "Se han utilizado mecanismos de encriptación de la información transferida.",
+                                "i": "Se han documentado los procesos y servicios del sistema administrados de forma remota."}},
+                "RA05": {
+                    "Resultado": " Administra servidores de impresión describiendo sus funciones e integrándolos en una red.",
+                        "CriteriosEvaluacion": {
+                                "a": "Se ha descrito la funcionalidad de los sistemas y servidores de impresión.",
+                                "b": "Se han identificado los puertos y los protocolos utilizados.",
+                                "c": "Se han utilizado las herramientas para la gestión de impresoras integradas en el sistema operativo.",
+                                "d": "Se ha instalado y configurado un servidor de impresión en entorno Web.",
+                                "e": "Se han creado y clasificado impresoras lógicas.",
+                                "f": "Se han creado grupos de impresión.",
+                                "g": "Se han gestionado impresoras y colas de trabajos mediante comandos y herramientas gráficas.",
+                                "h": "Se han compartido impresoras en red entre sistemas operativos diferentes.",
+                                "i": "Se ha documentado la configuración del servidor de impresión y de las impresoras creadas."}},
+                "RA06": {
+                    "Resultado": " Integra sistemas operativos libres y propietarios, justificando y garantizando su interoperabilidad.",
+                        "CriteriosEvaluacion": {
+                                "a": "Se ha identificado la necesidad de compartir recursos en red entre diferentes sistemas operativos.",
+                                "b": "Se han establecido niveles de seguridad para controlar el acceso del cliente a los recursos compartidos en red.",
+                                "c": "Se ha comprobado la conectividad de la red en un escenario heterogéneo.",
+                                "d": "Se ha descrito la funcionalidad de los servicios que permiten compartir recursos en red.",
+                                "e": "Se han instalado y configurado servicios para compartir recursos en red.",
+                                "f": "Se ha comprobado el funcionamiento de los servicios instalados.",
+                                "g": "Se ha trabajado en grupo para acceder a sistemas de archivos e impresoras en red desde equipos con diferentes sistemas operativos.",
+                                "h": "Se ha documentado la configuración de los servicios instalados."}},
+                "RA07": {
+                    "Resultado": " Utiliza lenguajes de guiones en sistemas operativos, describiendo su aplicación y administrando servicios del sistema operativo.",
+                        "CriteriosEvaluacion": {
+                                "a": "Se han utilizado y combinado las estructuras del lenguaje para crear guiones.",
+                                "b": "Se han utilizado herramientas para depurar errores sintácticos y de ejecución.",
+                                "c": "Se han interpretado guiones de configuración del sistema operativo.",
+                                "d": "Se han realizado cambios y adaptaciones de guiones del sistema.",
+                                "e": "Se han creado y probado guiones de administración de servicios.",
+                                "f": "Se han creado y probado guiones de automatización de tareas.",
+                                "g": "Se han implantado guiones en sistemas libres y propietarios.",
+                                "h": "Se han consultado y utilizado librerías de funciones.",
+                                "i": "Se han documentado los guiones creados."
+                                }
+                        }
+                }
+        },
+        "0375":{
+                    "nombre":"Servicios de Red e Internet",
+                    "horas": "166",
+                    "UnidadesCompetenciaAcreditadas" : {},
+                    "ObjetivosGenerales" : ["a", "c", "n", "ñ", "o", "r" ,"s"],
+                    "CompetenciasTitulo" : ["b", "m", "n", "ñ", "o","q"],
+                    "creditos":"8",
+                    "ResultadosAprendizaje":{
+                        "RA01": {
+                            "Resultado": " Administra servicios de resolución de nombres, analizándolos y garantizando la seguridad del servicio.",
+                            "CriteriosEvaluacion": {
+                                "a": "Se han identificado y descrito escenarios en los que surge la necesidad de un servicio de resolución de nombres.",
+                                "b": "Se han clasificado los principales mecanismos de resolución de nombres.",
+                                "c": "Se ha descrito la estructura, nomenclatura y funcionalidad de los sistemas de nombres jerárquicos.",
+                                "d": "Se han instalado y configurado servicios jerárquicos de resolución de nombres.",
+                                "e": "Se ha preparado el servicio para reenviar consultas de recursos externos a otro servidor de nombres.",
+                                "f": "Se ha preparado el servicio para almacenar y distribuir las respuestas procedentes de otros servidores.",
+                                "g": "Se han añadido registros de nombres correspondientes a una zona nueva, con opciones relativas a servidores de correo y alias.",
+                                "h": "Se han implementado soluciones de servidores de nombres en direcciones «ip» dinámicas.",
+                                "i": "Se han realizado transferencias de zona entre dos o más servidores.",
+                                "j": "Se han documentado los procedimientos de instalación y configuración."}},
+                        "RA02": {
+                            "Resultado": " Administra servicios de configuración automática, identificándolos y verificando la correcta asignación de los parámetros.",
+                                "CriteriosEvaluacion": {
+                                "a": "Se han reconocido los mecanismos automatizados de configuración de los parámetros de red y las ventajas que proporcionan.",
+                                "b": "Se han ilustrado los procedimientos y pautas que intervienen en una solicitud de configuración de los parámetros de red.",
+                                "c": "Se han instalado servidores de configuración de los parámetros de red.",
+                                "d": "Se ha preparado el servicio para asignar la configuración básica a los equipos de una red local.",
+                                "e": "Se han configurado asignaciones estáticas y dinámicas.",
+                                "f": "Se han integrado en el servicio opciones adicionales de configuración.",
+                                "g": "Se han documentado los procedimientos realizados."}},
+                        "RA03": {
+                            "Resultado": " Administra servidores Web aplicando criterios de configuración y asegurando el funcionamiento del servicio.",
+                                "CriteriosEvaluacion": {
+                                "a": "Se han descrito los fundamentos y protocolos en los que se basa el funcionamiento de un servidor Web.",
+                                "b": "Se han instalado y configurado servidores Web.",
+                                "c": "Se ha ampliado la funcionalidad del servidor mediante la activación y configuración de módulos.",
+                                "d": "Se han creado y configurado sitios virtuales.",
+                                "e": "Se han configurado los mecanismos de autenticación y control de acceso del servidor.",
+                                "f": "Se han obtenido e instalado certificados digitales.",
+                                "g": "Se han establecido mecanismos para asegurar las comunicaciones entre el cliente y el servidor.",
+                                "h": "Se han realizado pruebas de monitorización del servicio.",
+                                "i": "Se han analizado los registros del servicio para la elaboración de estadísticas y la resolución de incidencias.",
+                                "j": "Se ha elaborado documentación relativa a la instalación, configuración y recomendaciones de uso del servicio."}},
+                        "RA04": {
+                            "Resultado": " Administra servicios de transferencia de archivos asegurando y limitando el acceso a la información.",
+                            "CriteriosEvaluacion": {
+                                "a": "Se ha establecido la utilidad y modo de operación del servicio de transferencia de archivos.",
+                                "b": "Se han instalado y configurado servidores de transferencia de archivos.",
+                                "c": "Se han creado usuarios y grupos para acceso remoto al servidor.",
+                                "d": "Se ha configurado el acceso anónimo.",
+                                "e": "Se han establecido límites en los distintos modos de acceso.",
+                                "f": "Se ha comprobado el acceso al servidor, tanto en modo activo como en modo pasivo.",
+                                "g": "Se han realizado pruebas con clientes en línea de comandos y con clientes en modo gráfico.",
+                                "h": "Se ha utilizado el navegador como cliente del servicio de transferencia de archivos.",
+                                "i": "Se ha elaborado documentación relativa a la instalación, configuración y recomendaciones de uso del servicio."}},
+                        "RA05": {
+                            "Resultado": " Administra servidores de correo electrónico, aplicando criterios de configuración y garantizando la seguridad del servicio.",
+                            "CriteriosEvaluacion": {
+                                "a": "Se han descrito los diferentes protocolos que intervienen en el envío y recogida del correo electrónico.",
+                                "b": "Se ha instalado y configurado un servidor de correo electrónico.",
+                                "c": "Se han creado cuentas de usuario y verificado el acceso de las mismas.",
+                                "d": "Se han establecido y aplicado métodos para impedir usos indebidos del servidor de correo electrónico.",
+                                "e": "Se han instalado servicios para permitir la recogida remota del correo existente en los buzones de usuario.",
+                                "f": "Se han usado clientes de correo electrónico para enviar y recibir correo desde las cuentas creadas en el servidor.",
+                                "g": "Se han utilizado la firma digital y el correo cifrado.",
+                                "h": "Se ha configurado el servidor de correo como un servicio seguro.",
+                                "i": "Se ha elaborado documentación relativa a la instalación, configuración y recomendaciones de uso del servicio."}},
+                        "RA06": {
+                            "Resultado": " Administra servicios de mensajería instantánea, noticias y listas de distribución, verificando y asegurando el acceso de los usuarios.",
+                            "CriteriosEvaluacion": {
+                                "a": "Se han descrito los servicios de mensajería instantánea, noticias y listas de distribución.",
+                                "b": "Se ha instalado y configurado el servicio de mensajería instantánea.",
+                                "c": "Se han utilizado clientes gráficos y de texto de mensajería instantánea.",
+                                "d": "Se ha instalado y configurado el servicio de noticias.",
+                                "e": "Se ha instalado y configurado el servicio de listas de distribución.",
+                                "f": "Se han determinado el tipo de lista y los modos de acceso permitidos.",
+                                "g": "Se han creado cuentas de usuario y verificado el acceso a los servicios de mensajería instantánea, noticias y listas de distribución.",
+                                "h": "Se ha elaborado documentación relativa a la instalación, configuración y recomendaciones de uso de los servicios de mensajería instantánea, noticias y listas de distribución."}},
+                        "RA07": {
+                            "Resultado": " Administra servicios de audio identificando las necesidades de distribución y adaptando los formatos.",
+                            "CriteriosEvaluacion": {
+                                "a": "Se ha descrito la funcionalidad del servicio de audio.",
+                                "b": "Se ha instalado y configurado un servidor de distribución de audio.",
+                                "c": "Se ha instalado y configurado el cliente para el acceso al servidor de audio.",
+                                "d": "Se han reconocido y utilizado formatos de audio digital.",
+                                "e": "Se han utilizado herramientas de reproducción de audio en el cliente.",
+                                "f": "Se han utilizado servicios de audio a través del navegador.",
+                                "g": "Se han utilizado técnicas de sindicación y suscripción de audio.",
+                                "h": "Se ha elaborado documentación relativa a la instalación y administración del servidor de audio."}},
+                        "RA08": {
+                            "Resultado": " Administra servicios de vídeo identificando las necesidades de distribución y adaptando los formatos.",
+                            "CriteriosEvaluacion": {
+                                "a": "Se ha descrito la funcionalidad del servicio de vídeo.",
+                                "b": "Se ha instalado y configurado un servidor de vídeo.",
+                                "c": "Se ha configurado el cliente para el acceso al servidor de vídeo.",
+                                "d": "Se han reconocido y utilizado formatos de compresión de vídeo digital.",
+                                "e": "Se han utilizado técnicas de sindicación y suscripción de vídeo.",
+                                "f": "Se han descrito las características y protocolos utilizados en el servicio de videoconferencia.",
+                                "g": "Se han instalado y configurado herramientas gráficas para realizar videoconferencia.",
+                                "h": "Se han utilizado herramientas gráficas y navegadores para realizar videoconferencias.",
+                                "i": "Se ha elaborado documentación relativa a la instalación y administración del servidor de vídeo y del servicio de videoconferencia."
+                                }
+                        }
+
+
+                }
         }
 
     }
