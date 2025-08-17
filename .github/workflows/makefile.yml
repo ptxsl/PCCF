@@ -26,7 +26,6 @@ jobs:
     - name: SMX - Programaciones
       run: make programaciones-smx
       
-
     - name: DAW - Proyecto
       run: make proyecto-daw	
     - name: DAW - Programaciones
@@ -34,9 +33,13 @@ jobs:
 
     - name: DAM - Proyecto
       run: make proyecto-dam	
-      
+    - name: DAM - Programaciones
+      run: make programaciones-dam 
+    
     - name: ASIR - Proyecto
       run: make proyecto-asir
+    - name: ASIR - Programaciones
+      run: make programaciones-asir
       
     - uses: actions/upload-artifact@v4
       with:
