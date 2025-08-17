@@ -90,16 +90,31 @@ proyecto-asir: files proyecto-base
 
 	@echo " [ ${BLUE} Proyecto Curricular : ASIR ${RESET}]"
 	@echo " ${LIGHTBLUE} Poblando desde ASIR ${RESET}"
-
 	cp -r src_ASIR/* temp/
-	@echo " ${LIGHTBLUE} Programaciones de ASIR ${RESET}"
+
+	@echo " ${LIGHTBLUE} Construimos los MD de las programaciones ${RESET}"
 	./tools/json2pccf.py ASIR
 
+	@echo " ${LIGHTBLUE} Proyecto de ASIR ${RESET}"
 	@cd temp/ && pandoc --template $(TEMPLATE_TEX_PD) $(PANDOC_OPTIONS) -o $(PDF_PATH)/PCCF_SENIA_ASIR.pdf ./PCCF_*.md
+	@echo " ${LIGHTBLUE} PDF Generado para ASIR ${RESET}"
+
+	@echo " ${LIGHTBLUE} Libro de las Programaciones de ASIR ${RESET}"
+	./tools/json2excel.py ASIR
+	@echo " ${LIGHTBLUE} Excel Generado para ASIR ${RESET}"
+
 
 local-proyecto-asir: proyecto-asir
 
 	xdg-open $(PDF_PATH)/PCCF_SENIA_ASIR.pdf
+
+
+
+local-excel-asir: files
+
+	@echo " [ ${BLUE} Excel : ASIR ${RESET}]"
+	./tools/json2excel.py ASIR
+	libreoffice PDFS/ASIR_libro.xlsx
 
 
 proyecto-daw: files proyecto-base
