@@ -259,8 +259,8 @@
             "nombre":"Implantación de Sistemas Operativos",
             "horas": "233",
             "UnidadesCompetenciaAcreditadas" : {},
-            "ObjetivosGenerales" : [],
-            "CompetenciasTitulo" : [],
+            "ObjetivosGenerales" : ["a","b","j","l","m","n","ñ","o","p"],
+            "CompetenciasTitulo" : ["a","e","g","","f","k","ñ"],
             "creditos":"15",
             "ResultadosAprendizaje":{
                 "RA01": {
