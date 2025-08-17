@@ -116,6 +116,16 @@ local-excel-asir: files
 	./tools/json2excel.py ASIR
 	libreoffice PDFS/ASIR_libro.xlsx
 
+programaciones-asir: proyecto-asir
+
+	# Me dejo aqui el --verbose por si quiero apuntar algo mas fino en los errores.
+	@echo " ${LIGHTBLUE} Generando $(PDF_PATH)/Programaciones_SENIA_ASIR.pdf ${RESET}"
+	@cd temp/ && pandoc  --template $(TEMPLATE_TEX_PD) $(PANDOC_OPTIONS) -o $(PDF_PATH)/Programaciones_SENIA_ASIR.pdf ./PD_*.md
+	@echo " ${LIGHTBLUE} Programaciones Generadas para ASIR ${RESET}"
+
+local-programaciones-dam : programaciones-asir
+
+	xdg-open $(PDF_PATH)/Programaciones_SENIA_ASIR.pdf
 
 proyecto-daw: files proyecto-base
 
