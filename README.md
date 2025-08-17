@@ -7,6 +7,7 @@ Proyectos Curriculares de la Familia de Informática, así como la posibilidad d
 las diferentes hojas de cálculo de las Programaciones Didácticas de los Módulos
 a partir de los contenidos del BOE que se leen desde diferentes JSON.
 
+
 ## Ciclos Formativos
 
 | Siglas | Nombre Completo | Nivel |
@@ -31,9 +32,21 @@ Sistemas Operativos que promuevan el Software Libre y Abierto, como Ubuntu o Deb
 [![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=fff)](#)
 [![Haskell](https://img.shields.io/badge/Haskell-3776AB?logo=haskell&logoColor=fff)](#)
 
+---
 ## Filosofía
 
 [![Open Source? Yes!](https://badgen.net/badge/Open%20Source%20%3F/Yes%21/blue?icon=github)](https://fsfe.org/)
+
+---
+
+## Proyectos Curriculares de Ciclos Formativos
+
+Los Proyectos Curriculares (PCCF), se construyen usando varios niveles de construcción, la parte común a todos
+los PCCFs se obtienen a partir de los ficheros que provienen de `/src/`, 
+
+---
+
+## Programaciones Didácticas
 
 ---
 
