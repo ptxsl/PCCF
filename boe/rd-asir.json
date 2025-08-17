@@ -94,7 +94,7 @@
         "t":"Reconocer sus derechos y deberes como agente activo en la sociedad, analizando el marco legal que regula las condiciones sociales y laborales para participar como ciudadano democrático."
     },
     "ModulosProfesionales":{
-	"0371":{
+        "0371":{
 	    "nombre":"Fundamentos de Hardware",
 	    "creditos":"6",
 	    "ResultadosAprendizaje":{
@@ -164,7 +164,7 @@
             "UC0484_3": "Administrar los dispositivos hardware del sistema.",
             "UC0223_3":"Configurar y explotar sistemas informáticos."
 		}
-    },
+        },
         "0372":{
             "nombre": "Lenguajes de marcas y sistemas de gestión de información",
             "creditos": "7",
@@ -689,6 +689,99 @@
                 "UnidadesCompetenciaAcreditadas": {},
                 "ObjetivosGenerales ": ["e","j","q"],
                 "CompetenciasTitulo" : ["a","e","f","i","j","v","y","z" ]
+        },
+        "0370":{
+            "nombre":"Planificación y Administración de Redes",
+            "horas": "200",
+            "UnidadesCompetenciaAcreditadas" : {},
+            "ObjetivosGenerales" : ["f","g","h","i","k","ñ","p"],
+            "CompetenciasTitulo" : ["b","e","f","g","h","m","n","ñ","s"],
+            "creditos":"12",
+            "ResultadosAprendizaje":{
+                "RA01": {
+                    "Resultado": " Reconoce la estructura de las redes de datos identificando sus elementos y principios de funcionamiento.",
+                        "CriteriosEvaluacion": {
+                                "a": "Se han identificado los factores que impulsan la continua expansión y evolución de las redes de datos.",
+                                "b": "Se han diferenciado los distintos medios de transmisión utilizados en las redes.",
+                                "c": "Se han reconocido los distintos tipos de red y sus topologías.",
+                                "d": "Se han descrito las arquitecturas de red y los niveles que las componen.",
+                                "e": "Se ha descrito el concepto de protocolo de comunicación.",
+                                "f": "Se ha descrito el funcionamiento de las pilas de protocolos en las distintas arquitecturas de red.",
+                                "g": "Se han presentado y descrito los elementos funcionales, físicos y lógicos, de las redes de datos.",
+                                "h": "Se han diferenciado los dispositivos de interconexión de redes atendiendo al nivel funcional en el que se encuadran."}},
+                "RA02": {
+                    "Resultado": " Integra ordenadores y periféricos en redes cableadas e inalámbricas, evaluando su funcionamiento y prestaciones.",
+                        "CriteriosEvaluacion": {
+                                "a": "Se han identificado los estándares para redes cableadas e inalámbricas.",
+                                "b": "Se han montado cables directos, cruzados y de consola.",
+                                "c": "Se han utilizado comprobadores para verificar la conectividad de distintos tipos de cables.",
+                                "d": "Se ha utilizado el sistema de direccionamiento lógico IP para asignar direcciones de red y máscaras de subred.",
+                                "e": "Se han configurado adaptadores de red cableados e inalámbricos bajo distintos sistemas operativos.",
+                                "f": "Se han integrado dispositivos en redes cableadas e inalámbricas.",
+                                "g": "Se ha comprobado la conectividad entre diversos dispositivos y adaptadores inalámbricos sobre distintas configuraciones.",
+                                "h": "Se han utilizado aplicaciones para representar el mapa físico y lógico de una red.",
+                                "i": "Se ha monitorizado la red mediante aplicaciones basadas en el protocolo SNMP."}},
+                "RA03": {
+                    "Resultado": " Administra conmutadores estableciendo opciones de configuración para su integración en la red.",
+                        "CriteriosEvaluacion": {
+                                "a": "Se han conectado conmutadores entre sí y con las estaciones de trabajo.",
+                                "b": "Se ha interpretado la información que proporcionan los «leds» del conmutador.",
+                                "c": "Se han utilizado distintos métodos para acceder al modo de configuración del conmutador.",
+                                "d": "Se han identificado los archivos que guardan la configuración del conmutador.",
+                                "e": "Se ha administrado la tabla de direcciones MAC del conmutador.",
+                                "f": "Se ha configurado la seguridad del puerto.",
+                                "g": "Se ha actualizado el sistema operativo del conmutador.",
+                                "h": "Se han utilizado los comandos proporcionados por el sistema operativo del conmutador que permiten hacer el seguimiento de posibles incidencias.",
+                                "i": "Se ha verificado el funcionamiento del Spanning Tree Protocol en un conmutador.",
+                                "j": "Se han modificado los parámetros que determinan el proceso de selección del puente raíz."}},
+                "RA04": {
+                    "Resultado": " Administra las funciones básicas de un «router» estableciendo opciones de configuración para su integración en la red.",
+                        "CriteriosEvaluacion": {
+                                "a": "Se ha interpretado la información que proporcionan los «leds» del «router».",
+                                "b": "Se han utilizado distintos métodos para acceder al modo de configuración del «router».",
+                                "c": "Se han identificado las etapas de la secuencia de arranque del «router».",
+                                "d": "Se han utilizado los comandos para la configuración y administración básica del «router».",
+                                "e": "Se han identificado los archivos que guardan la configuración del «router» y se han gestionado mediante los comandos correspondientes.",
+                                "f": "Se han configurado rutas estáticas.",
+                                "g": "Se han utilizado los comandos proporcionados por el sistema operativo del «router» que permiten hacer el seguimiento de posibles incidencias.",
+                                "h": "Se ha configurado el «router» como servidor de direcciones IP dinámicas.",
+                                "i": "Se han descrito las capacidades de filtrado de tráfico del «router».",
+                                "j": "Se han utilizado comandos para gestionar listas de control de acceso."}},
+                "RA05": {
+                    "Resultado": " Configura redes locales virtuales identificando su campo de aplicación.",
+                        "CriteriosEvaluacion": {
+                                "a": "Se han descrito las ventajas que presenta la utilización de redes locales virtuales (VLANs).",
+                                "b": "Se han implementado VLANs.",
+                                "c": "Se ha realizado el diagnóstico de incidencias en VLANs.",
+                                "d": "Se han configurado enlaces troncales.",
+                                "e": "Se ha utilizado un router para interconectar diversas VLANs.",
+                                "f": "Se han descrito las ventajas que aporta el uso de protocolos de administración centralizada de VLANs.",
+                                "g": "Se han configurado los conmutadores para trabajar de acuerdo con los protocolos de administración centralizada."}},
+                "RA06": {
+                    "Resultado": " Realiza tareas avanzadas de administración de red analizando y utilizando protocolos dinámicos de encaminamiento.",
+                        "CriteriosEvaluacion": {
+                                "a": "Se ha configurado el protocolo de enrutamiento RIPv1.",
+                                "b": "Se han configurado redes con el protocolo RIPv2.",
+                                "c": "Se ha realizado el diagnóstico de fallos en una red que utiliza RIP.",
+                                "d": "Se ha valorado la necesidad de utilizar máscaras de longitud variable en IPv4.",
+                                "e": "Se ha dividido una red principal en subredes de distintos tamaños con VLSM.",
+                                "f": "Se han realizado agrupaciones de redes con CIDR.",
+                                "g": "Se ha habilitado y configurado OSPF en un «router».",
+                                "h": "Se ha establecido y propagado una ruta por defecto usando OSPF."}},
+                "RA07": {
+                    "Resultado": " Conecta redes privadas a redes públicas identificando y aplicando diferentes tecnologías.",
+                        "CriteriosEvaluacion": {
+                                "a": "Se han descrito las ventajas e inconvenientes del uso de la traducción de direcciones de red (NAT).",
+                                "b": "Se ha utilizado NAT para realizar la traducción estática de direcciones de red.",
+                                "c": "Se ha utilizado NAT para realizar la traducción dinámica de direcciones de red.",
+                                "d": "Se han descrito las características de las tecnologías «Frame Relay», RDSI y ADSL.",
+                                "e": "Se han descrito las analogías y diferencias entre las tecnologías «Wifi» y «Wimax».",
+                                "f": "Se han descrito las características de las tecnologías UMTS y HSDPA."
+                                }
+                        }
+
+            }
         }
+
     }
 }
