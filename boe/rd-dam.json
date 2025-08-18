@@ -194,7 +194,7 @@
                 }
             }
             },
-            "horas":"100",
+            "horas":"166",
             "UnidadesCompetenciaAcreditadas":
             {
                 "UC0223_3":"Configurar y explotar sistemas informáticos."
@@ -299,7 +299,7 @@
                         }
                     }
                 },
-                "horas": "105",
+                "horas": "166",
                 "UnidadesCompetenciaAcreditadas": {
                     "UC0226_3": "Programar bases de datos relacionales."
                 },
@@ -415,12 +415,12 @@
                                     "g": "Se han creado aplicaciones para posibilitar la gestión de información presente en bases de datos relacionales."
                                     }}
             },
-                "horas": "135",
+                "horas": "266",
                 "UnidadesCompetenciaAcreditadas": {},
                 "ObjetivosGenerales ": ["e","j","q","w"],
                 "CompetenciasTitulo" : ["e","j","t","w"]
         },
-        "0486":{
+        "0373":{
                 "nombre": "Lenguajes de marcas y sistemas de gestión de información",
                 "creditos": "5",
                 "ResultadosAprendizaje": {
@@ -505,7 +505,7 @@
                                     "i": "Se han realizado tareas de asistencia y resolución de incidencias.",
                                     "j": "Se han elaborado documentos relativos a la explotación de la aplicación."}}
                 },
-                "horas": "70",
+                "horas": "100",
                 "UnidadesCompetenciaAcreditadas": {},
                 "ObjetivosGenerales ": ["h","p","r"],
                 "CompetenciasTitulo" : ["e","f","h","p" ]
@@ -577,7 +577,7 @@
                                     "h": "Se han planteado diagramas de estados sencillos."
                                     }
                     }},
-                "horas": "50",
+                "horas": "100",
                 "UnidadesCompetenciaAcreditadas": {},
                 "ObjetivosGenerales ": ["d","e","h","i","j"],
                 "CompetenciasTitulo" : ["d","f","h","i","j"]
@@ -648,7 +648,7 @@
             }
 
                 },
-                "horas": "67",
+                "horas": "68",
                 "UnidadesCompetenciaAcreditadas": {},
                 "ObjetivosGenerales ": ["e","j","q"],
                 "CompetenciasTitulo" : ["a","e","f","i","j","v","y","z" ]
@@ -1098,7 +1098,7 @@
                                     }
                         }
                     },
-                "horas": "30",
+                "horas": "34",
                 "UnidadesCompetenciaAcreditadas": {},
                 "ObjetivosGenerales ": ["e","j","q"],
                 "CompetenciasTitulo" : ["a","e","f","i","j","v","y","z" ]
@@ -1162,7 +1162,7 @@
                                     "h": "Se han aplicado las herramientas de aprendizaje autónomo para su desarrollo personal y profesional.",
                                     "i": "Se ha diseñado el entorno de aprendizaje que permite alcanzar el plan de desarrollo individual."}}
                 },
-                "horas": "50",
+                "horas": "100",
                 "UnidadesCompetenciaAcreditadas": {},
                 "ObjetivosGenerales ": ["e","j","q"],
                 "CompetenciasTitulo" : ["a","e","f","i","j","v","y","z" ]
@@ -1224,7 +1224,7 @@
                                     }
                         }
                 },
-                "horas": "50",
+                "horas": "100",
                 "UnidadesCompetenciaAcreditadas": {},
                 "ObjetivosGenerales ": ["e","j","q"],
                 "CompetenciasTitulo" : ["a","e","f","i","j","v","y","z" ]
@@ -1299,7 +1299,7 @@
                                 }
                     }
                 },
-                "horas": "30",
+                "horas": "34",
                 "UnidadesCompetenciaAcreditadas": {},
                 "ObjetivosGenerales ": ["e","j","q"],
                 "CompetenciasTitulo" : ["a","e","f","i","j","v","y","z" ]
