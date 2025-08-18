@@ -53,7 +53,7 @@ for codigo in data_box.ModulosProfesionales:
         print(" Generando Programacion Didactica para "+modulo.nombre.replace(" ",""))
         templateLoader = jinja2.FileSystemLoader(searchpath="./templates/")
         templateEnv = jinja2.Environment(loader=templateLoader)
-        TEMPLATE_FILE = "PCCF_PD_Plantilla_MODULO_DAW.md"
+        TEMPLATE_FILE = "PCCF_PD_Plantilla_MODULO_"+sys.argv[1]+".md"
         template = templateEnv.get_template(TEMPLATE_FILE)
         outputText = template.render(modulo=modulo)
         fmod = "./temp/PD_"+str(codigo)+"_"+modulo.nombre.replace(" ","")+".md"
