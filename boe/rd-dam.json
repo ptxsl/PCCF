@@ -1303,6 +1303,52 @@
                 "UnidadesCompetenciaAcreditadas": {},
                 "ObjetivosGenerales ": ["e","j","q"],
                 "CompetenciasTitulo" : ["a","e","f","i","j","v","y","z" ]
-        }
+        },
+                "CVOPS190":{
+            "nombre":"Introducción a la Nube Pública",
+            "creditos": "10",
+            "ResultadosAprendizaje":{
+                "RA01": {
+                    "Resultado": " Comprende los fundamentos de la computación en la nube, sus ventajas frente a sistemas tradicionales, el marco de adopción, los principios de migración y los aspectos clave de facturación, como estimación y optimización de costos.",
+                        "CriteriosEvaluacion": {
+                                "a": "Se ha comprendido los conceptos fundamentales de la computación en la nube.",
+                                "b": "Se ha demostrado la capacidad para explicar las ventajas de la nube frente a sistemas tradicionales",
+                                "c": "Se ha participado en actividades relacionadas con el ecosistema de servicios en la nube.",
+                                "d": "Se han identificado los principios básicos de la facturación y costos en la nube.",
+                                "e": "Se ha hecho uso correcto de herramientas para estimar y gestionar presupuestos.",
+                                "f": "Se ha participado en actividades prácticas sobre gestión de costos."}},
+                "RA02": {
+                    "Resultado": " Identifica los componentes clave de la infraestructura global de la nube, diferenciando servicios principales, regiones, zonas de disponibilidad y aplicando medidas básicas de seguridad como el modelo de responsabilidad compartida, gestión de accesos y protección de datos",
+                        "CriteriosEvaluacion": {
+                                "a": "Se ha adquirido conocimiento de los componentes de una infraestructura global en la nube.",
+                                "b": "Se ha demostrado la capacidad para explorar y describir las principales categorías de servicios disponibles",
+                                "c": "Se ha realizado una evaluación del uso adecuado de servicios básicos en ejercicios prácticos.",
+                                "d": "Se ha comprendido el modelo de responsabilidad compartida en la nube.",
+                                "e": "Se ha aplicado medidas de seguridad básicas mediante herramientas de gestión de acceso.",
+                                "f": "Se han realizado ejercicios sobre gestión de usuarios y políticas de seguridad."}},
+                "RA03": {
+                    "Resultado": " Diseña y configura redes virtuales y servicios de cómputo en la nube, aplicando buenas prácticas de seguridad, estrategias de balanceo de carga, escalado automático y aprovechando tecnologías serverless, contenedores y máquinas virtuales según casos de uso específicos.",
+                        "CriteriosEvaluacion": {
+                                "a": "Se ha realizado el diseño y configuración de redes virtuales privadas.",
+                                "b": "Se ha aplicado buenas prácticas de seguridad en redes y arquitecturas.",
+                                "c": "Se ha participado activamente en la creación y configuración de una red funcional.",
+                                "d": "Se ha realizado la selección de servicios de computación adecuados según casos de uso.",
+                                "e": "Se ha llevado a cabo la configuración y gestión de balanceo de carga y escalado automático.",
+                                "f": "Se han desarrollado prácticas relacionadas con la optimización de recursos computacionales."}},
+                "RA04": {
+                    "Resultado": " Gestiona servicios de almacenamiento y bases de datos en la nube, seleccionando tecnologías adecuadas para casos específicos, y diseña arquitecturas escalables y resilientes utilizando herramientas de monitoreo y optimización para mejorar el rendimiento.",
+                        "CriteriosEvaluacion": {
+                                "a": "Se ha realizado la diferenciación entre tecnologías de almacenamiento en la nube.",
+                                "b": "Se ha llevado a cabo la configuración y gestión de bases de datos en un entorno de nube.",
+                                "c": "Se ha trabajado en la resolución de problemas prácticos sobre almacenamiento y bases de datos",
+                                "d": "Se ha diseñado arquitecturas escalables y resilientes basadas en las mejores prácticas.",
+                                "e": "Se ha hecho uso de herramientas de monitoreo y recomendaciones de optimización.",
+                                "f": "Se ha participado en actividades que simulen el análisis y mejora de arquitecturas existentes."
+                        }
+                }
+                },
+                "horas":"100"
+                }
+
     }
 }
