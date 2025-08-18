@@ -40,7 +40,7 @@ if sys.argv[2] == "ASIR":
 data_box1 = Box(data1)
 data_box2 = Box(data2)
 
-if sys.argv[3] != None and sys.argv[3] == "--competencias":
+if len(sys.argv) != 3 and sys.argv[3] == "--competencias":
 
     for comp_orig in data_box1.CompetenciasProfesionalesPersonalesSociales:
         text_comp_orig = data_box1.CompetenciasProfesionalesPersonalesSociales[comp_orig]
