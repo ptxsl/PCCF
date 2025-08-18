@@ -50,6 +50,32 @@ if len(sys.argv) != 3 and sys.argv[3] == "--competencias":
                 print("Competencia Comun : "+text_comp_dest)
     sys.exit(0)
 
+if len(sys.argv) != 3 and sys.argv[3] == "--competencias-modulos":
+
+    for cod_orig in data_box1.ModulosProfesionales:
+
+        modulo_orig = data_box1.ModulosProfesionales[cod_orig]
+        print(" * ["+modulo_orig.nombre+"]")
+        try:
+            print("Objetivos Generales :"+str(modulo_orig.ObjetivosGenerales))
+
+            for obj in modulo_orig.ObjetivosGenerales:
+                print(" - "+data_box1.CompetenciasProfesionalesPersonalesSociales[obj])
+
+            print("")
+            print("Competencias Titulo :"+str(modulo_orig.CompetenciasTitulo))
+
+            for comp in modulo_orig.CompetenciasTitulo:
+                print(" - "+data_box1.ObjetivosGenerales[comp])
+
+        except AttributeError as e:
+            print(" No tiene "+str(e))
+
+        print("\n\n")
+
+    sys.exit(0)
+
+
 for cod_orig in data_box1.ModulosProfesionales:
 
     modulo_orig = data_box1.ModulosProfesionales[cod_orig]
@@ -67,7 +93,14 @@ for cod_orig in data_box1.ModulosProfesionales:
             else:
                 print(" - Horas MAL :"+modulo_orig.horas+" -- "+modulo_dest.horas)
 
+            print(" * CompetenciasTitulo")
+            try:
+                print(str(modulo_orig.CompetenciasTitulo))
+                print(str(modulo_dest.CompetenciasTitulo))
+            except Exception as e:
+                print(str(e))
 
+            print("\n\n")
 
 
 
