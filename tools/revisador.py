@@ -10,19 +10,26 @@ import jinja2
 
 # Cargar el JSON desde un archivo
 
+# Origenes
 if sys.argv[1] == "DAW":
-
     with open('./boe/rd-daw.json', 'r', encoding='utf-8') as f:
         data1 = json.load(f)
 
 if sys.argv[1] == "DAM":
-
     with open('./boe/rd-dam.json', 'r', encoding='utf-8') as f:
         data1 = json.load(f)
 
-if sys.argv[2] == "DAM":
+if sys.argv[1] == "ASIR":
+    with open('./boe/rd-asir.json', 'r', encoding='utf-8') as f:
+        data1 = json.load(f)
 
+# Destinos
+if sys.argv[2] == "DAM":
     with open('./boe/rd-dam.json', 'r', encoding='utf-8') as h:
+        data2 = json.load(h)
+
+if sys.argv[2] == "DAW":
+    with open('./boe/rd-daw.json', 'r', encoding='utf-8') as h:
         data2 = json.load(h)
 
 if sys.argv[2] == "ASIR":
@@ -32,6 +39,16 @@ if sys.argv[2] == "ASIR":
 # Convertir el diccionario a un objeto Box
 data_box1 = Box(data1)
 data_box2 = Box(data2)
+
+if sys.argv[3] != None and sys.argv[3] == "--competencias":
+
+    for comp_orig in data_box1.CompetenciasProfesionalesPersonalesSociales:
+        text_comp_orig = data_box1.CompetenciasProfesionalesPersonalesSociales[comp_orig]
+        for comp_dest in data_box2.CompetenciasProfesionalesPersonalesSociales:
+            text_comp_dest = data_box2.CompetenciasProfesionalesPersonalesSociales[comp_dest]
+            if text_comp_orig == text_comp_dest:
+                print("Competencia Comun : "+text_comp_dest)
+    sys.exit(0)
 
 for cod_orig in data_box1.ModulosProfesionales:
 
@@ -44,10 +61,12 @@ for cod_orig in data_box1.ModulosProfesionales:
         if modulo_dest.nombre == modulo_orig.nombre:
 
             print("Modulo comun["+cod_dest+"]: "+modulo_dest.nombre)
+
             if modulo_orig.horas == modulo_dest.horas :
                 print(" - Horas OK :"+modulo_orig.horas+" -- "+modulo_dest.horas)
             else:
                 print(" - Horas MAL :"+modulo_orig.horas+" -- "+modulo_dest.horas)
+
 
 
 
