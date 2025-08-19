@@ -23,6 +23,11 @@ if sys.argv[1] == "ASIR":
     with open('./boe/rd-asir.json', 'r', encoding='utf-8') as f:
         data1 = json.load(f)
 
+
+if sys.argv[1] == "SMX":
+    with open('./boe/rd-smx.json', 'r', encoding='utf-8') as f:
+        data1 = json.load(f)
+
 # Destinos
 if sys.argv[2] == "DAM":
     with open('./boe/rd-dam.json', 'r', encoding='utf-8') as h:
