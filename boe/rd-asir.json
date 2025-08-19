@@ -486,8 +486,8 @@
                     },
                 "horas": "34",
                 "UnidadesCompetenciaAcreditadas": {},
-                "ObjetivosGenerales ": ["e","j","q"],
-                "CompetenciasTitulo" : ["a","e","f","i","j","v","y","z" ]
+                "ObjetivosGenerales ": [],
+                "CompetenciasTitulo" : []
         },
         "1709":{
                 "nombre": "Itinerario personal para la empleabilidad I",
