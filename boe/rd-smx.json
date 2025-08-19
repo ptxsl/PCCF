@@ -1,94 +1,98 @@
 {
     "CompetenciasProfesionalesPersonalesSociales" : {
-	"a" : "Configurar y explotar sistemas informáticos, adaptando la configuración lógica del sistema según las necesidades de uso y los criterios establecidos.",
-	"b" : "Aplicar técnicas y procedimientos relacionados con la seguridad en sistemas, servicios y aplicaciones, cumpliendo el plan de seguridad.",
-	"c" : "Gestionar servidores de aplicaciones adaptando su configuración en cada caso para permitir el despliegue de aplicaciones web.",
-	"d" :"Gestionar bases de datos, interpretando su diseño lógico y verificando integridad, consistencia, seguridad y accesibilidad de los datos.",
-	"e":"Desarrollar aplicaciones web con acceso a bases de datos utilizando lenguajes, objetos de acceso y herramientas de mapeo adecuados a las especificaciones.",
-	"f": "Integrar contenidos en la lógica de una aplicación web, desarrollando componentes de acceso a datos adecuados a las especificaciones.",
-	"g":"Desarrollar interfaces en aplicaciones web de acuerdo con un manual de estilo, utilizando lenguajes de marcas y estándares web.",
-	"h": "Desarrollar componentes multimedia para su integración en aplicaciones web, empleando herramientas específicas y siguiendo las especificaciones establecidas.",
-	"i":"Integrar componentes multimedia en el interface de una aplicación web, realizando el análisis de interactividad, accesibilidad y usabilidad de la aplicación.",
-	"j": "Desarrollar e integrar componentes software en el entorno del servidor web, empleando herramientas y lenguajes específicos, para cumplir las especificaciones de la aplicación.",
-	"k": " Desarrollar servicios para integrar sus funciones en otras aplicaciones web, asegurando su funcionalidad.",
-	"l": " Integrar servicios y contenidos distribuidos en aplicaciones web, asegurando su funcionalidad.",
-	"m": " Completar planes de pruebas verificando el funcionamiento de los componentes software desarrollados, según las especificaciones.",
-	"n": " Elaborar y mantener la documentación de los procesos de desarrollo, utilizando herramientas de generación de documentación y control de versiones.",
-	"ñ": " Desplegar y distribuir aplicaciones web en distintos ámbitos de implantación, verificando su comportamiento y realizando modificaciones.",
-	"o": " Gestionar y/o realizar el mantenimiento de los recursos de su área en función de las cargas de trabajo y el plan de mantenimiento.",
-	"p": " Adaptarse a las nuevas situaciones laborales, manteniendo actualizados los conocimientos científicos, técnicos y tecnológicos relativos a su entorno profesional, gestionando su formación y los recursos existentes en el aprendizaje a lo largo de la vida y utilizando las tecnologías de la información y la comunicación.",
-	"q": " Resolver situaciones, problemas o contingencias con iniciativa y autonomía en el ámbito de su competencia, con creatividad, innovación y espíritu de mejora en el trabajo personal y en el de los miembros del equipo.",
-	"r": " Organizar y coordinar equipos de trabajo, supervisando el desarrollo del mismo, con responsabilidad, manteniendo relaciones fluidas y asumiendo el liderazgo, así como, aportando soluciones a los conflictos grupales que se presentan.",
-	"s": " Comunicarse con sus iguales, superiores, clientes y personas bajo su responsabilidad utilizando vías eficaces de comunicación, transmitiendo la información o conocimientos adecuados, y respetando la autonomía y competencia de las personas que intervienen en el ámbito de su trabajo.",
-	"t": " Generar entornos seguros en el desarrollo de su trabajo y el de su equipo, supervisando y aplicando los procedimientos de prevención de riesgos laborales y ambientales de acuerdo con lo establecido por la normativa y los objetivos de la empresa.",
-	"u": " Supervisar y aplicar procedimientos de gestión de calidad, de accesibilidad universal y de diseño para todos, en las actividades profesionales incluidas en los procesos de producción o prestación de servicios.",
-	"v": " Realizar la gestión básica para la creación y funcionamiento de una pequeña empresa y tener iniciativa en su actividad profesional con sentido de la responsabilidad social.",
-	"x": " Ejercer sus derechos y cumplir con las obligaciones derivadas de su actividad profesional, de acuerdo con lo establecido en la legislación vigente, participando activamente en la vida económica, social y cultural."
+        "a" : " Determinar la logística asociada a las operaciones de instalación, configuración y mantenimiento de sistemas microinformáticos, interpretando la documentación técnica asociada y organizando los recursos necesarios.",
+        "b" : " Montar y configurar ordenadores y periféricos, asegurando su funcionamiento en condiciones de calidad y seguridad.",
+        "c" : " Instalar y configurar software básico y de aplicación, asegurando su funcionamiento en condiciones de calidad y seguridad.",
+        "d" : " Replantear el cableado y la electrónica de redes locales en pequeños entornos y su conexión con redes de área extensa canalizando a un nivel superior los supuestos que así lo requieran.",
+        "e" : " Instalar y configurar redes locales cableadas, inalámbricas o mixtas y su conexión a redes públicas, asegurando su funcionamiento en condiciones de calidad y seguridad.",
+        "f" : " Instalar, configurar y mantener servicios multiusuario, aplicaciones y dispositivos compartidos en un entorno de red local, atendiendo a las necesidades y requerimientos especificados.",
+        "g" : " Realizar las pruebas funcionales en sistemas microinformáticos y redes locales, localizando y diagnosticando disfunciones, para comprobar y ajustar su funcionamiento.",
+        "h" : " Mantener sistemas microinformáticos y redes locales, sustituyendo, actualizando y ajustando sus componentes, para asegurar el rendimiento del sistema en condiciones de calidad y seguridad.",
+        "i" : " Ejecutar procedimientos establecidos de recuperación de datos y aplicaciones ante fallos y pérdidas de datos en el sistema, para garantizar la integridad y disponibilidad de la información.",
+        "j" : " Elaborar documentación técnica y administrativa del sistema, cumpliendo las normas y reglamentación del sector, para su mantenimiento y la asistencia al cliente.",
+        "k" : " Elaborar presupuestos de sistemas a medida cumpliendo los requerimientos del cliente.",
+        "l" : " Asesorar y asistir al cliente, canalizando a un nivel superior los supuestos que lo requieran, para encontrar soluciones adecuadas a las necesidades de éste.",
+        "m" : " Organizar y desarrollar el trabajo asignado manteniendo unas relaciones profesionales adecuadas en el entorno de trabajo.",
+        "n" : " Mantener un espíritu constante de innovación y actualización en el ámbito del sector informático.",
+        "ñ" : " Utilizar los medios de consulta disponibles, seleccionando el más adecuado en cada caso, para resolver en tiempo razonable supuestos no conocidos y dudas profesionales.",
+        "o" : " Aplicar los protocolos y normas de seguridad, calidad y respeto al medio ambiente en las intervenciones realizadas.",
+        "p" : " Cumplir con los objetivos de la producción, colaborando con el equipo de trabajo y actuando conforme a los principios de responsabilidad y tolerancia.",
+        "q" : " Adaptarse a diferentes puestos de trabajo y nuevas situaciones laborales originados por cambios tecnológicos y organizativos en los procesos productivos.",
+        "r" : " Resolver problemas y tomar decisiones individuales siguiendo las normas y procedimientos establecidos definidos dentro del ámbito de su competencia.",
+        "s" : " Ejercer sus derechos y cumplir con las obligaciones derivadas de las relaciones laborales, de acuerdo con lo establecido en la legislación vigente.",
+        "t" : " Gestionar su carrera profesional, analizando las oportunidades de empleo, autoempleo y aprendizaje.",
+        "u" : " Crear y gestionar una pequeña empresa, realizando un estudio de viabilidad de productos, planificación de la producción y comercialización.",
+        "v" : " Participar de forma activa en la vida económica, social y cultural, con una actitud crítica y responsable."
     },
     "CualificacionesINCUAL":
     {
 	"Completas":
 	{
-	    "IFC154_3" :
+	    "IFC078_2" :
 	    {
-		"Nombre":"Desarrollo de aplicaciones con tecnologías Web",
+		"Nombre":"Sistemas microinformáticos.",
 		"UCs":
 		{
-		    "UC0491_3":"Desarrollar elementos software en el entorno cliente.",
-		    "UC0492_3":"Desarrollar elementos software en el entorno servidor.",
-		    "UC0493_3":"Implementar, verificar y documentar aplicaciones web en entornos internet, intranet y extranet."
+		    "UC0219_2":"Instalar y configurar el software base en sistemas microinformáticos.",
+		    "UC0220_2":"Instalar, configurar y verificar los elementos de la red local según procedimientos establecidos.",
+		    "UC0221_2":"Instalar, configurar y mantener paquetes informáticos de propósito general y aplicaciones específicas.",
+		    "UC0222_2":"Facilitar al usuario la utilización de paquetes informáticos de propósito general y aplicaciones específicas."
 		}
 	    }
 	},
 	"Incompletas":
 	{
-	    "IFC155_3":
+	    "IFC298_2":
 	    {	
-		"Nombre":"Programación en lenguajes estructurados de aplicaciones de gestión",
+		"Nombre":"Montaje y reparación de sistemas microinformáticos.",
 		"UCs":
 		{
-		    "UC0223_3":" Configurar y explotar sistemas informáticos.",
-		    "UC0226_3":"Programar bases de datos relacionales."
+		    "UC0953_2":"Montar equipos microinformáticos.",
+		    "UC0219_2":"Instalar y configurar el software base en sistemas microinformáticos.",
+		    "UC0954_2":"Reparar y ampliar equipamiento microinformático."
 		}
 	    },
-	    "IFC080_3":
+	    "IFC299_2":
 	    {
-		"Nombre": "Programación con lenguajes orientados a objetos y bases de datos relacionales",
+		"Nombre": "Operación de redes departamentales",
 		"UCs":
 		{
-		    "UC0223_3":"Configurar y explotar sistemas informáticos.",
-		    "UC0226_3":"Programar bases de datos relacionales."
+		    "UC0220_2":"Instalar, configurar y verificar los elementos de la red local según procedimientos preestablecidos.",
+		    "UC0955_2":"Monitorizar los procesos de comunicaciones de la red local.",
+            "UC0956_2":"Realizar los procesos de conexión entre redes privadas y redes públicas."
 		}
+	    },
+	    "IFC300_2":
+	    {
+	    "Nombre":"Operación de sistemas informáticos",
+	    "UCs":{
+            "UC0219_2":"Instalar y configurar el software base en sistemas microinformáticos.",
+            "UC0957_2":"Mantener y regular el subsistema físico en sistemas informáticos.",
+            "UC0958_2":"Ejecutar procedimientos de administración y mantenimiento en el software base y de aplicación del cliente.",
+            "UC0959_2":"Mantener la seguridad de los subsistemas físicos y lógicos en sistemas informáticos."
+            }
 	    }
 	}
     },
     "ObjetivosGenerales":{
-	"a":"Ajustar la configuración lógica del sistema analizando las necesidades y criterios establecidos para configurar y explotar sistemas informáticos.",
-	"b":"Identificar las necesidades de seguridad analizando vulnerabilidades y verificando el plan preestablecido para aplicar técnicas y procedimientos relacionados con la seguridad en el sistema.",
-	"c":"Interpretar el diseño lógico de bases de datos, analizando y cumpliendo las especificaciones relativas a su aplicación, para gestionar bases de datos.",
-	"d":"Instalar y configurar módulos y complementos, evaluando su funcionalidad, para gestionar entornos de desarrollo.",
-	"e":"Seleccionar y emplear lenguajes, herramientas y librerías, interpretando las especificaciones para desarrollar aplicaciones multiplataforma con acceso a bases de datos.",
-	"f":"Gestionar la información almacenada, planificando e implementando sistemas de formularios e informes para desarrollar aplicaciones de gestión.",
-	"g":"Seleccionar y utilizar herramientas específicas, lenguajes y librerías, evaluando sus posibilidades y siguiendo un manual de estilo, para manipular e integrar en aplicaciones multiplataforma contenidos gráficos y componentes multimedia.",
-	"h":"Emplear herramientas de desarrollo, lenguajes y componentes visuales, siguiendo las especificaciones y verificando interactividad y usabilidad, para desarrollar interfaces gráficos de usuario en aplicaciones multiplataforma.",
-	"i":"Seleccionar y emplear técnicas, motores y entornos de desarrollo, evaluando sus posibilidades, para participar en el desarrollo de juegos y aplicaciones en el ámbito del entretenimiento.",
-	"j":"Seleccionar y emplear técnicas, lenguajes y entornos de desarrollo, evaluando sus posibilidades, para desarrollar aplicaciones en teléfonos móviles, tabletas y otros dispositivos inteligentes.",
-	"k":"Valorar y emplear herramientas específicas, atendiendo a la estructura de los contenidos, para crear ayudas generales y sensibles al contexto.",
-	"l":"Valorar y emplear herramientas específicas, atendiendo a la estructura de los contenidos, para crear tutoriales, manuales de usuario y otros documentos asociados a una aplicación.",
-	"m":"Seleccionar y emplear técnicas y herramientas, evaluando la utilidad de los asistentes de instalación generados, para empaquetar aplicaciones.",
-	"n":"Analizar y aplicar técnicas y librerías específicas, simulando diferentes escenarios, para desarrollar aplicaciones capaces de ofrecer servicios en red.",
-	"ñ":"Analizar y aplicar técnicas y librerías de programación, evaluando su funcionalidad para desarrollar aplicaciones multiproceso y multihilo.",
-	"o":"Reconocer la estructura de los sistemas ERP-CRM, identificando la utilidad de cada uno de sus módulos, para participar en su implantación.",
-	"p":"Realizar consultas, analizando y evaluando su alcance, para gestionar la información almacenada en sistemas ERP-CRM.",
-	"q":"Seleccionar y emplear lenguajes y herramientas, atendiendo a los requerimientos, para desarrollar componentes personalizados en sistemas ERP-CRM.",
-	"r":"Verificar los componentes software desarrollados, analizando las especificaciones, para completar un plan de pruebas.",
-	"s":"Establecer procedimientos, verificando su funcionalidad, para desplegar y distribuir aplicaciones.",
-	"t":"Describir los roles de cada uno de los componentes del grupo de trabajo, identificando en cada caso la responsabilidad asociada, para establecer las relaciones profesionales más convenientes.",
-	"u":"Identificar formas de intervención ante conflictos de tipo personal y laboral, teniendo en cuenta las decisiones más convenientes, para garantizar un entorno de trabajo satisfactorio.",
-	"v":"Identificar y valorar las oportunidades de promoción profesional y de aprendizaje, analizando el contexto del sector, para elegir el itinerario laboral y formativo más conveniente.",
-	"w":"Identificar los cambios tecnológicos, organizativos, económicos y laborales en su actividad, analizando sus implicaciones en el ámbito de trabajo, para mantener el espíritu de innovación.",
-	"x":"Reconocer las oportunidades de negocio, identificando y analizando demandas del mercado para crear y gestionar una pequeña empresa.",
-	"y":"Reconocer sus derechos y deberes como agente activo en la sociedad, analizando el marco legal que regula las condiciones sociales y laborales para participar como ciudadano democrático."
+        "a" : " Organizar los componentes físicos y lógicos que forman un sistema microinformático, interpretando su documentación técnica, para aplicar los medios y métodos adecuados a su instalación, montaje y mantenimiento.",
+        "b" : " Identificar, ensamblar y conectar componentes y periféricos utilizando las herramientas adecuadas, aplicando procedimientos, normas y protocolos de calidad y seguridad, para montar y configurar ordenadores y periféricos.",
+        "c" : " Reconocer y ejecutar los procedimientos de instalación de sistemas operativos y programas de aplicación, aplicando protocolos de calidad, para instalar y configurar sistemas microinformáticos.",
+        "d" : " Representar la posición de los equipos, líneas de transmisión y demás elementos de una red local, analizando la morfología, condiciones y características del despliegue, para replantear el cableado y la electrónica de la red.",
+        "e" : " Ubicar y fijar equipos, líneas, canalizaciones y demás elementos de una red local cableada, inalámbrica o mixta, aplicando procedimientos de montaje y protocolos de calidad y seguridad, para instalar y configurar redes locales.",
+        "f" : " Interconectar equipos informáticos, dispositivos de red local y de conexión con redes de área extensa, ejecutando los procedimientos para instalar y configurar redes locales.",
+        "g" : " Localizar y reparar averías y disfunciones en los componentes físicos y lógicos para mantener sistemas microinformáticos y redes locales.",
+        "h" : " Sustituir y ajustar componentes físicos y lógicos para mantener sistemas microinformáticos y redes locales.",
+        "i" : " Interpretar y seleccionar información para elaborar documentación técnica y administrativa.",
+        "j" : " Valorar el coste de los componentes físicos, lógicos y la mano de obra, para elaborar presupuestos.",
+        "k" : " Reconocer características y posibilidades de los componentes físicos y lógicos, para asesorar y asistir a clientes.",
+        "l" : " Detectar y analizar cambios tecnológicos para elegir nuevas alternativas y mantenerse actualizado dentro del sector.",
+        "m" : " Reconocer y valorar incidencias, determinando sus causas y describiendo las acciones correctoras para resolverlas.",
+        "n" : " Analizar y describir procedimientos de calidad, prevención de riesgos laborales y medioambientales, señalando las acciones a realizar en los casos definidos para actuar de acuerdo con las normas estandarizadas.",
+        "ñ" : " Valorar las actividades de trabajo en un proceso productivo, identificando su aportación al proceso global para conseguir los objetivos de la producción.",
+        "o" : " Identificar y valorar las oportunidades de aprendizaje y empleo, analizando las ofertas y demandas del mercado laboral para gestionar su carrera profesional.",
+        "p" : " Reconocer las oportunidades de negocio, identificando y analizando demandas del mercado para crear y gestionar una pequeña empresa.",
+        "q" : " Reconocer sus derechos y deberes como agente activo en la sociedad, analizando el marco legal que regula las condiciones sociales y laborales para participar como ciudadano democrático."
     },
     "ModulosProfesionales":{
 	"0156":{
@@ -162,10 +166,7 @@
 
 		},
 		"horas":"50",
-		"UnidadesCompetenciaAcreditadas":
-		{
-			"UC0223_3":"Configurar y explotar sistemas informáticos."
-		}
+		"UnidadesCompetenciaAcreditadas":{}
     },
     "1664": {
             "nombre": "Digitalización aplicada a los sectores productivos (GM)",
@@ -354,14 +355,69 @@
             "ObjetivosGenerales ": ["e","j","q"],
             "CompetenciasTitulo" : ["a","e","f","i","j","v","y","z" ]
         },
-    "0000": {
-            "nombre": "Modulo inventado",
-            "creditos": "22",
-            "ResultadosAprendizaje": {},
-            "horas": "2000",
-            "UnidadesCompetenciaAcreditadas": {},
-            "ObjetivosGenerales ": ["e","j","q"],
-            "CompetenciasTitulo" : ["a","e","f","i","j","v","y","z" ]
+        "1708":{
+                "nombre": "Sostenibilidad aplicada al sistema productivo",
+                "creditos": "5",
+                "ResultadosAprendizaje": {
+                    "RA01": {
+                        "Resultado": " Identifica los aspectos ambientales, sociales y de gobernanza (ASG) relativos a la sostenibilidad teniendo en cuenta el concepto de desarrollo sostenible y los marcos internacionales que contribuyen a su consecución.",
+                            "CriteriosEvaluacion": {
+                                    "a": "Se ha descrito el concepto de sostenibilidad, estableciendo los marcos internacionales asociados al desarrollo sostenible.",
+                                    "b": "Se han identificado los asuntos ambientales, sociales y de gobernanza que influyen en el desarrollo sostenible de las organizaciones empresariales.",
+                                    "c": "Se han relacionado los Objetivos de Desarrollo Sostenible ODS,con su importancia para la consecución de la Agenda 2030.",
+                                    "d": "Se ha analizado la importancia de identificar los aspectos ASG más relevantes para los grupos de interés de las organizaciones relacionándolos con los riesgos y oportunidades que suponen para la propia organización.",
+                                    "e": "Se han identificado los principales estándares de métricas para la evaluación del desempeño en sostenibilidad y su papel en la rendición de cuentas que marca la legislación vigente y las futuras regulaciones en desarrollo.",
+                                    "f": "Se ha descrito la inversión socialmente responsable y el papel de los analistas, inversores, agencias e índices de sostenibilidad en el fomento de la sostenibilidad."}},
+                    "RA02": {
+                        "Resultado": " Caracteriza los retos ambientales y sociales a los que se enfrenta la sociedad, describiendo los impactos sobre las personas y los sectores productivos y proponiendo acciones para minimizarlos.",
+                            "CriteriosEvaluacion": {
+                                    "a": "Se han identificado los principales retos ambientales y sociales.",
+                                    "b": "Se han relacionado los retos ambientales y sociales con el desarrollo de la actividad económica.",
+                                    "c": "Se ha analizado el efecto de los impactos ambientales y sociales sobre las personas y los sectores productivos.",
+                                    "d": "Se han identificado las medidas y acciones encaminadas a minimizar los impactos ambientales y sociales.",
+                                    "e": "Se ha analizado la importancia de establecer alianzas y trabajar de manera transversal y coordinada para abordar con éxito los retos ambientales y sociales."}},
+                    "RA03": {
+                        "Resultado": " Establece la aplicación de criterios de sostenibilidad en el desempeño profesional y personal, identificando los elementos necesarios.",
+                            "CriteriosEvaluacion": {
+                                    "a": "Se han identificado los ODS más relevantes para la actividad profesional que realiza.",
+                                    "b": "Se han analizado los riesgos y oportunidades que representan los ODS.",
+                                    "c": "Se han identificado las acciones necesarias para atender algunos de los retos ambientales y sociales desde la actividad profesional y el entorno personal."}},
+                    "RA04": {
+                        "Resultado": " Propón productos y servicios responsables teniendo en cuenta los principios de la economía circular.",
+                            "CriteriosEvaluacion": {
+                                    "a": "Se ha caracterizado el modelo de producción y consumo actual.",
+                                    "b": "Se han identificado los principios de la economía verde y circular.",
+                                    "c": "Se han contrastado los beneficios de la economía verde y circular frente al modelo clásico de producción.",
+                                    "d": "Se han aplicado principios de ecodiseño.",
+                                    "e": "Se ha analizado el ciclo de vida del producto.",
+                                    "f": "Se han identificado los procesos de producción y los criterios de sostenibilidad aplicados."}},
+                    "RA05": {
+                        "Resultado": " Realiza actividades sostenibles minimizando el impacto de las mismas en el medio ambiente.",
+                            "CriteriosEvaluacion": {
+                                    "a": "Se ha caracterizado el modelo de producción y consumo actual.",
+                                    "b": "Se han identificado los principios de la economía verde y circular.",
+                                    "c": "Se han contrastado los beneficios de la economía verde y circular frente al modelo clásico de producción.",
+                                    "d": "Se ha evaluado el impacto de las actividades personales y profesionales.",
+                                    "e": "Se han aplicado principios de ecodiseño.",
+                                    "f": "Se han aplicado estrategias sostenibles.",
+                                    "g": "Se ha analizado el ciclo de vida del producto.",
+                                    "h": "Se han identificado los procesos de producción y los criterios de sostenibilidad aplicados.",
+                                    "i": "Se ha aplicado la normativa ambiental."}},
+                    "RA06": {
+                        "Resultado": " Analiza un plan de sostenibilidad de una empresa del sector, identificando sus grupos de interés, los aspectos ASG materiales y justificando acciones para su gestión y medición.",
+                            "CriteriosEvaluacion": {
+                                    "a": "Se han identificado los principales grupos de interés de la empresa.",
+                                    "b": "Se han analizado los aspectos ASG materiales, las expectativas de los grupos de interés y la importancia de los aspectos ASG en relación con los objetivos empresariales.",
+                                    "c": "Se han definido acciones encaminadas a minimizar los impactos negativos y aprovechar las oportunidades que plantean los principales aspectos ASG identificados.",
+                                    "d": "Se han determinado las métricas de evaluación del desempeño de la empresa de acuerdo con los estándares de sostenibilidad más ampliamente utilizados.",
+                                    "e": "Se ha elaborado un informe de sostenibilidad con el plan y los indicadores propuestos."
+                                    }
+                        }
+                    },
+                "horas": "34",
+                "UnidadesCompetenciaAcreditadas": {},
+                "ObjetivosGenerales ": [],
+                "CompetenciasTitulo" : []
         }
     }
 }
