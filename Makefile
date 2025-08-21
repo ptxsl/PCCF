@@ -86,6 +86,11 @@ local-programaciones-smx : programaciones-smx
 
 	xdg-open $(PDF_PATH)/Programaciones_SENIA_SMX.pdf
 
+local-excel-smx: files
+
+	@echo " [ ${BLUE} Excel : SMX ${RESET}]"
+	./tools/json2excel.py SMX
+	libreoffice PDFS/SMX_libro.xlsx
 proyecto-asir: files proyecto-base
 
 	@echo " [ ${BLUE} Proyecto Curricular : ASIR ${RESET}]"
