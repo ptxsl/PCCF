@@ -128,7 +128,7 @@ programaciones-asir: proyecto-asir
 	@cd temp/ && pandoc  --template $(TEMPLATE_TEX_PD) $(PANDOC_OPTIONS) -o $(PDF_PATH)/Programaciones_SENIA_ASIR.pdf ./PD_*.md
 	@echo " ${LIGHTBLUE} Programaciones Generadas para ASIR ${RESET}"
 
-local-programaciones-dam : programaciones-asir
+local-programaciones-asir : programaciones-asir
 
 	xdg-open $(PDF_PATH)/Programaciones_SENIA_ASIR.pdf
 
