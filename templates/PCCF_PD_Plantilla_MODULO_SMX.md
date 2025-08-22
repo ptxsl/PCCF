@@ -7,8 +7,6 @@
 Es un módulo de {{ modulo.horas }} horas que se imparte en el Ciclo de Grado Medio de 
 Técnico en Sistemas Microinformáticos y Redes.
 
-Tiene una correspondéncia de Créditos de {{ modulo.creditos}}.
-
 ## Relación entre los estándares de competencia y los módulos del ciclo formativo
 
 | Unidad de Competencia | Descripción |
@@ -24,6 +22,26 @@ Los **Resultados de Aprendizaje** relativos al módulo de {{modulo.nombre}} son:
 |------|--------------------------|{% for ra in modulo.ResultadosAprendizaje %}
 | {{ ra }} | {{ modulo.ResultadosAprendizaje[ra].Resultado }} |{% endfor %}
 |<img width=200/>|<img width=500/>|
+
+## Objetivos Generales 
+
+La formación del módulo contribuye a alcanzar los *Objetivos Generales del Ciclo* siguientes:
+
+| Obj| Objetivo General del Ciclo |
+|----|----------------------------|{% for obj in modulo.ObjetivosGenerales %}
+| {{ obj }} | {{ modulo.OG[obj] }} |{% endfor %}
+|<img width=100/>|<img width=500/>|
+
+
+## Competencias del Título 
+
+La formación del módulo contribuye a alcanzar las *Competencias del Título* siguientes:
+
+| Obj| Competencia del Título |
+|----|----------------------------|{% for com in modulo.CompetenciasTitulo %}
+| {{ com }} | {{ modulo.CPSS[com] }} |{% endfor %}
+|<img width=100/>|<img width=500/>|
+
 
 ## Secuenciación de las Unidades de Programación. 
 
