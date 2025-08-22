@@ -1,5 +1,5 @@
 ---
-title: Desarrollo Aplicaciones Web 
+title: Programaciones Didacticas - Desarrollo Aplicaciones Web 
 subtitle: "Curso 2025-2026"
 author: Programaciones Didácticas del Departamento de Informática
 header-includes: |

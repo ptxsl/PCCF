@@ -6,7 +6,7 @@ header-includes: |
 lang: es-ES
 keywords: [SMX]
 abstract: |
-          Programciones Didacticas del Ciclo Formativo para el Grado Medio de Sistemas Microinformáticos y Redes 
+          Programaciones Didacticas del Ciclo Formativo para el Grado Medio de Sistemas Microinformáticos y Redes 
           Impartido en el IES La Sénia.
           Curso 2025-2026.
 titlepage: true,
