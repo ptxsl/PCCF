@@ -168,7 +168,7 @@
 		"horas":"50",
 		"UnidadesCompetenciaAcreditadas":{}
     },
-    "1664": {
+    "1664":{
             "nombre": "Digitalización aplicada a los sectores productivos (GM)",
             "creditos": "3",
             "ResultadosAprendizaje": {
@@ -229,7 +229,7 @@
             "ObjetivosGenerales ": ["e","j","q"],
             "CompetenciasTitulo" : ["a","e","f","i","j","v","y","z" ]
     },
-    "1709": {
+    "1709":{
             "nombre": "Itinerario personal para la empleabilidad I",
             "creditos": "5",
             "ResultadosAprendizaje": {
@@ -293,7 +293,7 @@
             "ObjetivosGenerales ": ["e","j","q"],
             "CompetenciasTitulo" : ["a","e","f","i","j","v","y","z" ]
     },
-    "1710": {
+    "1710":{
             "nombre": "Itinerario personal para la empleabilidad II",
             "creditos": "5",
             "ResultadosAprendizaje": {
@@ -425,7 +425,7 @@
             "UnidadesCompetenciaAcreditadas" : {},
             "ObjetivosGenerales" : ["a", "b", "c", "g", "h", "i", "j", "k" , "l"],
             "CompetenciasTitulo" : ["a", "b", "g", "h", "i", "j", "k" , "l"],
-            "creditos":"0",
+            "creditos":"-",
             "ResultadosAprendizaje":{
                 "RA01": {
                     "Resultado": " Selecciona los componentes de integración de un equipo microinformático estándar, describiendo sus funciones y comparando prestaciones de distintos fabricantes.",
@@ -514,6 +514,492 @@
                                 }
                         }
             }
+    },
+    "0222":{
+            "nombre":"Sistemas operativos monopuesto",
+            "horas": "133",
+            "UnidadesCompetenciaAcreditadas" : {},
+            "ObjetivosGenerales" : [ "a", "c", "g", "h", "i", "j", "k", "l" , "m"],
+            "CompetenciasTitulo" : ["a", "c", "g", "h", "k", "l", "m", "n", "ñ" , "r"],
+            "creditos":"-",
+            "ResultadosAprendizaje":{
+                "RA01": {
+                    "Resultado": " Reconoce las características de los sistemas de archivo, describiendo sus tipos y aplicaciones.",
+                        "CriteriosEvaluacion": {
+                                "a": "Se han identificado y descrito los elementos funcionales de un sistema informático.",
+                                "b": "Se ha codificado y relacionado la información en los diferentes sistemas de representación.",
+                                "c": "Se han identificado los procesos y sus estados.",
+                                "d": "Se ha descrito la estructura y organización del sistema de archivos.",
+                                "e": "Se han distinguido los atributos de un archivo y un directorio.",
+                                "f": "Se han reconocido los permisos de archivos y directorios.",
+                                "g": "Se ha constatado la utilidad de los sistemas transaccionales y sus repercusiones al seleccionar un sistema de archivos."}},
+                "RA02": {
+                    "Resultado": " Instala sistemas operativos, relacionando sus características con el hardware del equipo y el software de aplicación.",
+                        "CriteriosEvaluacion": {
+                                "a": "Se han analizando las funciones del sistema operativo.",
+                                "b": "Se ha descrito la arquitectura del sistema operativo.",
+                                "c": "Se ha verificado la idoneidad del hardware.",
+                                "d": "Se ha seleccionado el sistema operativo.",
+                                "e": "Se ha elaborado un plan de instalación.",
+                                "f": "Se han configurado parámetros básicos de la instalación.",
+                                "g": "Se ha configurado un gestor de arranque.",
+                                "h": "Se han descrito las incidencias de la instalación.",
+                                "i": "Se han respetado las normas de utilización del software (licencias).",
+                                "j": "Se ha actualizado el sistema operativo."}},
+                "RA03": {
+                    "Resultado": " Realiza tareas básicas de configuración de sistemas operativos, interpretando requerimientos y describiendo los procedimientos seguidos.",
+                        "CriteriosEvaluacion": {
+                                "a": "Se han diferenciado los interfaces de usuario según sus propiedades.",
+                                "b": "Se han aplicado preferencias en la configuración del entorno personal.",
+                                "c": "Se han gestionado los sistemas de archivos específicos.",
+                                "d": "Se han aplicado métodos para la recuperación del sistema operativo.",
+                                "e": "Se ha realizado la configuración para la actualización del sistema operativo.",
+                                "f": "Se han realizado operaciones de instala-ción/desinstalación de utilidades.",
+                                "g": "Se han utilizado los asistentes de configuración del sistema (acceso a redes, dispositivos, entre otros).",
+                                "h": "Se han ejecutado operaciones para la automatización de tareas del sistema."}},
+                "RA04": {
+                    "Resultado": " Realiza operaciones básicas de administración de sistemas operativos, interpretando requerimientos y optimizando el sistema para su uso.",
+                        "CriteriosEvaluacion": {
+                                "a": "Se han configurado perfiles de usuario y grupo.",
+                                "b": "Se han utilizado herramientas gráficas para describir la organización de los archivos del sistema.",
+                                "c": "Se ha actuado sobre los procesos del usuario en función de las necesidades puntuales.",
+                                "d": "Se ha actuado sobre los servicios del sistema en función de las necesidades puntuales.",
+                                "e": "Se han aplicado criterios para la optimización de la memoria disponible.",
+                                "f": "Se ha analizado la actividad del sistema a partir de las trazas generadas por el propio sistema.",
+                                "g": "Se ha optimizado el funcionamiento de los dispositivos de almacenamiento.",
+                                "h": "Se han reconocido y configurado los recursos compartibles del sistema.",
+                                "i": "Se ha interpretado la información de configuración del sistema operativo."}},
+                "RA05": {
+                    "Resultado": " Crea máquinas virtuales identificando su campo de aplicación e instalando software específico.",
+                        "CriteriosEvaluacion": {
+                                "a": "Se ha diferenciado entre máquina real y máquina virtual.",
+                                "b": "Se han establecido las ventajas e inconvenientes de la utilización de máquinas virtuales.",
+                                "c": "Se ha instalado el software libre y propietario para la creación de máquinas virtuales.",
+                                "d": "Se han creado máquinas virtuales a partir de sistemas operativos libres y propietarios.",
+                                "e": "Se han configurado máquinas virtuales.",
+                                "f": "Se ha relacionado la máquina virtual con el sistema operativo anfitrión.",
+                                "g": "Se han realizado pruebas de rendimiento del sistema."
+                                }
+                        }
+            }
+    },
+    "0223":{
+            "nombre":"Aplicaciones ofimáticas",
+            "horas": "233",
+            "UnidadesCompetenciaAcreditadas" : {},
+            "ObjetivosGenerales" : ["a","c","g","h","i","k","l","m","n","o"],
+            "CompetenciasTitulo" : ["a","c","f","g","h","j","k","l","m","n","ñ","p","r"],
+            "creditos":"-",
+            "ResultadosAprendizaje":{
+            "RA01": {
+                    "Resultado": " Instala y actualiza aplicaciones ofimáticas, interpretando especificaciones y describiendo los pasos a seguir en el proceso.",
+                        "CriteriosEvaluacion": {
+                                "a": "Se han identificado y establecido las fases del proceso de instalación.",
+                                "b": "Se han respetado las especificaciones técnicas del proceso de instalación.",
+                                "c": "Se han configurado las aplicaciones según los criterios establecidos.",
+                                "d": "Se han documentado las incidencias.",
+                                "e": "Se han solucionado problemas en la instalación o integración con el sistema informático.",
+                                "f": "Se han eliminado y/o añadido componentes de la instalación en el equipo.",
+                                "g": "Se han actualizado las aplicaciones.",
+                                "h": "Se han respetado las licencias software.",
+                                "i": "Se han propuesto soluciones software para entornos de aplicación."}},
+"RA02": {
+                    "Resultado": " Elabora documentos y plantillas, describiendo y aplicando las opciones avanzadas de procesadores de textos.",
+                        "CriteriosEvaluacion": {
+                                "a": "Se ha personalizado las opciones de software y barra de herramientas.",
+                                "b": "Se han diseñado plantillas.",
+                                "c": "Se han utilizado aplicaciones y periféricos para introducir textos e imágenes.",
+                                "d": "Se han importado y exportado documentos creados con otras aplicaciones y en otros formatos.",
+                                "e": "Se han creado y utilizado macros en la realización de documentos.",
+                                "f": "Se han elaborado manuales específicos."}},
+"RA03": {
+                    "Resultado": " Elabora documentos y plantillas de cálculo, describiendo y aplicando opciones avanzadas de hojas de cálculo.",
+                        "CriteriosEvaluacion": {
+                                "a": "Se ha personalizado las opciones de software y barra de herramientas.",
+                                "b": "Se han utilizado los diversos tipos de datos y referencia para celdas, rangos, hojas y libros.",
+                                "c": "Se han aplicado fórmulas y funciones.",
+                                "d": "Se han generado y modificado gráficos de diferentes tipos.",
+                                "e": "Se han empleado macros para la realización de documentos y plantillas.",
+                                "f": "Se han importado y exportado hojas de cálculo creadas con otras aplicaciones y en otros formatos.",
+                                "g": "Se ha utilizado la hoja de cálculo como base de datos: formularios, creación de listas, filtrado, protección y ordenación de datos.",
+                                "h": "Se han utilizado aplicaciones y periféricos para introducir textos, números, códigos e imágenes."}},
+"RA04": {
+                    "Resultado": " Elabora documentos con bases de datos ofimáticas describiendo y aplicando operaciones de manipulación de datos.",
+                        "CriteriosEvaluacion": {
+                                "a": "Se han identificado los elementos de las bases de datos relacionales.",
+                                "b": "Se han creado bases de datos ofimáticas.",
+                                "c": "Se han utilizado las tablas de la base de datos (insertar, modificar y eliminar registros).",
+                                "d": "Se han utilizado asistentes en la creación de consultas.",
+                                "e": "Se han utilizado asistentes en la creación de formularios.",
+                                "f": "Se han utilizado asistentes en la creación de informes.",
+                                "g": "Se ha realizado búsqueda y filtrado sobre la información almacenada.",
+                                "h": "Se han creado y utilizado macros."}},
+"RA05": {
+                    "Resultado": " Manipula imágenes digitales analizando las posibilidades de distintos programas y aplicando técnicas de captura y edición básicas.",
+                        "CriteriosEvaluacion": {
+                                "a": "Se han analizado los distintos formatos de imágenes.",
+                                "b": "Se ha realizado la adquisición de imágenes con periféricos.",
+                                "c": "Se ha trabajado con imágenes a diferentes resoluciones, según su finalidad.",
+                                "d": "Se han empleado herramientas para la edición de imagen digital.",
+                                "e": "Se han importado y exportado imágenes en diversos formatos."}},
+"RA06": {
+                    "Resultado": " Manipula secuencias de vídeo analizando las posibilidades de distintos programas y aplicando técnicas de captura y edición básicas.",
+                        "CriteriosEvaluacion": {
+                                "a": "Se han reconocido los elementos que componen una secuencia de vídeo.",
+                                "b": "Se han estudiado los tipos de formatos y codecs más empleados.",
+                                "c": "Se han importado y exportado secuencias de vídeo.",
+                                "d": "Se han capturado secuencias de vídeo con recursos adecuados.",
+                                "e": "Se han elaborado vídeo tutoriales."}},
+"RA07": {
+                    "Resultado": " Elabora presentaciones multimedia describiendo y aplicando normas básicas de composición y diseño.",
+                        "CriteriosEvaluacion": {
+                                "a": "Se han identificado las opciones básicas de las aplicaciones de presentaciones.",
+                                "b": "Se han reconocido los distintos tipos de vista asociados a una presentación.",
+                                "c": "Se han aplicado y reconocido las distintas tipografías y normas básicas de composición, diseño y utilización del color.",
+                                "d": "Se han diseñado plantillas de presentaciones.",
+                                "e": "Se han creado presentaciones.",
+                                "f": "Se han utilizado periféricos para ejecutar presentaciones."}},
+"RA08": {
+                    "Resultado": " Realiza operaciones de gestión del correo y la agenda electrónica, relacionando necesidades de uso con su configuración.",
+                        "CriteriosEvaluacion": {
+                                "a": "Se han descrito los elementos que componen un correo electrónico.",
+                                "b": "Se han analizado las necesidades básicas de gestión de correo y agenda electrónica.",
+                                "c": "Se han configurado distintos tipos de cuentas de correo electrónico.",
+                                "d": "Se han conectado y sincronizado agendas del equipo informático con dispositivos móviles.",
+                                "e": "Se ha operado con la libreta de direcciones.",
+                                "f": "Se ha trabajado con todas las opciones de gestión de correo electrónico (etiquetas, filtros, carpetas, entre otros).",
+                                "g": "Se han utilizado opciones de agenda electrónica."}},
+"RA09": {
+                    "Resultado": " Aplica técnicas de soporte en el uso de aplicaciones, identificando y resolviendo incidencias.",
+                        "CriteriosEvaluacion": {
+                                "a": "Se han elaborado guías visuales con los conceptos básicos de uso de una aplicación.",
+                                "b": "Se han identificado problemas relacionados con el uso de aplicaciones ofimáticas.",
+                                "c": "Se han utilizado manuales de usuario para instruir en el uso de aplicaciones.",
+                                "d": "Se han aplicado técnicas de asesoramiento en el uso de aplicaciones.",
+                                "e": "Se han realizado informes de incidencias.",
+                                "f": "Se han aplicado los procedimientos necesarios para salvaguardar la información y su recuperación.",
+                                "g": "Se han utilizado los recursos disponibles (documentación técnica, ayudas en línea, soporte técnico, entre otros) para solventar incidencias.",
+                                "h": "Se han solventando las incidencias en el tiempo adecuado y con el nivel de calidad esperado."
+                                }
         }
+
+            }
+    },
+    "0224":{
+            "nombre":"Sistemas operativos en red",
+            "horas": "200",
+            "UnidadesCompetenciaAcreditadas" : {},
+            "ObjetivosGenerales" : ["a","c","d","f","g","h","i","j","k","l","m","ñ"],
+            "CompetenciasTitulo" : ["a","c","e","f","h","l","m","n","ñ","p","q","r"],
+            "creditos":"-",
+            "ResultadosAprendizaje":{
+            "RA01": {
+                    "Resultado": " Instala sistemas operativos en red describiendo sus características e interpretando la documentación técnica.",
+                        "CriteriosEvaluacion": {
+                                "a": "Se ha realizado el estudio de compatibilidad del sistema informático.",
+                                "b": "Se han diferenciado los modos de instalación.",
+                                "c": "Se ha planificado y realizado el particionado del disco del servidor.",
+                                "d": "Se han seleccionado y aplicado los sistemas de archivos.",
+                                "e": "Se han seleccionado los componentes a instalar.",
+                                "f": "Se han aplicado procedimientos para la automatización de instalaciones.",
+                                "g": "Se han aplicado preferencias en la configuración del entorno personal.",
+                                "h": "Se ha actualizado el sistema operativo en red.",
+                                "i": "Se ha comprobado la conectividad del servidor con los equipos cliente."}},
+"RA02": {
+                    "Resultado": " Gestiona usuarios y grupos de sistemas operativos en red, interpretando especificaciones y aplicando herramientas del sistema.",
+                        "CriteriosEvaluacion": {
+                                "a": "Se han configurado y gestionado cuentas de usuario.",
+                                "b": "Se han configurado y gestionado perfiles de usuario.",
+                                "c": "Se han configurado y gestionado cuentas de equipo.",
+                                "d": "Se ha distinguido el propósito de los grupos, sus tipos y ámbitos.",
+                                "e": "Se han configurado y gestionado grupos.",
+                                "f": "Se ha gestionado la pertenencia de usuarios a grupos.",
+                                "g": "Se han identificado las características de usuarios y grupos predeterminados y especiales.",
+                                "h": "Se han planificado perfiles móviles de usuarios.",
+                                "i": "Se han utilizado herramientas para la administración de usuarios y grupos, incluidas en el sistema operativo en red."}},
+"RA03": {
+                    "Resultado": " Realiza tareas de gestión sobre dominios identificando necesidades y aplicando herramientas de administración de dominios.",
+                        "CriteriosEvaluacion": {
+                                "a": "Se ha identificado la función del servicio de directorio, sus elementos y nomenclatura.",
+                                "b": "Se ha reconocido el concepto de dominio y sus funciones.",
+                                "c": "Se han establecido relaciones de confianza entre dominios.",
+                                "d": "Se ha realizado la instalación del servicio de directorio.",
+                                "e": "Se ha realizado la configuración básica del servicio de directorio.",
+                                "f": "Se han utilizado agrupaciones de elementos para la creación de modelos administrativos.",
+                                "g": "Se ha analizado la estructura del servicio de directorio.",
+                                "h": "Se han utilizado herramientas de administración de dominios."}},
+"RA04": {
+                    "Resultado": " Gestiona los recursos compartidos del sistema, interpretando especificaciones y determinando niveles de seguridad.",
+                        "CriteriosEvaluacion": {
+                                "a": "Se ha reconocido la diferencia entre permiso y derecho.",
+                                "b": "Se han identificado los recursos del sistema que se van a compartir y en qué condiciones.",
+                                "c": "Se han asignado permisos a los recursos del sistema que se van a compartir.",
+                                "d": "Se han compartido impresoras en red.",
+                                "e": "Se ha utilizado el entorno gráfico para compartir recursos.",
+                                "f": "Se han establecido niveles de seguridad para controlar el acceso del cliente a los recursos compartidos en red.",
+                                "g": "Se ha trabajado en grupo para comprobar el acceso a los recursos compartidos del sistema."}},
+"RA05": {
+                    "Resultado": " Realiza tareas de monitorización y uso del sistema operativo en red, describiendo las herramientas utilizadas e identificando las principales incidencias.",
+                        "CriteriosEvaluacion": {
+                                "a": "Se han descrito las características de los programas de monitorización.",
+                                "b": "Se han identificado problemas de rendimiento en los dispositivos de almacenamiento.",
+                                "c": "Se ha observado la actividad del sistema operativo en red a partir de las trazas generadas por el propio sistema.",
+                                "d": "Se han realizado tareas de mantenimiento del software instalado en el sistema.",
+                                "e": "Se han ejecutado operaciones para la automatización de tareas del sistema.",
+                                "f": "Se ha interpretado la información de configuración del sistema operativo en red."}},
+"RA06": {
+                    "Resultado": " Realiza tareas de integración de sistemas operativos libres y propietarios, describiendo las ventajas de compartir recursos e instalando software específico.",
+                        "CriteriosEvaluacion": {
+                                "a": "Se ha identificado la necesidad de compartir recursos en red entre diferentes sistemas operativos.",
+                                "b": "Se ha comprobado la conectividad de la red en un escenario heterogéneo.",
+                                "c": "Se ha descrito la funcionalidad de los servicios que permiten compartir recursos en red.",
+                                "d": "Se han instalado y configurado servicios para compartir recursos en red.",
+                                "e": "Se ha accedido a sistemas de archivos en red desde equipos con diferentes sistemas operativos.",
+                                "f": "Se ha accedido a impresoras desde equipos con diferentes sistemas operativos.",
+                                "g": "Se ha trabajado en grupo.",
+                                "h": "Se han establecido niveles de seguridad para controlar el acceso del usuario a los recursos compartidos en red.",
+                                "i": "Se ha comprobado el funcionamiento de los servicios instalados."
+                                }
+                        }
+
+            }
+    },
+    "0226":{
+            "nombre":"Seguridad informática",
+            "horas": "133",
+            "UnidadesCompetenciaAcreditadas" : {},
+            "ObjetivosGenerales" : ["a","c","d","e","g","k","l"],
+            "CompetenciasTitulo" : ["a","c","i","j","l","n","o","p","t"],
+            "creditos":"-",
+            "ResultadosAprendizaje":{
+            "RA01": {
+                    "Resultado": " Aplica medidas de seguridad pasiva en sistemas informáticos describiendo características de entornos y relacionándolas con sus necesidades.",
+                        "CriteriosEvaluacion": {
+                                "a": "Se ha valorado la importancia de mantener la información segura.",
+                                "b": "Se han descrito las diferencias entre seguridad física y lógica.",
+                                "c": "Se han definido las características de la ubicación física y condiciones ambientales de los equipos y servidores.",
+                                "d": "Se ha identificado la necesidad de proteger físicamente los sistemas informáticos.",
+                                "e": "Se ha verificado el funcionamiento de los sistemas de alimentación ininterrumpida.",
+                                "f": "Se han seleccionado los puntos de aplicación de los sistemas de alimentación ininterrumpida.",
+                                "g": "Se han esquematizado las características de una política de seguridad basada en listas de control de acceso.",
+                                "h": "Se ha valorado la importancia de establecer una política de contraseñas.",
+                                "i": "Se han valorado las ventajas que supone la utilización de sistemas biométricos."}},
+"RA02": {
+                    "Resultado": " Gestiona dispositivos de almacenamiento describiendo los procedimientos efectuados y aplicando técnicas para asegurar la integridad de la información.",
+                        "CriteriosEvaluacion": {
+                                "a": "Se ha interpretado la documentación técnica relativa a la política de almacenamiento.",
+                                "b": "Se han tenido en cuenta factores inherentes al almacenamiento de la información (rendimiento, disponibilidad, accesibilidad, entre otros).",
+                                "c": "Se han clasificado y enumerado los principales métodos de almacenamiento incluidos los sistemas de almacenamiento en red.",
+                                "d": "Se han descrito las tecnologías de almacenamiento redundante y distribuido.",
+                                "e": "Se han seleccionado estrategias para la realización de copias de seguridad.",
+                                "f": "Se ha tenido en cuenta la frecuencia y el esquema de rotación.",
+                                "g": "Se han realizado copias de seguridad con distintas estrategias.",
+                                "h": "Se han identificado las características de los medios de almacenamiento remotos y extraíbles.",
+                                "i": "Se han utilizado medios de almacenamiento remotos y extraíbles.",
+                                "j": "Se han creado y restaurado imágenes de respaldo de sistemas en funcionamiento."}},
+"RA03": {
+                    "Resultado": " Aplica mecanismos de seguridad activa describiendo sus características y relacionándolas con las necesidades de uso del sistema informático.",
+                        "CriteriosEvaluacion": {
+                                "a": "Se han seguido planes de contingencia para actuar ante fallos de seguridad.",
+                                "b": "Se han clasificado los principales tipos de software malicioso.",
+                                "c": "Se han realizado actualizaciones periódicas de los sistemas para corregir posibles vulnerabilidades.",
+                                "d": "Se ha verificado el origen y la autenticidad de las aplicaciones que se instalan en los sistemas.",
+                                "e": "Se han instalado, probado y actualizado aplicaciones específicas para la detección y eliminación de software malicioso.",
+                                "f": "Se han aplicado técnicas de recuperación de datos."}},
+"RA04": {
+                    "Resultado": " Asegura la privacidad de la información transmitida en redes informáticas describiendo vulnerabilidades e instalando software especifico.",
+                        "CriteriosEvaluacion": {
+                                "a": "Se ha identificado la necesidad de inventariar y controlar los servicios de red.",
+                                "b": "Se ha contrastado la incidencia de las técnicas de ingeniería social en los fraudes informáticos y robos de información.",
+                                "c": "Se ha deducido la importancia de minimizar el volumen de tráfico generado por la publicidad y el correo no deseado.",
+                                "d": "Se han aplicado medidas para evitar la monitorización de redes cableadas.",
+                                "e": "Se han clasificado y valorado las propiedades de seguridad de los protocolos usados en redes inalámbricas.",
+                                "f": "Se han descrito sistemas de identificación como la firma electrónica, certificado digital, entre otros.",
+                                "g": "Se han utilizado sistemas de identificación como la firma electrónica, certificado digital, entre otros.",
+                                "h": "Se ha instalado y configurado un cortafuegos en un equipo o servidor."}},
+"RA05": {
+                    "Resultado": " Reconoce la legislación y normativa sobre seguridad y protección de datos analizando las repercusiones de su incumplimiento.",
+                        "CriteriosEvaluacion": {
+                                "a": "Se ha descrito la legislación sobre protección de datos de carácter personal.",
+                                "b": "Se ha determinado la necesidad de controlar el acceso a la información personal almacenada.",
+                                "c": "Se han identificado las figuras legales que intervienen en el tratamiento y mantenimiento de los ficheros de datos.",
+                                "d": "Se ha contrastado la obligación de poner a disposición de las personas los datos personales que les conciernen.",
+                                "e": "Se ha descrito la legislación actual sobre los servicios de la sociedad de la información y comercio electrónico.",
+                                "f": "Se han contrastado las normas sobre gestión de seguridad de la información."
+                                }
+                }
+
+            }
+    },
+    "0227":{
+            "nombre":"Servicios en red",
+            "horas": "233",
+            "UnidadesCompetenciaAcreditadas" : {},
+            "ObjetivosGenerales" : ["d","f","h","i","k","l","m"],
+            "CompetenciasTitulo" : ["a","d","e","f","g","j","m","ñ","r"],
+            "creditos":"-",
+            "ResultadosAprendizaje":{
+            "RA01": {
+                    "Resultado": " Instala servicios de configuración dinámica, describiendo sus características y aplicaciones.",
+                        "CriteriosEvaluacion": {
+                                "a": "Se ha reconocido el funcionamiento de los mecanismos automatizados de configuración de los parámetros de red.",
+                                "b": "Se han identificado las ventajas que proporcionan.",
+                                "c": "Se han ilustrado los procedimientos y pautas que intervienen en una solicitud de configuración de los parámetros de red.",
+                                "d": "Se ha instalado un servicio de configuración dinámica de los parámetros de red.",
+                                "e": "Se ha preparado el servicio para asignar la configuración básica a los sistemas de una red local.",
+                                "f": "Se han realizado asignaciones dinámicas y estáticas.",
+                                "g": "Se han integrado en el servicio opciones adicionales de configuración.",
+                                "h": "Se ha verificando la correcta asignación de los parámetros."}},
+"RA02": {
+                    "Resultado": " Instala servicios de resolución de nombres, describiendo sus características y aplicaciones.",
+                        "CriteriosEvaluacion": {
+                                "a": "Se han identificado y descrito escenarios en los que surge la necesidad de un servicio de resolución de nombres.",
+                                "b": "Se han clasificado los principales mecanismos de resolución de nombres.",
+                                "c": "Se ha descrito la estructura, nomenclatura y funcionalidad de los sistemas de nombres jerárquicos.",
+                                "d": "Se ha instalado un servicio jerárquico de resolución de nombres.",
+                                "e": "Se ha preparado el servicio para almacenar las respuestas procedentes de servidores de redes públicas y servirlas a los equipos de la red local.",
+                                "f": "Se han añadido registros de nombres correspondientes a una zona nueva, con opciones relativas a servidores de correo y alias.",
+                                "g": "Se ha trabajado en grupo para realizar transferencias de zona entre dos o más servidores.",
+                                "h": "Se ha comprobado el funcionamiento correcto del servidor."}},
+"RA03": {
+                    "Resultado": " Instala servicios de transferencia de ficheros, describiendo sus características y aplicaciones.",
+                        "CriteriosEvaluacion": {
+                                "a": "Se ha establecido la utilidad y modo de operación del servicio de transferencia de ficheros.",
+                                "b": "Se ha instalado un servicio de transferencia de ficheros.",
+                                "c": "Se han creado usuarios y grupos para acceso remoto al servidor.",
+                                "d": "Se ha configurado el acceso anónimo.",
+                                "e": "Se han establecido límites en los distintos modos de acceso.",
+                                "f": "Se ha comprobado el acceso al servidor, tanto en modo activo como en modo pasivo.",
+                                "g": "Se han realizado pruebas con clientes en línea de comandos y en modo gráfico."}},
+"RA04": {
+                    "Resultado": " Gestiona servidores de correo electrónico identificando requerimientos de utilización y aplicando criterios de configuración.",
+                        "CriteriosEvaluacion": {
+                                "a": "Se han descrito los diferentes protocolos que intervienen en el envío y recogida del correo electrónico.",
+                                "b": "Se ha instalado un servidor de correo electrónico.",
+                                "c": "Se han creado cuentas de usuario y verificado el acceso de las mismas.",
+                                "d": "Se han definido alias para las cuentas de correo.",
+                                "e": "Se han aplicado métodos para impedir usos indebidos del servidor de correo electrónico.",
+                                "f": "Se han instalado servicios para permitir la recogida remota del correo existente en los buzones de usuario.",
+                                "g": "Se han usado clientes de correo electrónico para enviar y recibir correo."}},
+"RA05": {
+                    "Resultado": " Gestiona servidores web identificando requerimientos de utilización y aplicando criterios de configuración.",
+                        "CriteriosEvaluacion": {
+                                "a": "Se han descrito los fundamentos y protocolos en los que se basa el funcionamiento de un servidor web.",
+                                "b": "Se ha instalado un servidor web.",
+                                "c": "Se han creado sitios virtuales.",
+                                "d": "Se han verificado las posibilidades existentes para discriminar el sitio destino del tráfico entrante al servidor.",
+                                "e": "Se ha configurado la seguridad del servidor.",
+                                "f": "Se ha comprobando el acceso de los usuarios al servidor.",
+                                "g": "Se ha diferenciado y probado la ejecución de código en el servidor y en el cliente.",
+                                "h": "Se han instalado módulos sobre el servidor.",
+                                "i": "Se han establecido mecanismos para asegurar las comunicaciones entre el cliente y el servidor."}},
+"RA06": {
+                    "Resultado": " Gestiona métodos de acceso remoto describiendo sus características e instalando los servicios correspondientes.",
+                        "CriteriosEvaluacion": {
+                                "a": "Se han descrito métodos de acceso y administración remota de sistemas.",
+                                "b": "Se ha instalado un servicio de acceso remoto en línea de comandos.",
+                                "c": "Se ha instalado un servicio de acceso remoto en modo gráfico.",
+                                "d": "Se ha comprobado el funcionamiento de ambos métodos.",
+                                "e": "Se han identificado las principales ventajas y deficiencias de cada uno.",
+                                "f": "Se han realizado pruebas de acceso remoto entre sistemas de distinta naturaleza.",
+                                "g": "Se han realizado pruebas de administración remota entre sistemas de distinta naturaleza."}},
+"RA07": {
+                    "Resultado": " Despliega redes inalámbricas seguras justificando la configuración elegida y describiendo los procedimientos de implantación.",
+                        "CriteriosEvaluacion": {
+                                "a": "Se ha instalado un punto de acceso inalámbrico dentro de una red local.",
+                                "b": "Se han reconocido los protocolos, modos de funcionamiento y principales parámetros de configuración del punto de acceso.",
+                                "c": "Se ha seleccionado la configuración más idónea sobre distintos escenarios de prueba.",
+                                "d": "Se ha establecido un mecanismo adecuado de seguridad para las comunicaciones inalámbricas.",
+                                "e": "Se han usado diversos tipos de dispositivos y adaptadores inalámbricos para comprobar la cobertura.",
+                                "f": "Se ha instalado un encaminador inalámbrico con conexión a red pública y servicios inalámbricos de red local.",
+                                "g": "Se ha configurado y probado el encaminador desde los ordenadores de la red local."}},
+"RA08": {
+                    "Resultado": " Establece el acceso desde redes locales a redes públicas identificando posibles escenarios y aplicando software específico.",
+                        "CriteriosEvaluacion": {
+                                "a": "Se ha instalado y configurado el hardware de un sistema con acceso a una red privada local y a una red pública.",
+                                "b": "Se ha instalado una aplicación que actúe de pasarela entre la red privada local y la red pública.",
+                                "c": "Se han reconocido y diferenciado las principales características y posibilidades de la aplicación seleccionada.",
+                                "d": "Se han configurado los sistemas de la red privada local para acceder a la red pública a través de la pasarela.",
+                                "e": "Se han establecido los procedimientos de control de acceso para asegurar el tráfico que se transmite a través de la pasarela.",
+                                "f": "Se han implementado mecanismos para acelerar las comunicaciones entre la red privada local y la pública.",
+                                "g": "Se han identificado los posibles escenarios de aplicación de este tipo de mecanismos.",
+                                "h": "Se ha establecido un mecanismo que permita reenviar tráfico de red entre dos o más interfaces de un mismo sistema.",
+                                "i": "Se ha comprobado el acceso a una red determinada desde los sistemas conectados a otra red distinta.",
+                                "j": "Se ha implantado y verificado la configuración para acceder desde una red pública a un servicio localizado en una máquina de una red privada local"
+                                }
+            }
+
+            }
+    },
+    "0228":{
+            "nombre":"Aplicaciones web",
+            "horas": "100",
+            "UnidadesCompetenciaAcreditadas" : {},
+            "ObjetivosGenerales" : ["a","c","i","k","l","m"],
+            "CompetenciasTitulo" : ["c","f","i","j","m","n","ñ","q","r"],
+            "creditos":"-",
+            "ResultadosAprendizaje":{
+            "RA01": {
+                    "Resultado": " Instala gestores de contenidos, identificando sus aplicaciones y configurándolos según requerimientos.",
+                        "CriteriosEvaluacion": {
+                                "a": "Se han identificado los requerimientos necesarios para instalar gestores de contenidos.",
+                                "b": "Se han gestionado usuarios con roles diferentes.",
+                                "c": "Se ha personalizado la interfaz del gestor de contenidos.",
+                                "d": "Se han realizado pruebas de funcionamiento.",
+                                "e": "Se han realizado tareas de actualización del gestor de contenidos, especialmente las de seguridad.",
+                                "f": "Se han instalado y configurado los módulos y menús necesarios.",
+                                "g": "Se han activado y configurado los mecanismos de seguridad proporcionados por el propio gestor de contenidos.",
+                                "h": "Se han habilitado foros y establecido reglas de acceso.",
+                                "i": "Se han realizado pruebas de funcionamiento.",
+                                "j": "Se han realizado copias de seguridad de los contenidos del gestor."}},
+"RA02": {
+                    "Resultado": " Instala sistemas de gestión de aprendizaje a distancia, describiendo la estructura del sitio y la jerarquía de directorios generada.",
+                        "CriteriosEvaluacion": {
+                                "a": "Se ha reconocido la estructura del sitio y la jerarquía de directorios generada.",
+                                "b": "Se han realizado modificaciones en la estética o aspecto del sitio.",
+                                "c": "Se han manipulado y generado perfiles personalizados.",
+                                "d": "Se ha comprobado la funcionalidad de las comunicaciones mediante foros, consultas, entre otros.",
+                                "e": "Se han importado y exportado contenidos en distintos formatos.",
+                                "f": "Se han realizado copias de seguridad y restauraciones.",
+                                "g": "Se han realizado informes de acceso y utilización del sitio.",
+                                "h": "Se ha comprobado la seguridad del sitio."}},
+"RA03": {
+                    "Resultado": " Instala servicios de gestión de archivos web, identificando sus aplicaciones y verificando su integridad.",
+                        "CriteriosEvaluacion": {
+                                "a": "Se ha establecido la utilidad de un servicio de gestión de archivos web.",
+                                "b": "Se han descrito diferentes aplicaciones de gestión de archivos web.",
+                                "c": "Se ha instalado y adaptado una herramienta de gestión de archivos web.",
+                                "d": "Se han creado y clasificado cuentas de usuario en función de sus permisos.",
+                                "e": "Se han gestionado archivos y directorios.",
+                                "f": "Se han utilizado archivos de información adicional.",
+                                "g": "Se han aplicado criterios de indexación sobre los archivos y directorios.",
+                                "h": "Se ha comprobado la seguridad del gestor de archivos."}},
+"RA04": {
+                    "Resultado": " Instala aplicaciones de ofimática web, describiendo sus características y entornos de uso.",
+                        "CriteriosEvaluacion": {
+                                "a": "Se ha establecido la utilidad de las aplicaciones de ofimática web.",
+                                "b": "Se han descrito diferentes aplicaciones de ofimática web (procesador de textos, hoja de cálculo, entre otras).",
+                                "c": "Se han instalado aplicaciones de ofimática web.",
+                                "d": "Se han gestionado las cuentas de usuario.",
+                                "e": "Se han aplicado criterios de seguridad en el acceso de los usuarios.",
+                                "f": "Se han reconocido las prestaciones específicas de cada una de las aplicaciones instaladas.",
+                                "g": "Se han utilizado las aplicaciones de forma colaborativa."}},
+"RA05": {
+                    "Resultado": " Instala aplicaciones web de escritorio, describiendo sus características y entornos de uso.",
+                        "CriteriosEvaluacion": {
+                                "a": "Se han descrito diferentes aplicaciones web de escritorio.",
+                                "b": "Se han instalado aplicaciones para proveer de acceso web al servicio de correo electrónico.",
+                                "c": "Se han configurado las aplicaciones para integrarlas con un servidor de correo.",
+                                "d": "Se han gestionado las cuentas de usuario.",
+                                "e": "Se ha verificado el acceso al correo electrónico.",
+                                "f": "Se han instalado aplicaciones de calendario web.",
+                                "g": "Se han reconocido las prestaciones específicas de las aplicaciones instaladas (citas, tareas, entre otras)."
+                                }
+        }
+
+
+            }
+    }
+
     }
 }
