@@ -42,6 +42,9 @@ for codigo in data_box.ModulosProfesionales:
 
     modulo=data_box.ModulosProfesionales[codigo]
 
+    modulo.CPSS=data_box.CompetenciasProfesionalesPersonalesSociales
+    modulo.OG=data_box.ObjetivosGenerales
+
     fmod = "./temp/PD_"+str(codigo)+"_"+modulo.nombre.replace(" ","")+".md"
 
     if os.path.exists(fmod):
