@@ -69,10 +69,16 @@ proyecto-smx: files proyecto-base
 
 	cp -r src_SMX/* temp/
 
-	@echo " ${LIGHTBLUE} Programaciones de SMX ${RESET}"
+	@echo " ${LIGHTBLUE} Fuentes de las Programaciones de SMX ${RESET}"
 	./tools/json2pccf.py SMX
 
+	@echo " ${LIGHTBLUE} Proyecto de SMX ${RESET}"
 	@cd temp/ && pandoc --template $(TEMPLATE_TEX_PD) $(PANDOC_OPTIONS) -o $(PDF_PATH)/PCCF_SENIA_SMX.pdf ./PCCF_*.md
+	@echo " ${LIGHTBLUE} PDF Generado para SMX ${RESET}"
+
+	@echo " ${LIGHTBLUE} Libro de las Programaciones de SMX ${RESET}"
+	./tools/json2excel.py SMX
+	@echo " ${LIGHTBLUE} Excel Generado para SMX ${RESET}"
 
 local-proyecto-smx : proyecto-smx
 
@@ -80,7 +86,10 @@ local-proyecto-smx : proyecto-smx
 
 programaciones-smx: proyecto-smx
 
+	# Me dejo aqui el --verbose por si quiero apuntar algo mas fino en los errores.
+	@echo " ${LIGHTBLUE} Generando $(PDF_PATH)/Programaciones_SENIA_SMX.pdf ${RESET}"
 	@cd temp/ && pandoc --template $(TEMPLATE_TEX_PD) $(PANDOC_OPTIONS) -o $(PDF_PATH)/Programaciones_SENIA_SMX.pdf ./PD_*.md
+	@echo " ${LIGHTBLUE} Programaciones Generadas para SMX ${RESET}"
 
 local-programaciones-smx : programaciones-smx
 
