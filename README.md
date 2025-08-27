@@ -48,6 +48,57 @@ los PCCFs se obtienen a partir de los ficheros que provienen de `/src/`,
 
 ## Programaciones Didácticas
 
+### Creación del fichero
+
+Las Programaciones Didácticas de cada módulo se construyen en varias "etapas". 
+
+Por un lado tenemos la generación 
+automática ficheros a partir de las plantillas de los diferentes Ciclos Formativos que se generan en `./temp/` y 
+que son usadas por el *compilador* **Pandoc** en la siguiente etapa.
+
+Y por otra parte podemos crear un fichero con el mismo nombre que el que se genera automáticamente, pero 
+ya en la carpeta del Ciclo correspondiente (`src_ASIR/`,`src_SMX/`,`src_DAW/`,`src_DAM/`). En ese caso, el constructor
+de las programaciones didácticas no generará el fichero automático y usará el que el/la docente haya establecido.
+
+### Completado de la plantilla
+
+La plantilla del módulo elegido incluye una serie de mensajes y de marcas que deben ser revisados por parte 
+del docente:
+
+#### A RELLENAR POR DOCENTE
+
+En algunas secciones encontraréis el texto: `A RELLENAR POR DOCENTE`, donde deberéis rellenar
+con lo que se pide en cada una de las secciones.
+
+#### Imports del PCCF
+
+Si se desea incluir alguno de los ficheros que conforman el texto refundido de los PCCFs, es tan sencillo
+como poner el nombre del fichero con tres `@` delante, y el *compilador* se encarga de introducir el texto 
+en la Programación Didáctica del Módulo.
+
+Ejemplo:
+
+```markdown
+...
+
+A continuación los valores del Software Libre reflejados 
+en el PCCF, que se muestran en esta Programación Didáctica con 
+el fin de aportar más claridad.
+
+@@@PCCF_009_SoftwareLibre.md
+
+...
+
+```
+### Hoja de Cálculo
+
+(Por ahora no hacer nada)
+
+La Hoja de Cálculo Compartida en el repositorio del Departamento ha de ser rellenada con los pesos y 
+secuenciaciones de horas adecuadas. Cuando todo el departamento haya rellenado la hoja de cálculo con sus 
+pesos y horas, se construirán las diferentes Programaciones Didácticas estableciendo como última página del PDF
+la hoja respectiva de su módulo. 
+
 ---
 
 ## Descripción de las utilidades
